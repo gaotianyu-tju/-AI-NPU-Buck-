@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><library hasTree="0" revision="R2024b"><block_node SID="43" hasTree="0"><block_name>MIL-188 QAM\nModulator\nBaseband</block_name><block_class>MIL-188 QAM Modulator Baseband</block_class><block_desc>Modulate the input signal using MIL-188-110 standard specific QAM modulation. This block accepts a scalar, a vector or a matrix input signal. The input signal can be either bits or integers.
+
+When you set the 'Input type' parameter to 'Bit', the input width must be an integer multiple of the number of bits per symbol.</block_desc><block_path>$bdroot/MIL-188 QAM\nModulator\nBaseband</block_path><block_open>$bdroot/MIL-188 QAM
+Modulator
+Baseband</block_open><block_isNotLeafBlk>0</block_isNotLeafBlk><block_position>-335   19 -245   81</block_position><block_icon>MIL@2D@188@20@QAM@A@Modulator@A@Baseband.svg</block_icon><keywords></keywords><port_domains>signal.in_signal:1,signal.out_signal:1</port_domains><block_type>MATLABSystem</block_type><block_reference>commdigbbndam3/MIL-188 QAM
+Modulator
+Baseband</block_reference></block_node><block_node SID="42" hasTree="0"><block_name>MIL-188 QAM\nDemodulator\nBaseband</block_name><block_class>MIL-188 QAM Demodulator Baseband</block_class><block_desc>Demodulate the MIL-188-110 standard specific hybrid QAM-APSK modulated input signal. This block accepts a scalar, a vector, or a matrix input signal.
+
+For fastest execution:
+Set 'Simulate using' to 'Code generation' when:
+1.'Output type' is 'Integer'
+2.'Output type' is 'Bit' and 'Decision type' is 'Hard decision'
+Set 'Simulate using' to 'Interpreted execution' when:
+1.'Output type' is 'Bit' and 'Decision type' is 'Log-likelihood ratio'
+2.'Output type' is 'Bit' and 'Decision type' is 'Approximate log-likelihood ratio'</block_desc><block_path>$bdroot/MIL-188 QAM\nDemodulator\nBaseband</block_path><block_open>$bdroot/MIL-188 QAM
+Demodulator
+Baseband</block_open><block_isNotLeafBlk>0</block_isNotLeafBlk><block_position>-185   19  -95   81</block_position><block_icon>MIL@2D@188@20@QAM@A@Demodulator@A@Baseband.svg</block_icon><keywords></keywords><port_domains>signal.in_signal:1,signal.out_signal:1</port_domains><block_type>MATLABSystem</block_type><block_reference>commdigbbndam3/MIL-188 QAM
+Demodulator
+Baseband</block_reference></block_node></library>

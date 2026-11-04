@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><library hasTree="0" revision="R2024b"><block_node SID="2" hasTree="0"><block_name>M-FSK\nModulator\nBaseband</block_name><block_class>M-FSK Modulator Baseband</block_class><block_desc>Modulate the input signal using the frequency shift keying method.
+
+The input signal can be either bits or integers.  For the single-rate processing option with bit inputs, the input width must be an integer multiple of the number of bits per symbol.  For the multirate processing option with bit inputs, the input width must equal the number of bits per symbol.
+
+For the single-rate processing option with integer inputs, this block accepts a scalar or column vector input signal.  For the multirate processing option with integer inputs, this block accepts a scalar input signal.</block_desc><block_path>$bdroot/M-FSK\nModulator\nBaseband</block_path><block_open>$bdroot/M-FSK
+Modulator
+Baseband</block_open><block_isNotLeafBlk>0</block_isNotLeafBlk><block_position>-120   90  -45  140</block_position><block_icon>M@2D@FSK@A@Modulator@A@Baseband.svg</block_icon><keywords></keywords><port_domains>signal.in_signal:1,signal.out_signal:1</port_domains><block_type>S-Function</block_type><block_reference></block_reference></block_node><block_node SID="1" hasTree="0"><block_name>M-FSK\nDemodulator\nBaseband</block_name><block_class>M-FSK Demodulator Baseband</block_class><block_desc>Demodulate the input signal using the frequency shift keying method.
+
+For the multirate processing option, this block accepts a scalar input signal.  For the single-rate processing option, this block accepts a column vector input signal whose width is an integer multiple of the Samples per symbol parameter.
+
+The output signal can be either bits or integers.  When you set the 'Output type' parameter to 'Bit', the output width is an integer multiple of the number of bits per symbol.</block_desc><block_path>$bdroot/M-FSK\nDemodulator\nBaseband</block_path><block_open>$bdroot/M-FSK
+Demodulator
+Baseband</block_open><block_isNotLeafBlk>0</block_isNotLeafBlk><block_position>20   92   95  138</block_position><block_icon>M@2D@FSK@A@Demodulator@A@Baseband.svg</block_icon><keywords></keywords><port_domains>signal.in_signal:1,signal.out_signal:1</port_domains><block_type>S-Function</block_type><block_reference></block_reference></block_node></library>
