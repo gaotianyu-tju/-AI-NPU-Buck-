@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><library hasTree="0" revision="R2024b"><block_node SID="1" hasTree="0"><block_name>Sampling Clock Source</block_name><block_class>SamplingClockSource</block_class><block_desc>Generate a clock signal with aperture jitter as an impairment.</block_desc><block_path>$bdroot/Sampling Clock Source</block_path><block_open>$bdroot/Sampling Clock Source</block_open><block_isNotLeafBlk>0</block_isNotLeafBlk><block_position>55   35  215  135</block_position><block_icon>Sampling@20@Clock@20@Source.svg</block_icon><keywords></keywords><port_domains>signal.out_signal:1</port_domains><block_type>SubSystem</block_type><block_reference></block_reference></block_node><block_node SID="33" hasTree="0"><block_name>Delta Sigma Modulator</block_name><block_class>Delta Sigma Modulator</block_class><block_desc>Model a discrete Delta Sigma Modulator ADC with the following options:
+
+1) CIFB: Cascade of Integrators, Feedback
+2) CRFB: Cascade of Resonators, Feedback
+3) CIFF: Cascade of Integrators, Feedforward
+4) CRFB: Cascade of Resonators, Feedforward
+
+You can model ADCs with orders ranging from 2 to 6, and you can also include noise impairment.</block_desc><block_path>$bdroot/Delta Sigma Modulator</block_path><block_open>$bdroot/Delta Sigma Modulator</block_open><block_isNotLeafBlk>0</block_isNotLeafBlk><block_position>290   38  450  132</block_position><block_icon>Delta@20@Sigma@20@Modulator.svg</block_icon><keywords></keywords><port_domains>signal.in_signal:3,signal.out_signal:3</port_domains><block_type>SubSystem</block_type><block_reference></block_reference></block_node><block_node SID="1637" hasTree="0"><block_name>Continuous Time Delta Sigma Modulator</block_name><block_class>Continuous Time Delta Sigma Modulator</block_class><block_desc>Model a continuous time Delta Sigma Modulator ADC with the following options:
+
+1) CIFB: Cascade of Integrators, Feedback
+2) CIFF: Cascade of Integrators, Feedforward
+
+You can model DSMs with orders ranging from 1 to 4, and you can also include noise impairment.</block_desc><block_path>$bdroot/Continuous Time Delta Sigma Modulator</block_path><block_open>$bdroot/Continuous Time Delta Sigma Modulator</block_open><block_isNotLeafBlk>0</block_isNotLeafBlk><block_position>515   40  675  130</block_position><block_icon>Continuous@20@Time@20@Delta@20@Sigma@20@Modulator.svg</block_icon><keywords></keywords><port_domains>signal.in_signal:3,signal.out_signal:3</port_domains><block_type>SubSystem</block_type><block_reference></block_reference></block_node></library>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><library hasTree="0" revision="R2024b"><block_node SID="2" hasTree="0"><block_name>S-Parameters\nMixer</block_name><block_class>S-Parameters Mixer</block_class><block_desc>RF mixer described by frequency-dependent S-Parameters, noise data, and nonlinearity data.
+
+Use the Main tab to specify a 2x2xM array of S-Parameters, an M-element vector of the corresponding frequency values and a scalar or M-element vector of the corresponding reference impedance values.
+
+Use the Noise Data tab to specify mixer noise information. For a frequency-dependent noise, the Noise Data tab accepts a separate N-element vector of the corresponding frequency values.  
+
+Use the Nonlinearity Data tab to specify mixer nonlinearity information. For a frequency-dependent nonlinearity, the Nonlinearity Data tab accepts a separate N-element vector of the corresponding frequency values.  
+
+Data interpolation is used during simulation.</block_desc><block_path>$bdroot/S-Parameters\nMixer</block_path><block_open>$bdroot/S-Parameters
+Mixer</block_open><block_isNotLeafBlk>0</block_isNotLeafBlk><block_position>35   66  125  114</block_position><block_icon>S@2D@Parameters@A@Mixer.svg</block_icon><keywords></keywords><port_domains>connection.all:2,rfsystemsdomain.p1:2</port_domains><block_type>PMComponent</block_type><block_reference></block_reference></block_node><block_node SID="3" hasTree="0"><block_name>Y-Parameters\nMixer</block_name><block_class>Y-Parameters Mixer</block_class><block_desc>RF mixer described by frequency-dependent Y-Parameters, noise data, and nonlinearity data.
+
+Use the Main tab to specify a 2x2xM array of Y-Parameters and an M-element vector of the corresponding frequency values.
+
+Use the Noise Data tab to specify mixer noise information. For a frequency-dependent noise, the Noise Data tab accepts a separate N-element vector of the corresponding frequency values.  
+
+Use the Nonlinearity Data tab to specify mixer nonlinearity information. For a frequency-dependent nonlinearity, the Nonlinearity Data tab accepts a separate N-element vector of the corresponding frequency values.  
+
+Data interpolation is used during simulation.
+</block_desc><block_path>$bdroot/Y-Parameters\nMixer</block_path><block_open>$bdroot/Y-Parameters
+Mixer</block_open><block_isNotLeafBlk>0</block_isNotLeafBlk><block_position>175   66  265  114</block_position><block_icon>Y@2D@Parameters@A@Mixer.svg</block_icon><keywords></keywords><port_domains>connection.all:2,rfsystemsdomain.p1:2</port_domains><block_type>PMComponent</block_type><block_reference></block_reference></block_node><block_node SID="4" hasTree="0"><block_name>Z-Parameters\nMixer</block_name><block_class>Z-Parameters Mixer</block_class><block_desc>RF mixer described by frequency-dependent Z-Parameters, noise data, and nonlinearity data.
+
+Use the Main tab to specify a 2x2xM array of Z-Parameters and an M-element vector of the corresponding frequency values.
+
+Use the Noise Data tab to specify mixer noise information. For a frequency-dependent noise, the Noise Data tab accepts a separate N-element vector of the corresponding frequency values.  
+
+Use the Nonlinearity Data tab to specify mixer nonlinearity information. For a frequency-dependent nonlinearity, the Nonlinearity Data tab accepts a separate N-element vector of the corresponding frequency values.  
+
+Data interpolation is used during simulation.
+</block_desc><block_path>$bdroot/Z-Parameters\nMixer</block_path><block_open>$bdroot/Z-Parameters
+Mixer</block_open><block_isNotLeafBlk>0</block_isNotLeafBlk><block_position>35  161  125  209</block_position><block_icon>Z@2D@Parameters@A@Mixer.svg</block_icon><keywords></keywords><port_domains>connection.all:2,rfsystemsdomain.p1:2</port_domains><block_type>PMComponent</block_type><block_reference></block_reference></block_node><block_node SID="1" hasTree="0"><block_name>General Mixer</block_name><block_class>General Mixer</block_class><block_desc>RF mixer described by a data source that consists of either an RFDATA object or data from a file.
+
+When there is no noise data in the data source, use the Noise Data tab to specify mixer noise information. For a frequency-dependent noise, the Noise Data tab accepts a separate N-element vector of the corresponding frequency values.  
+
+When there is no nonlinearity data in the data source, use the Nonlinearity Data tab to specify mixer nonlinearity information. For a frequency-dependent nonlinearity, the Nonlinearity Data tab accepts a separate N-element vector of the corresponding frequency values.  
+
+When the data source contains operating condition information, use the Operating Conditions tab to select operating condition settings for the simulation.
+
+Data interpolation is used during simulation.</block_desc><block_path>$bdroot/General Mixer</block_path><block_open>$bdroot/General Mixer</block_open><block_isNotLeafBlk>0</block_isNotLeafBlk><block_position>175  161  265  209</block_position><block_icon>General@20@Mixer.svg</block_icon><keywords></keywords><port_domains>connection.all:2,rfsystemsdomain.p1:2</port_domains><block_type>PMComponent</block_type><block_reference></block_reference></block_node></library>
