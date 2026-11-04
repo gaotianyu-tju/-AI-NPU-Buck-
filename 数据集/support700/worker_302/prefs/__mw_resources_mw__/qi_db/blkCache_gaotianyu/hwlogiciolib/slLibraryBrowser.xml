@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><library hasTree="0" revision="R2024b"><block_node SID="309" hasTree="0"><block_name>Push Button</block_name><block_class>Push Button</block_class><block_desc>Connect signals attached to push buttons on the hardware board.
+	
+The block accepts and outputs Boolean values. The IO logic parameter indicates the IO logic level on the hardware board.
+	
+Set the Number of push buttons parameter to the desired number of buttons to be used on the board. To use the nth push button, set the Number of push buttons parameter to 'n' and terminate the unused push button ports.</block_desc><block_path>$bdroot/Push Button</block_path><block_open>$bdroot/Push Button</block_open><block_isNotLeafBlk>0</block_isNotLeafBlk><block_position>35   65  185  145</block_position><block_icon>Push@20@Button.svg</block_icon><keywords></keywords><port_domains>signal.out_signal:1</port_domains><block_type>SubSystem</block_type><block_reference></block_reference></block_node><block_node SID="310" hasTree="0"><block_name>LED</block_name><block_class>LED</block_class><block_desc>Connect signals attached to LEDs on the hardware board.
+	
+The block accepts Boolean values. The IO logic parameter indicates the IO logic level on the hardware board.
+	
+Set the Number of LEDs parameter to the desired number of LEDs to be used on the board. To use the nth LED, set the Number of LEDs parameter to 'n' and leave the unused LED ports.</block_desc><block_path>$bdroot/LED</block_path><block_open>$bdroot/LED</block_open><block_isNotLeafBlk>0</block_isNotLeafBlk><block_position>250   65  400  145</block_position><block_icon>LED.svg</block_icon><keywords></keywords><port_domains>signal.in_signal:1</port_domains><block_type>SubSystem</block_type><block_reference></block_reference></block_node><block_node SID="311" hasTree="0"><block_name>DIP Switch</block_name><block_class>DIP Switch</block_class><block_desc>Connect signals attached to DIP switches on hardware board.
+
+The block accepts and outputs Boolean values. The IO logic parameter indicates the IO logic level on the hardware board.
+	
+Set the number of DIP switches parameter to the desired number of DIP switches to be used on the board. To use the nth DIP switch, set the Number of DIP switches parameter to 'n' and terminate the unused DIP switch ports.</block_desc><block_path>$bdroot/DIP Switch</block_path><block_open>$bdroot/DIP Switch</block_open><block_isNotLeafBlk>0</block_isNotLeafBlk><block_position>35  185  185  265</block_position><block_icon>DIP@20@Switch.svg</block_icon><keywords></keywords><port_domains>signal.out_signal:1</port_domains><block_type>SubSystem</block_type><block_reference></block_reference></block_node></library>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><library hasTree="0" revision="R2024b"><block_node SID="146" hasTree="0"><block_name>UDP Read</block_name><block_class>UDP Read</block_class><block_desc>Receive UDP packets on the host computer at the specified local port.
+
+The block outputs the received UDP data as a one-dimensional array of the specified data type.
+	
+Set the Local IP port parameter to the desired port where the sender sends the UDP data. Set the Data type parameter to match the data type of the incoming UDP data. Set the Blocking time parameter to specify the duration to wait for a UDP packet before continuing.</block_desc><block_path>$bdroot/UDP Read</block_path><block_open>$bdroot/UDP Read</block_open><block_isNotLeafBlk>0</block_isNotLeafBlk><block_position>65   60  215  140</block_position><block_icon>UDP@20@Read.svg</block_icon><keywords></keywords><port_domains>signal.out_signal:2</port_domains><block_type>SubSystem</block_type><block_reference></block_reference></block_node><block_node SID="147" hasTree="0"><block_name>UDP Write</block_name><block_class>UDP Write</block_class><block_desc>Send UDP packets from the host computer to a specified remote IP address and port.
+	
+The block accepts a one-dimensional array of type uint8, int8, uint16, int16, uint32, int32, single, or double. 
+	 
+Set the Remote IP address and Remote IP port parameters to the IP address and port of the host where UDP data is to be sent. Set the Local IP port to -1 to use a random available port number to send packets.</block_desc><block_path>$bdroot/UDP Write</block_path><block_open>$bdroot/UDP Write</block_open><block_isNotLeafBlk>0</block_isNotLeafBlk><block_position>265   60  415  140</block_position><block_icon>UDP@20@Write.svg</block_icon><keywords></keywords><port_domains>signal.in_signal:1</port_domains><block_type>SubSystem</block_type><block_reference></block_reference></block_node></library>
