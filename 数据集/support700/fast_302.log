@@ -1,0 +1,2104 @@
+START id=44 P044_f150Hz_D50_P100to400W.mat
+### 正在为模型编译加速目标: ai700_w302
+### 已成功编译模型 ai700_w302 的加速目标
+
+编译摘要
+
+顶层模型加速模式目标:
+
+模型          编译原因           状态           编译持续时间       
+=====================================================
+ai700_w302  信息缓存文件夹或工件缺失。  代码已生成并完成编译。  0h 0m 12.519s
+
+编译了 1 个模型，共 1 个模型(0 个模型已经是最新的)
+编译持续时间: 0h 0m 13.54s
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=44 samples=1801 valid=1794 wall=44.9s
+START id=50 P050_f110Hz_D90_P100to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=50 samples=2019 valid=2012 wall=20.7s
+START id=56 P056_f030Hz_D20_P100to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=56 samples=4201 valid=4194 wall=28.9s
+START id=62 P062_f050Hz_D70_P100to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=62 samples=3001 valid=2994 wall=20.2s
+START id=68 P068_f040Hz_D80_P100to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=68 samples=3451 valid=3444 wall=23.3s
+START id=74 P074_f210Hz_D70_P100to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=74 samples=1630 valid=1623 wall=10.9s
+START id=80 P080_f060Hz_D60_P100to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=80 samples=2701 valid=2694 wall=18.0s
+START id=86 P086_f060Hz_D80_P100to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=86 samples=2701 valid=2694 wall=17.9s
+START id=92 P092_f180Hz_D40_P100to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=92 samples=1701 valid=1694 wall=11.7s
+START id=98 P098_f080Hz_D60_P100to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=98 samples=2326 valid=2319 wall=23.4s
+START id=104 P104_f090Hz_D60_P100to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=104 samples=2201 valid=2194 wall=20.7s
+START id=110 P110_f110Hz_D80_P100to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=110 samples=2019 valid=2012 wall=14.7s
+START id=116 P116_f110Hz_D10_P100to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=116 samples=2019 valid=2012 wall=13.5s
+START id=122 P122_f210Hz_D10_P100to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=122 samples=1629 valid=1622 wall=11.1s
+START id=128 P128_f170Hz_D50_P100to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=128 samples=1730 valid=1723 wall=11.6s
+START id=134 P134_f140Hz_D60_P100to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=134 samples=1843 valid=1836 wall=12.3s
+START id=140 P140_f150Hz_D10_P100to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=140 samples=1801 valid=1794 wall=12.1s
+START id=146 P146_f060Hz_D50_P100to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=146 samples=2701 valid=2694 wall=18.2s
+START id=152 P152_f200Hz_D90_P100to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=152 samples=1651 valid=1644 wall=11.4s
+START id=158 P158_f130Hz_D10_P100to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=158 samples=1893 valid=1886 wall=17.9s
+START id=164 P164_f050Hz_D80_P100to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=164 samples=3001 valid=2994 wall=22.3s
+START id=170 P170_f050Hz_D60_P100to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=170 samples=3001 valid=2994 wall=20.3s
+START id=176 P176_f030Hz_D30_P100to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=176 samples=4201 valid=4194 wall=28.2s
+START id=182 P182_f040Hz_D70_P300to375W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=182 samples=3451 valid=3444 wall=23.2s
+START id=188 P188_f170Hz_D20_P125to225W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=188 samples=1731 valid=1724 wall=11.7s
+START id=194 P194_f210Hz_D80_P350to375W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=194 samples=1630 valid=1623 wall=13.4s
+START id=200 P200_f190Hz_D30_P125to175W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=200 samples=1675 valid=1668 wall=15.4s
+START id=206 P206_f110Hz_D60_P175to250W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=206 samples=2019 valid=2012 wall=13.5s
+START id=212 P212_f040Hz_D30_P200to375W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=212 samples=3451 valid=3444 wall=26.0s
+START id=218 P218_f190Hz_D60_P175to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=218 samples=1674 valid=1667 wall=17.0s
+START id=224 P224_f150Hz_D50_P325to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=224 samples=1801 valid=1794 wall=18.6s
+START id=230 P230_f110Hz_D90_P250to300W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=230 samples=2019 valid=2012 wall=20.4s
+START id=236 P236_f030Hz_D20_P175to325W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=236 samples=4201 valid=4194 wall=42.5s
+START id=242 P242_f050Hz_D70_P175to350W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=242 samples=3001 valid=2994 wall=30.4s
+START id=248 P248_f040Hz_D80_P275to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=248 samples=3451 valid=3444 wall=34.5s
+START id=254 P254_f210Hz_D70_P125to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=254 samples=1629 valid=1622 wall=16.3s
+START id=260 P260_f060Hz_D60_P175to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=260 samples=2701 valid=2694 wall=26.8s
+START id=266 P266_f060Hz_D80_P150to225W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=266 samples=2701 valid=2694 wall=27.5s
+START id=272 P272_f180Hz_D40_P350to375W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=272 samples=1701 valid=1694 wall=17.3s
+START id=278 P278_f080Hz_D60_P100to250W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=278 samples=2326 valid=2319 wall=23.2s
+START id=284 P284_f090Hz_D60_P325to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=284 samples=2201 valid=2194 wall=22.7s
+START id=290 P290_f110Hz_D80_P250to350W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=290 samples=2019 valid=2012 wall=20.3s
+START id=296 P296_f110Hz_D10_P175to375W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=296 samples=2019 valid=2012 wall=19.8s
+START id=302 P302_f210Hz_D10_P250to275W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=302 samples=1629 valid=1622 wall=16.6s
+START id=308 P308_f170Hz_D50_P150to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=308 samples=1731 valid=1724 wall=17.8s
+START id=314 P314_f140Hz_D60_P175to325W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=314 samples=1844 valid=1837 wall=18.5s
+START id=320 P320_f150Hz_D10_P175to275W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=320 samples=1801 valid=1794 wall=18.6s
+START id=326 P326_f060Hz_D50_P200to300W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=326 samples=2701 valid=2694 wall=26.6s
+START id=332 P332_f200Hz_D90_P125to300W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=332 samples=1651 valid=1644 wall=16.5s
+START id=338 P338_f130Hz_D10_P325to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=338 samples=1893 valid=1886 wall=18.9s
+START id=344 P344_f050Hz_D80_P125to300W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=344 samples=3001 valid=2994 wall=30.3s
+START id=350 P350_f050Hz_D60_P125to325W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=350 samples=3001 valid=2994 wall=29.4s
+START id=356 P356_f030Hz_D30_P250to325W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=356 samples=4201 valid=4194 wall=41.7s
+START id=362 P362_f040Hz_D70_P100to125W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=362 samples=3451 valid=3444 wall=34.1s
+START id=368 P368_f170Hz_D20_P275to325W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=368 samples=1730 valid=1723 wall=18.4s
+START id=374 P374_f210Hz_D80_P250to375W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=374 samples=1629 valid=1622 wall=16.7s
+START id=380 P380_f190Hz_D30_P325to350W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=380 samples=1674 valid=1667 wall=17.2s
+START id=386 P386_f110Hz_D60_P125to150W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=386 samples=2019 valid=2012 wall=20.3s
+START id=392 P392_f040Hz_D30_P175to375W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=392 samples=3451 valid=3444 wall=34.5s
+START id=398 P398_f190Hz_D60_P150to350W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=398 samples=1675 valid=1668 wall=16.1s
+START id=404 P404_f150Hz_D50_P250to350W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=404 samples=1801 valid=1794 wall=17.8s
+START id=410 P410_f110Hz_D90_P150to175W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=410 samples=2019 valid=2012 wall=19.8s
+START id=416 P416_f030Hz_D20_P350to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=416 samples=4201 valid=4194 wall=30.8s
+START id=422 P422_f050Hz_D70_P325to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=422 samples=3001 valid=2994 wall=19.9s
+START id=428 P428_f040Hz_D80_P100to275W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=428 samples=3451 valid=3444 wall=22.9s
+START id=434 P434_f210Hz_D70_P300to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=434 samples=1630 valid=1623 wall=10.9s
+START id=440 P440_f060Hz_D60_P150to300W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=440 samples=2701 valid=2694 wall=18.0s
+START id=446 P446_f060Hz_D80_P225to375W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=446 samples=2701 valid=2694 wall=17.9s
+START id=452 P452_f180Hz_D40_P250to300W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=452 samples=1701 valid=1694 wall=11.3s
+START id=458 P458_f080Hz_D60_P275to300W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=458 samples=2326 valid=2319 wall=15.6s
+START id=464 P464_f090Hz_D60_P150to200W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=464 samples=2201 valid=2194 wall=15.9s
+START id=470 P470_f110Hz_D80_P175to375W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=470 samples=2019 valid=2012 wall=20.7s
+START id=476 P476_f110Hz_D10_P150to375W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=476 samples=2020 valid=2013 wall=21.1s
+START id=482 P482_f210Hz_D10_P250to375W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=482 samples=1630 valid=1623 wall=17.2s
+START id=488 P488_f170Hz_D50_P100to300W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=488 samples=1730 valid=1723 wall=18.0s
+START id=494 P494_f140Hz_D60_P100to125W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=494 samples=1844 valid=1837 wall=19.0s
+START id=500 P500_f150Hz_D10_P275to325W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=500 samples=1801 valid=1794 wall=18.6s
+START id=506 P506_f060Hz_D50_P300to350W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=506 samples=2701 valid=2694 wall=27.8s
+START id=512 P512_f200Hz_D90_P150to300W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=512 samples=1651 valid=1644 wall=17.1s
+START id=518 P518_f130Hz_D10_P150to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=518 samples=1894 valid=1887 wall=19.7s
+START id=524 P524_f050Hz_D80_P200to300W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=524 samples=3001 valid=2994 wall=30.8s
+START id=530 P530_f050Hz_D60_P100to275W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=530 samples=3001 valid=2994 wall=30.2s
+START id=536 P536_f030Hz_D30_P100to225W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=536 samples=4201 valid=4194 wall=41.7s
+START id=542 P542_f040Hz_D70_P200to325W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=542 samples=3451 valid=3444 wall=34.5s
+START id=548 P548_f170Hz_D20_P300to325W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=548 samples=1730 valid=1723 wall=17.2s
+START id=554 P554_f210Hz_D80_P250to275W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=554 samples=1629 valid=1622 wall=16.6s
+START id=560 P560_f190Hz_D30_P175to350W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=560 samples=1675 valid=1668 wall=16.8s
+START id=566 P566_f110Hz_D60_P175to300W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=566 samples=2019 valid=2012 wall=20.2s
+START id=572 P572_f040Hz_D30_P150to300W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=572 samples=3451 valid=3444 wall=34.6s
+START id=578 P578_f190Hz_D60_P300to375W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=578 samples=1675 valid=1668 wall=16.8s
+START id=584 P584_f150Hz_D50_P150to225W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=584 samples=1801 valid=1794 wall=18.6s
+START id=590 P590_f110Hz_D90_P200to250W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=590 samples=2019 valid=2012 wall=20.7s
+START id=596 P596_f030Hz_D20_P275to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=596 samples=4201 valid=4194 wall=34.5s
+START id=602 P602_f050Hz_D70_P225to350W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=602 samples=3001 valid=2994 wall=20.1s
+START id=608 P608_f040Hz_D80_P100to325W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=608 samples=3451 valid=3444 wall=27.2s
+START id=614 P614_f210Hz_D70_P300to325W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=614 samples=1630 valid=1623 wall=17.0s
+START id=620 P620_f060Hz_D60_P175to225W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=620 samples=2701 valid=2694 wall=25.9s
+START id=626 P626_f060Hz_D80_P150to375W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=626 samples=2701 valid=2694 wall=26.2s
+START id=632 P632_f180Hz_D40_P125to275W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=632 samples=1701 valid=1694 wall=17.3s
+START id=638 P638_f080Hz_D60_P325to375W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=638 samples=2326 valid=2319 wall=24.3s
+START id=644 P644_f090Hz_D60_P125to200W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=644 samples=2201 valid=2194 wall=21.3s
+START id=650 P650_f110Hz_D80_P150to250W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=650 samples=2019 valid=2012 wall=20.3s
+START id=656 P656_f110Hz_D10_P150to325W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=656 samples=2019 valid=2012 wall=19.7s
+START id=662 P662_f210Hz_D10_P100to250W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=662 samples=1630 valid=1623 wall=16.8s
+START id=668 P668_f170Hz_D50_P125to150W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=668 samples=1730 valid=1723 wall=16.1s
+START id=674 P674_f140Hz_D60_P100to175W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=674 samples=1844 valid=1837 wall=18.8s
+START id=680 P680_f150Hz_D10_P325to350W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=680 samples=1801 valid=1794 wall=17.0s
+START id=686 P686_f060Hz_D50_P275to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=686 samples=2701 valid=2694 wall=27.6s
+START id=692 P692_f200Hz_D90_P275to325W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=692 samples=1651 valid=1644 wall=16.6s
+START id=698 P698_f130Hz_D10_P150to300W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w302/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 69 行)
+位置: run_ai700_worker (第 26 行)] 
+DONE id=698 samples=1893 valid=1886 wall=18.8s
+WORKER FINISHED id=302 completed_or_skipped=117 failures=0

@@ -1,0 +1,467 @@
+START id=4 P004_f030Hz_D10_P100to400W.mat
+### 正在为模型编译加速目标: ai700_w04
+### 已成功编译模型 ai700_w04 的加速目标
+
+编译摘要
+
+顶层模型加速模式目标:
+
+模型         编译原因           状态           编译持续时间       
+====================================================
+ai700_w04  信息缓存文件夹或工件缺失。  代码已生成并完成编译。  0h 0m 12.757s
+
+编译了 1 个模型，共 1 个模型(0 个模型已经是最新的)
+编译持续时间: 0h 0m 13.79s
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w04/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 65 行)
+位置: run_ai700_worker (第 22 行)] 
+DONE id=4 samples=6201 valid=6194 wall=92.3s
+START id=10 P010_f200Hz_D10_P100to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w04/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 65 行)
+位置: run_ai700_worker (第 22 行)] 
+DONE id=10 samples=6001 valid=5994 wall=56.0s
+START id=16 P016_f100Hz_D20_P100to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w04/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 65 行)
+位置: run_ai700_worker (第 22 行)] 
+DONE id=16 samples=6001 valid=5994 wall=41.5s
+START id=22 P022_f120Hz_D20_P100to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w04/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 65 行)
+位置: run_ai700_worker (第 22 行)] 
+FAILED id=22 断言失败。
+START id=28 P028_f090Hz_D30_P100to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w04/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 65 行)
+位置: run_ai700_worker (第 22 行)] 
+[警告: The specified buffer for 'ai700_w04/Transport Delay' was too small. During simulation, the buffer size was temporarily increased to 4096. In order to generate
+code, you need to update the buffer size parameter] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 65 行)
+位置: run_ai700_worker (第 22 行)] 
+[警告: The specified buffer for 'ai700_w04/Transport Delay1' was too small. During simulation, the buffer size was temporarily increased to 4096. In order to generate
+code, you need to update the buffer size parameter] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 65 行)
+位置: run_ai700_worker (第 22 行)] 
+[警告: The specified buffer for 'ai700_w04/Transport Delay2' was too small. During simulation, the buffer size was temporarily increased to 4096. In order to generate
+code, you need to update the buffer size parameter] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 65 行)
+位置: run_ai700_worker (第 22 行)] 
+DONE id=28 samples=6201 valid=6194 wall=48.1s
+START id=34 P034_f140Hz_D30_P100to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w04/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 65 行)
+位置: run_ai700_worker (第 22 行)] 
+[警告: The specified buffer for 'ai700_w04/Transport Delay' was too small. During simulation, the buffer size was temporarily increased to 4096. In order to generate
+code, you need to update the buffer size parameter] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 65 行)
+位置: run_ai700_worker (第 22 行)] 
+[警告: The specified buffer for 'ai700_w04/Transport Delay1' was too small. During simulation, the buffer size was temporarily increased to 4096. In order to generate
+code, you need to update the buffer size parameter] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 65 行)
+位置: run_ai700_worker (第 22 行)] 
+[警告: The specified buffer for 'ai700_w04/Transport Delay2' was too small. During simulation, the buffer size was temporarily increased to 4096. In order to generate
+code, you need to update the buffer size parameter] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 65 行)
+位置: run_ai700_worker (第 22 行)] 
+DONE id=34 samples=6130 valid=6123 wall=55.7s
+START id=40 P040_f090Hz_D90_P100to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w04/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 65 行)
+位置: run_ai700_worker (第 22 行)] 
+[警告: The specified buffer for 'ai700_w04/Transport Delay' was too small. During simulation, the buffer size was temporarily increased to 4096. In order to generate
+code, you need to update the buffer size parameter] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 65 行)
+位置: run_ai700_worker (第 22 行)] 
+[警告: The specified buffer for 'ai700_w04/Transport Delay1' was too small. During simulation, the buffer size was temporarily increased to 4096. In order to generate
+code, you need to update the buffer size parameter] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 65 行)
+位置: run_ai700_worker (第 22 行)] 
+[警告: The specified buffer for 'ai700_w04/Transport Delay2' was too small. During simulation, the buffer size was temporarily increased to 4096. In order to generate
+code, you need to update the buffer size parameter] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 65 行)
+位置: run_ai700_worker (第 22 行)] 
+DONE id=40 samples=6201 valid=6194 wall=47.0s
+START id=46 P046_f090Hz_D40_P100to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w04/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 65 行)
+位置: run_ai700_worker (第 22 行)] 
+[警告: The specified buffer for 'ai700_w04/Transport Delay' was too small. During simulation, the buffer size was temporarily increased to 4096. In order to generate
+code, you need to update the buffer size parameter] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 65 行)
+位置: run_ai700_worker (第 22 行)] 
+[警告: The specified buffer for 'ai700_w04/Transport Delay1' was too small. During simulation, the buffer size was temporarily increased to 4096. In order to generate
+code, you need to update the buffer size parameter] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 65 行)
+位置: run_ai700_worker (第 22 行)] 
+[警告: The specified buffer for 'ai700_w04/Transport Delay2' was too small. During simulation, the buffer size was temporarily increased to 4096. In order to generate
+code, you need to update the buffer size parameter] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 65 行)
+位置: run_ai700_worker (第 22 行)] 
+DONE id=46 samples=6201 valid=6194 wall=44.3s
+START id=52 P052_f020Hz_D60_P100to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w04/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 65 行)
+位置: run_ai700_worker (第 22 行)] 
+[警告: The specified buffer for 'ai700_w04/Transport Delay' was too small. During simulation, the buffer size was temporarily increased to 4096. In order to generate
+code, you need to update the buffer size parameter] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 65 行)
+位置: run_ai700_worker (第 22 行)] 
+[警告: The specified buffer for 'ai700_w04/Transport Delay1' was too small. During simulation, the buffer size was temporarily increased to 4096. In order to generate
+code, you need to update the buffer size parameter] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 65 行)
+位置: run_ai700_worker (第 22 行)] 
+[警告: The specified buffer for 'ai700_w04/Transport Delay2' was too small. During simulation, the buffer size was temporarily increased to 4096. In order to generate
+code, you need to update the buffer size parameter] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 65 行)
+位置: run_ai700_worker (第 22 行)] 
+DONE id=52 samples=7201 valid=7194 wall=49.4s
+START id=58 P058_f120Hz_D90_P100to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w04/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 65 行)
+位置: run_ai700_worker (第 22 行)] 
+[警告: The specified buffer for 'ai700_w04/Transport Delay' was too small. During simulation, the buffer size was temporarily increased to 4096. In order to generate
+code, you need to update the buffer size parameter] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 65 行)
+位置: run_ai700_worker (第 22 行)] 
+[警告: The specified buffer for 'ai700_w04/Transport Delay1' was too small. During simulation, the buffer size was temporarily increased to 4096. In order to generate
+code, you need to update the buffer size parameter] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 65 行)
+位置: run_ai700_worker (第 22 行)] 
+[警告: The specified buffer for 'ai700_w04/Transport Delay2' was too small. During simulation, the buffer size was temporarily increased to 4096. In order to generate
+code, you need to update the buffer size parameter] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 65 行)
+位置: run_ai700_worker (第 22 行)] 
+DONE id=58 samples=6201 valid=6194 wall=42.6s
+START id=64 P064_f140Hz_D40_P100to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w04/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 65 行)
+位置: run_ai700_worker (第 22 行)] 
+[警告: The specified buffer for 'ai700_w04/Transport Delay' was too small. During simulation, the buffer size was temporarily increased to 4096. In order to generate
+code, you need to update the buffer size parameter] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 65 行)
+位置: run_ai700_worker (第 22 行)] 
+[警告: The specified buffer for 'ai700_w04/Transport Delay1' was too small. During simulation, the buffer size was temporarily increased to 4096. In order to generate
+code, you need to update the buffer size parameter] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 65 行)
+位置: run_ai700_worker (第 22 行)] 
+[警告: The specified buffer for 'ai700_w04/Transport Delay2' was too small. During simulation, the buffer size was temporarily increased to 4096. In order to generate
+code, you need to update the buffer size parameter] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 65 行)
+位置: run_ai700_worker (第 22 行)] 
+DONE id=64 samples=6129 valid=6122 wall=47.0s
+START id=70 P070_f070Hz_D50_P100to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w04/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 65 行)
+位置: run_ai700_worker (第 22 行)] 
+[警告: The specified buffer for 'ai700_w04/Transport Delay' was too small. During simulation, the buffer size was temporarily increased to 4096. In order to generate
+code, you need to update the buffer size parameter] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 65 行)
+位置: run_ai700_worker (第 22 行)] 
+[警告: The specified buffer for 'ai700_w04/Transport Delay1' was too small. During simulation, the buffer size was temporarily increased to 4096. In order to generate
+code, you need to update the buffer size parameter] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 65 行)
+位置: run_ai700_worker (第 22 行)] 
+[警告: The specified buffer for 'ai700_w04/Transport Delay2' was too small. During simulation, the buffer size was temporarily increased to 4096. In order to generate
+code, you need to update the buffer size parameter] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 65 行)
+位置: run_ai700_worker (第 22 行)] 
+DONE id=70 samples=6344 valid=6337 wall=46.9s
+START id=76 P076_f060Hz_D90_P100to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w04/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 65 行)
+位置: run_ai700_worker (第 22 行)] 
+[警告: The specified buffer for 'ai700_w04/Transport Delay' was too small. During simulation, the buffer size was temporarily increased to 4096. In order to generate
+code, you need to update the buffer size parameter] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 65 行)
+位置: run_ai700_worker (第 22 行)] 
+[警告: The specified buffer for 'ai700_w04/Transport Delay1' was too small. During simulation, the buffer size was temporarily increased to 4096. In order to generate
+code, you need to update the buffer size parameter] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 65 行)
+位置: run_ai700_worker (第 22 行)] 
+[警告: The specified buffer for 'ai700_w04/Transport Delay2' was too small. During simulation, the buffer size was temporarily increased to 4096. In order to generate
+code, you need to update the buffer size parameter] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 65 行)
+位置: run_ai700_worker (第 22 行)] 
+DONE id=76 samples=6201 valid=6194 wall=45.8s
+START id=82 P082_f200Hz_D80_P100to400W.mat
+[警告: 在从 0.0033333 到 0.0033333333333333335 的仿真时间步期间(步长 = 3.3333333333569054e-08)，发现以下 1 个遮蔽的过零点，即具有偶数个过零事件的信号。
+ --------------------------------------------------------------------------------
+  过零信号索引 : 2
+  过零信号名称 : RelopInput
+    模块类型 : RelationalOperator
+    模块路径 : 'ai700_w04/Triangle_Peak3/Relational Operator'
+--------------------------------------------------------------------------------
+ 搜索算法仅检测到这些过零点，因为在此时间步中存在其他过零点。遮蔽的过零点是由一个或多个在当前时间步内具有偶数个过零点的过零信号导致的。遮蔽的过零点可能并非在所有情况下都能检测到。
+Suggested Actions:
+    ? 将 '细化因子' 从(1)增加到更大的值 - Open
+    ? 要禁用此诊断，请将遮蔽的过零点诊断设置为 '无'。 - Apply
+] 
+[> 位置：Simulink.Simulation.internal.DesktopSimHelper
+位置: Simulink.Simulation.internal.DesktopSimHelper.sim
+位置: Simulink/SimulationInput/sim
+位置: run_ai700_worker>one_case (第 65 行)
+位置: run_ai700_worker (第 22 行)] 

@@ -1,0 +1,50 @@
+[
+  {
+    "worker": 102,
+    "first_id": 2,
+    "stride": 12,
+    "launcher_pid": 90548
+  },
+  {
+    "worker": 108,
+    "first_id": 8,
+    "stride": 12,
+    "launcher_pid": 74344
+  },
+  {
+    "worker": 103,
+    "first_id": 3,
+    "stride": 12,
+    "launcher_pid": 103032
+  },
+  {
+    "worker": 109,
+    "first_id": 9,
+    "stride": 12,
+    "launcher_pid": 102884
+  },
+  {
+    "worker": 105,
+    "first_id": 5,
+    "stride": 12,
+    "launcher_pid": 100316
+  },
+  {
+    "worker": 111,
+    "first_id": 11,
+    "stride": 12,
+    "launcher_pid": 5156
+  },
+  {
+    "worker": 106,
+    "first_id": 6,
+    "stride": 12,
+    "launcher_pid": 93108
+  },
+  {
+    "worker": 112,
+    "first_id": 12,
+    "stride": 12,
+    "launcher_pid": 101380
+  }
+]

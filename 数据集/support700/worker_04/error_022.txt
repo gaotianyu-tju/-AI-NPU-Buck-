@@ -1,0 +1,9 @@
+错误使用 assert
+断言失败。
+
+出错 run_ai700_worker>one_case (第 68 行)
+assert(all(isfinite(F(:)))&&all(isfinite(H(:)))&&all(abs(diff(t)-1/30000)<1e-9));
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+出错 run_ai700_worker (第 22 行)
+  [data,meta,checks,diagnostics,row]=one_case(m,r,plan,root,s);
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^
