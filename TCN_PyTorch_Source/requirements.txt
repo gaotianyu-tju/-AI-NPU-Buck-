@@ -1,0 +1,10 @@
+# Python 3.10；PyTorch 网络、训练、数据处理与原 ModernTCN 长时预测源码依赖。
+torch==2.11.0
+numpy==2.2.6
+scipy==1.15.3
+pandas==2.3.3
+scikit-learn==1.7.2
+matplotlib==3.10.9
+einops==0.8.2
+sympy==1.14.0
+tqdm==4.70.1

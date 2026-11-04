@@ -1,0 +1,19 @@
+{
+  "description_zh": "探索性整工况划分：六组训练、两组验证、两组210Hz测试。此划分用于跑通研究流程，不代表充分的最终泛化评估；禁止随机拆分同工况的重叠窗口。",
+  "train": [
+    "pulse_f010Hz_D10_P200to400W_L8_h1_residual.npz",
+    "pulse_f020Hz_D50_P200to400W_L8_h1_residual.npz",
+    "pulse_f050Hz_D30_P200to300W_L8_h1_residual.npz",
+    "pulse_f100Hz_D10_P200to400W_L8_h1_residual.npz",
+    "pulse_f150Hz_D70_P300to400W_L8_h1_residual.npz",
+    "pulse_f200Hz_D50_P200to400W_L8_h1_residual.npz"
+  ],
+  "val": [
+    "pulse_f010Hz_D90_P200to400W_L8_h1_residual.npz",
+    "pulse_f100Hz_D50_P200to400W_L8_h1_residual.npz"
+  ],
+  "test": [
+    "pulse_f210Hz_D10_P200to400W_L8_h1_residual.npz",
+    "pulse_f210Hz_D90_P200to400W_L8_h1_residual.npz"
+  ]
+}

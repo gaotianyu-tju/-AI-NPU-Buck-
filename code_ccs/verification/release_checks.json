@@ -1,0 +1,99 @@
+{
+  "version": 16,
+  "validation_scope": "Local delivery build and static verification; no new DSP flash/load test.",
+  "delivered_sources_match_annotated_manifest": {
+    "buck_NPU_MBD_workspace.mat": true,
+    "buck_npu.c": true,
+    "buck_npu.h": true,
+    "buck_load_observer.c": true,
+    "buck_load_observer.h": true,
+    "buck_npu_compensation.c": true,
+    "buck_npu_compensation.h": true,
+    "buck_npu_platform.c": true,
+    "buck_npu_platform.h": true,
+    "buck_npu_sdk_port.c": true,
+    "ndp_model_io.c": true,
+    "ndp_model_io.h": true,
+    "buck_npu_phase.h": true,
+    "buck_npu_phase_impl.h": true,
+    "buck_npu_schedule.h": true,
+    "buck_npu_schedule_impl.h": true,
+    "buck_npu_timing.h": true,
+    "buck_npu_mbd_bridge.h": true,
+    "buck_npu_scalers.h": true,
+    "buck_golden.h": true,
+    "tvmgen_default.h": true,
+    "mod.a": true,
+    "deployment.json": true,
+    "golden_vectors.npz": true,
+    "MODEL_SHA256.json": true,
+    "buck_npu_sections.cmd": true,
+    "build_buck_npu.m": true,
+    "configure_buck_npu.m": true,
+    "buck_npu_build_environment.m": true,
+    "buck_npu_compile_v15_objects.m": true,
+    "buck_npu_configure_paths.m": true,
+    "buck_npu_load_workspace.m": true,
+    "buck_npu_post_codegen.m": true,
+    "NPU_v15.m": true,
+    "Voltage_ADRC_v15.m": true,
+    "buck_v16_observer_expressions.txt": true
+  },
+  "control_order": [
+    "buck_npu_begin(",
+    "buck_npu_apply_prediction(",
+    "buck_npu_commit(",
+    "EPwm1Regs.CMPA.bit.CMPA =",
+    "EPwm10Regs.CMPA.bit.CMPA =",
+    "EPwm2Regs.CMPA.bit.CMPA =",
+    "EPwm7Regs.CMPA.bit.CMPA =",
+    "GPIO22 low"
+  ],
+  "inference_worker_in_main_only": true,
+  "current_optimized_objects_without_duplicates": true,
+  "memory_in_C28_words": {
+    "FLASH_BANK0_SEC0": {
+      "origin": 524290,
+      "length": 131070,
+      "used": 24624,
+      "unused": 106446
+    },
+    "RAMGS_DATA": {
+      "origin": 49152,
+      "length": 16384,
+      "used": 9533,
+      "unused": 6851
+    },
+    "RAMM0M1": {
+      "origin": 296,
+      "length": 1752,
+      "used": 1024,
+      "unused": 728
+    }
+  },
+  "model_sections": {
+    ".rodata.tvm": {
+      "address": 532688,
+      "length": 32,
+      "region": "FLASH_BANK0_SEC0"
+    },
+    ".bss.noinit.tvm": {
+      "address": 58240,
+      "length": 224,
+      "region": "RAMGS_DATA"
+    },
+    ".bss.noinit.buck_npu": {
+      "address": 58464,
+      "length": 200,
+      "region": "RAMGS_DATA"
+    }
+  },
+  "outputs": {
+    ".slx": "5bb5b11c5721de013590ebaae565fb27734072b949b5bd6a69a3088649412b5e",
+    ".out": "9fa4b895c10545670c750efdc79f781c2d04c45789939100a0ee68f0fbd98e51",
+    ".elf": "9fa4b895c10545670c750efdc79f781c2d04c45789939100a0ee68f0fbd98e51",
+    ".hex": "4d2dc669501953e1eccccffefcd9a59dff5eae60cd1544323ae453e612c5e198"
+  },
+  "hex_identical_to_original_final_v16": true,
+  "full_build_pass": true
+}

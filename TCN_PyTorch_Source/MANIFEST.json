@@ -1,0 +1,485 @@
+{
+  "created_at": "2026-11-03T03:25:01.923816+08:00",
+  "scope": "pytorch_source_only",
+  "timezone": "Asia/Singapore",
+  "existing_code_modified": false,
+  "weights_datasets_ccs_simulation_artifacts_included": false,
+  "files": [
+    {
+      "path": "ModernTCN-main/ModernTCN-main/LICENSE",
+      "original_path": "E:\\bisai\\ModernTCN-main\\ModernTCN-main\\LICENSE",
+      "sha256": "62c172f180a9c70514e597a2e3bd22f12d3eb6eb2af1cbd79c83d4292a749115",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 1064
+    },
+    {
+      "path": "ModernTCN-main/ModernTCN-main/ModernTCN-Long-term-forecasting/README_CN.md",
+      "original_path": "E:\\bisai\\ModernTCN-main\\ModernTCN-main\\ModernTCN-Long-term-forecasting\\README_CN.md",
+      "sha256": "76bc855a5e5b83656a5aae5f054539c99864c447d517ca012962f086471d8069",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 17829
+    },
+    {
+      "path": "ModernTCN-main/ModernTCN-main/ModernTCN-Long-term-forecasting/data_provider/data_factory.py",
+      "original_path": "E:\\bisai\\ModernTCN-main\\ModernTCN-main\\ModernTCN-Long-term-forecasting\\data_provider\\data_factory.py",
+      "sha256": "98f83b72488ff2cb5364fca2267bc0ab786e5c7aeed5f9f4e625b11cd9bd4c45",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 1372
+    },
+    {
+      "path": "ModernTCN-main/ModernTCN-main/ModernTCN-Long-term-forecasting/data_provider/data_loader.py",
+      "original_path": "E:\\bisai\\ModernTCN-main\\ModernTCN-main\\ModernTCN-Long-term-forecasting\\data_provider\\data_loader.py",
+      "sha256": "62a9e936a03d81b705dd6438780f7f7632e79a4d280125d9cca6046f777f2631",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 14700
+    },
+    {
+      "path": "ModernTCN-main/ModernTCN-main/ModernTCN-Long-term-forecasting/exp/exp_ModernTCN.py",
+      "original_path": "E:\\bisai\\ModernTCN-main\\ModernTCN-main\\ModernTCN-Long-term-forecasting\\exp\\exp_ModernTCN.py",
+      "sha256": "574cc1991517f594304f335c2212dbb860d049822c0de660ad96cd1e49e7b4fd",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 18342
+    },
+    {
+      "path": "ModernTCN-main/ModernTCN-main/ModernTCN-Long-term-forecasting/exp/exp_basic.py",
+      "original_path": "E:\\bisai\\ModernTCN-main\\ModernTCN-main\\ModernTCN-Long-term-forecasting\\exp\\exp_basic.py",
+      "sha256": "6c69badaaf13536a212e2b96975e2d59ebd7b5546550e487ea52249173e10afe",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 885
+    },
+    {
+      "path": "ModernTCN-main/ModernTCN-main/ModernTCN-Long-term-forecasting/layers/RevIN.py",
+      "original_path": "E:\\bisai\\ModernTCN-main\\ModernTCN-main\\ModernTCN-Long-term-forecasting\\layers\\RevIN.py",
+      "sha256": "1e08d0b3679f4ef79ac7f98a7f719f8d7f8a04595022ed34f702c7d70c0c4d90",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 2011
+    },
+    {
+      "path": "ModernTCN-main/ModernTCN-main/ModernTCN-Long-term-forecasting/models/ModernTCN.py",
+      "original_path": "E:\\bisai\\ModernTCN-main\\ModernTCN-main\\ModernTCN-Long-term-forecasting\\models\\ModernTCN.py",
+      "sha256": "ba580308c4f80cf84f6bad35f987d243d7c5c4b8b7e7122794f9f9bbbc889a52",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 22917
+    },
+    {
+      "path": "ModernTCN-main/ModernTCN-main/ModernTCN-Long-term-forecasting/models/ModernTCNResidual.py",
+      "original_path": "E:\\bisai\\ModernTCN-main\\ModernTCN-main\\ModernTCN-Long-term-forecasting\\models\\ModernTCNResidual.py",
+      "sha256": "5caa2fb4b486922b107d6e299a7138de4be2c9e4946abf2c27ac80c3bcd74399",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 10073
+    },
+    {
+      "path": "ModernTCN-main/ModernTCN-main/ModernTCN-Long-term-forecasting/models/ModernTCN_Layer.py",
+      "original_path": "E:\\bisai\\ModernTCN-main\\ModernTCN-main\\ModernTCN-Long-term-forecasting\\models\\ModernTCN_Layer.py",
+      "sha256": "b2291534c6a11ebd80882bed89f7cf8c76c721b8e0495294659f2c5b0fe88cea",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 2803
+    },
+    {
+      "path": "ModernTCN-main/ModernTCN-main/ModernTCN-Long-term-forecasting/run.py",
+      "original_path": "E:\\bisai\\ModernTCN-main\\ModernTCN-main\\ModernTCN-Long-term-forecasting\\run.py",
+      "sha256": "5b18b1412420dca26c2ecb1cc9a453671c3715519ee59a0b77c248845a042e99",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 12588
+    },
+    {
+      "path": "ModernTCN-main/ModernTCN-main/ModernTCN-Long-term-forecasting/scripts/ECL.sh",
+      "original_path": "E:\\bisai\\ModernTCN-main\\ModernTCN-main\\ModernTCN-Long-term-forecasting\\scripts\\ECL.sh",
+      "sha256": "776d1f1e325fa40cf7dee19655ddd37b4a200639ca4e0bd7184fb1fa5795c3f1",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 1981
+    },
+    {
+      "path": "ModernTCN-main/ModernTCN-main/ModernTCN-Long-term-forecasting/scripts/ETTh1.sh",
+      "original_path": "E:\\bisai\\ModernTCN-main\\ModernTCN-main\\ModernTCN-Long-term-forecasting\\scripts\\ETTh1.sh",
+      "sha256": "3b70d51a3be4f2875dc5032fae1a03334144391410a2876812bcdf07adcef3fb",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 2001
+    },
+    {
+      "path": "ModernTCN-main/ModernTCN-main/ModernTCN-Long-term-forecasting/scripts/ETTh2.sh",
+      "original_path": "E:\\bisai\\ModernTCN-main\\ModernTCN-main\\ModernTCN-Long-term-forecasting\\scripts\\ETTh2.sh",
+      "sha256": "634e3aa07a67e8e22b2c56399644d1bc966d18efc0b19b1296a497440898b77b",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 2001
+    },
+    {
+      "path": "ModernTCN-main/ModernTCN-main/ModernTCN-Long-term-forecasting/scripts/ETTm1.sh",
+      "original_path": "E:\\bisai\\ModernTCN-main\\ModernTCN-main\\ModernTCN-Long-term-forecasting\\scripts\\ETTm1.sh",
+      "sha256": "e030717480b797eb2a574254aede5e0e3df721c4910882741106df3b76bcd12e",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 2001
+    },
+    {
+      "path": "ModernTCN-main/ModernTCN-main/ModernTCN-Long-term-forecasting/scripts/ETTm2.sh",
+      "original_path": "E:\\bisai\\ModernTCN-main\\ModernTCN-main\\ModernTCN-Long-term-forecasting\\scripts\\ETTm2.sh",
+      "sha256": "90d6aee7d7c46c3636a5e212102916634d1d14afeeea6912f7447d99b247be97",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 2001
+    },
+    {
+      "path": "ModernTCN-main/ModernTCN-main/ModernTCN-Long-term-forecasting/scripts/Exchange.sh",
+      "original_path": "E:\\bisai\\ModernTCN-main\\ModernTCN-main\\ModernTCN-Long-term-forecasting\\scripts\\Exchange.sh",
+      "sha256": "a0b9bde526f2e53115a10d02f8aec036291eddbf11ec44010dbd837a475cb4d6",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 2061
+    },
+    {
+      "path": "ModernTCN-main/ModernTCN-main/ModernTCN-Long-term-forecasting/scripts/ILI.sh",
+      "original_path": "E:\\bisai\\ModernTCN-main\\ModernTCN-main\\ModernTCN-Long-term-forecasting\\scripts\\ILI.sh",
+      "sha256": "c5a7ca4d6d5c6650e2f6e8f64aaa8a049da882498c9ad69eba82dbb00de19c4e",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 2088
+    },
+    {
+      "path": "ModernTCN-main/ModernTCN-main/ModernTCN-Long-term-forecasting/scripts/traffic.sh",
+      "original_path": "E:\\bisai\\ModernTCN-main\\ModernTCN-main\\ModernTCN-Long-term-forecasting\\scripts\\traffic.sh",
+      "sha256": "688e51e15db04a8ca88a75290c88c3e6c4e79c5f38557aafb2bc04967a0aeb46",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 1969
+    },
+    {
+      "path": "ModernTCN-main/ModernTCN-main/ModernTCN-Long-term-forecasting/scripts/weather.sh",
+      "original_path": "E:\\bisai\\ModernTCN-main\\ModernTCN-main\\ModernTCN-Long-term-forecasting\\scripts\\weather.sh",
+      "sha256": "ab689e89b1907f4fdf67438d4b9ba5307dc48a8d03d7bc1463a6f3db6986852a",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 1965
+    },
+    {
+      "path": "ModernTCN-main/ModernTCN-main/ModernTCN-Long-term-forecasting/utils/masking.py",
+      "original_path": "E:\\bisai\\ModernTCN-main\\ModernTCN-main\\ModernTCN-Long-term-forecasting\\utils\\masking.py",
+      "sha256": "02f453e52cfaec65e34132923add80e7132f188706680fa86d7bd884976e09ef",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 832
+    },
+    {
+      "path": "ModernTCN-main/ModernTCN-main/ModernTCN-Long-term-forecasting/utils/metrics.py",
+      "original_path": "E:\\bisai\\ModernTCN-main\\ModernTCN-main\\ModernTCN-Long-term-forecasting\\utils\\metrics.py",
+      "sha256": "9d61cbf6239d2749f7640eff9fa80e66a17dbbea1881b919c4375b126195294d",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 951
+    },
+    {
+      "path": "ModernTCN-main/ModernTCN-main/ModernTCN-Long-term-forecasting/utils/str2bool.py",
+      "original_path": "E:\\bisai\\ModernTCN-main\\ModernTCN-main\\ModernTCN-Long-term-forecasting\\utils\\str2bool.py",
+      "sha256": "deeabd9a5b74eb644e9ea45cd848d47792acacb1b14d3fec1bcd7c42a2f4ab97",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 315
+    },
+    {
+      "path": "ModernTCN-main/ModernTCN-main/ModernTCN-Long-term-forecasting/utils/timefeatures.py",
+      "original_path": "E:\\bisai\\ModernTCN-main\\ModernTCN-main\\ModernTCN-Long-term-forecasting\\utils\\timefeatures.py",
+      "sha256": "2ad031a425f6f02b88db1918333a30937e41b18f435df90e6bcbb6470427221b",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 3743
+    },
+    {
+      "path": "ModernTCN-main/ModernTCN-main/ModernTCN-Long-term-forecasting/utils/tools.py",
+      "original_path": "E:\\bisai\\ModernTCN-main\\ModernTCN-main\\ModernTCN-Long-term-forecasting\\utils\\tools.py",
+      "sha256": "80c2f839674069a140d022fad1ede524dda4bfab79d9e6ad87c21bcf8f1d5390",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 4273
+    },
+    {
+      "path": "ModernTCN-main/ModernTCN-main/README.md",
+      "original_path": "E:\\bisai\\ModernTCN-main\\ModernTCN-main\\README.md",
+      "sha256": "4973eb06e1fe7f5e0e65a0bb81e29276ab7381c9a45bf0e5aa8bf18b9c995493",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 4110
+    },
+    {
+      "path": "ModernTCN-main/ModernTCN-main/requirements.txt",
+      "original_path": "E:\\bisai\\ModernTCN-main\\ModernTCN-main\\requirements.txt",
+      "sha256": "0edd99b0068edf5b31bed4e44b27c34ec68ffe36cac66ca9fd8ba87459b72575",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 97
+    },
+    {
+      "path": "README_CN.md",
+      "kind": "new_submission_support_file",
+      "original_path": null,
+      "sha256": "cffe2aac3a659b68c324cc4d27d69618b9acbfbdc7878d15afbeda97f738f1cc",
+      "size_bytes": 7754
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES_CN.md",
+      "kind": "new_submission_support_file",
+      "original_path": null,
+      "sha256": "8c9c5c9ed56cb1ce15f4a07fa8862ad4a705a00d4cc25c23db66261087ef0209",
+      "size_bytes": 1174
+    },
+    {
+      "path": "VALIDATION_CN.md",
+      "kind": "new_submission_support_file",
+      "original_path": null,
+      "sha256": "66e168d8162058bff7d02a295cdefd7091cc621c6c0d67dc11760edac7c7f518",
+      "size_bytes": 881
+    },
+    {
+      "path": "check_source.py",
+      "kind": "new_submission_support_file",
+      "original_path": null,
+      "sha256": "6dac56bfde9946067d74134ad82e1c8730d76d6ac64ecca568ebe904348f0145",
+      "size_bytes": 2879
+    },
+    {
+      "path": "configs/ndp_tcn_split.json",
+      "original_path": "E:\\bisai\\configs\\ndp_tcn_split.json",
+      "sha256": "60c34ce54d2f6cef9da332fd1a998a2dac6d149c6393d46973669ef198a9d709",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 939
+    },
+    {
+      "path": "configs/ndp_tcn_split_500.json",
+      "original_path": "E:\\bisai\\configs\\ndp_tcn_split_500.json",
+      "sha256": "6e3ab9eaddc65112ec8132a68691298a25fc33bd2ab5bba9373ac175654fcba2",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 282716
+    },
+    {
+      "path": "configs/ndp_tcn_split_750.json",
+      "original_path": "E:\\bisai\\configs\\ndp_tcn_split_750.json",
+      "sha256": "8044e49d9df8c5d6036546271f97f96cf566039c92b4d87db58982b3d33bed5d",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 819301
+    },
+    {
+      "path": "configs/ndp_tcn_split_8_2_fixed_epochs.json",
+      "original_path": "E:\\bisai\\configs\\ndp_tcn_split_8_2_fixed_epochs.json",
+      "sha256": "0e6670a02b4dff5b319e13ce60ff03c85ae72b16248ba55ec28984e63f1ec8f1",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 854
+    },
+    {
+      "path": "configs/ndp_tcn_split_legacy_6_2_2.json",
+      "original_path": "E:\\bisai\\configs\\ndp_tcn_split_legacy_6_2_2.json",
+      "sha256": "ff7e8d18dbee22aced31de979c831d7f8ef74aa64d9e3cdb3410934d55a47904",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 812
+    },
+    {
+      "path": "configs/split_h15.json",
+      "original_path": "E:\\bisai\\ndp_tcn\\results\\prepare_horizons_20261101_221516\\split_h15.json",
+      "sha256": "8bd4e6eee58d144a68f0cf36c28377e44c6bc77d20dbcb58808c55f32c907173",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 924337
+    },
+    {
+      "path": "configs/split_h16.json",
+      "original_path": "E:\\bisai\\ndp_tcn\\results\\prepare_horizons_20261101_221516\\split_h16.json",
+      "sha256": "75016e8d8f5eb80ce2a822c8c865b19b3718b6e0421db808815b18fdc4cd3aa8",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 924337
+    },
+    {
+      "path": "configs/split_h20.json",
+      "original_path": "E:\\bisai\\ndp_tcn\\results\\prepare_horizons_20261101_221516\\split_h20.json",
+      "sha256": "68186c4fdd526f96d86147d730c3e2753f81456d4d3641f6713c12b6e4771a66",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 924337
+    },
+    {
+      "path": "environment/requirement_original_full.txt",
+      "original_path": "E:\\bisai\\requirement.txt",
+      "sha256": "404e64d960f5fe5c3b62bfc5502805c95e755a9e96781b89e4865291692590dd",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 2747
+    },
+    {
+      "path": "make_split_500.py",
+      "original_path": "E:\\bisai\\make_split_500.py",
+      "sha256": "9e52d3d0ac5ef3bdf7e065862c2c67cf4e308ce6d7c047d8f06c707f271108ca",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 14930
+    },
+    {
+      "path": "make_split_750.py",
+      "original_path": "E:\\bisai\\make_split_750.py",
+      "sha256": "0083cf9cbd8ec6c763c4190ce66975cbde7607be54e18e3666c79244a0a2abe9",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 22783
+    },
+    {
+      "path": "ndp_tcn/__init__.py",
+      "original_path": "E:\\bisai\\ndp_tcn\\__init__.py",
+      "sha256": "35b599f5e1642488952f5ab517f5f3fe06859d9fb3153aa1785695d7522cd53e",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 82
+    },
+    {
+      "path": "ndp_tcn/convert_fullconv.py",
+      "original_path": "E:\\bisai\\ndp_tcn\\convert_fullconv.py",
+      "sha256": "eae323daea78a4817df10e20c8cff2a4ceca2380a3fb794d1e5a5782d779e8ca",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 10239
+    },
+    {
+      "path": "ndp_tcn/data.py",
+      "original_path": "E:\\bisai\\ndp_tcn\\data.py",
+      "sha256": "17d34efd29bf71d118a17d7d4665bd8920c626515f4449e00e6de7890d0838d6",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 16852
+    },
+    {
+      "path": "ndp_tcn/evaluate.py",
+      "original_path": "E:\\bisai\\ndp_tcn\\evaluate.py",
+      "sha256": "9a95f750daa786c8aeab8a102d150dedab0314c282780d5887b89ca1925ac89e",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 3992
+    },
+    {
+      "path": "ndp_tcn/evaluate_horizons.py",
+      "original_path": "E:\\bisai\\ndp_tcn\\evaluate_horizons.py",
+      "sha256": "c020776e16c0d07a1c7542992ce78b1b07f06daed47f77cac730089ce59cea28",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 23020
+    },
+    {
+      "path": "ndp_tcn/export_onnx.py",
+      "original_path": "E:\\bisai\\ndp_tcn\\export_onnx.py",
+      "sha256": "cf63884fed09868e28e8c719f3fa3bcacb4b5875c4aa345d9a51b32455b7c9d0",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 35728
+    },
+    {
+      "path": "ndp_tcn/metrics.py",
+      "original_path": "E:\\bisai\\ndp_tcn\\metrics.py",
+      "sha256": "f5ef44d40856939a9cf7e2a1458c9e4cc9c114c5bf174b5fe57d76927ecf9e52",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 2395
+    },
+    {
+      "path": "ndp_tcn/model.py",
+      "original_path": "E:\\bisai\\ndp_tcn\\model.py",
+      "sha256": "c20a7d9c7d6dbf2e7b67f2e9e06e955568a3602ebfb444245470b8d2f4de16b6",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 3811
+    },
+    {
+      "path": "ndp_tcn/outputs.py",
+      "original_path": "E:\\bisai\\ndp_tcn\\outputs.py",
+      "sha256": "a264a7d3b8535a28f0f7457592247a5577403e28485a82094b3920bf01568ce1",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 15154
+    },
+    {
+      "path": "ndp_tcn/predict.py",
+      "original_path": "E:\\bisai\\ndp_tcn\\predict.py",
+      "sha256": "fb9e38d913d509da87b4e2a5ffb2094752f62f04bc37b5c3163c12e06ac2f056",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 7933
+    },
+    {
+      "path": "ndp_tcn/predict_onnx.py",
+      "original_path": "E:\\bisai\\ndp_tcn\\predict_onnx.py",
+      "sha256": "c7a5e7d31187838afadf43687591e3cb3f5eb80ee7e8556e1a9ae4d96305c371",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 10609
+    },
+    {
+      "path": "ndp_tcn/ti_npu_fullconv_model.py",
+      "original_path": "E:\\bisai\\ndp_tcn\\ti_npu_fullconv_model.py",
+      "sha256": "dad273cb335f58b0a0abd726e1e374bd9bb0bcc7fa3f3a080f5e25aa65c3b033",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 5195
+    },
+    {
+      "path": "ndp_tcn/ti_npu_model.py",
+      "original_path": "E:\\bisai\\ndp_tcn\\ti_npu_model.py",
+      "sha256": "bdfafb206c945ad175498f117837c5554377b2eaad56c06ea5a7c97f5d9b2608",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 4450
+    },
+    {
+      "path": "ndp_tcn/ti_qat.py",
+      "original_path": "E:\\bisai\\ndp_tcn\\ti_qat.py",
+      "sha256": "cdf9099e7b4ed91fb7dbc004ddcc89a0555de1355736314945aaa76978c6d062",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 26164
+    },
+    {
+      "path": "ndp_tcn/ti_quantize.py",
+      "original_path": "E:\\bisai\\ndp_tcn\\ti_quantize.py",
+      "sha256": "175bdbd48a65b439e48b631c6e35dcf6538b21f86689e320a2c79f16b65607cd",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 22086
+    },
+    {
+      "path": "ndp_tcn/train.py",
+      "original_path": "E:\\bisai\\ndp_tcn\\train.py",
+      "sha256": "100023f526f9f361a65345befb8768ec9e1db6082abcbc134b83eafd654245d4",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 16341
+    },
+    {
+      "path": "prepare_horizon_experiment.py",
+      "original_path": "E:\\bisai\\prepare_horizon_experiment.py",
+      "sha256": "cf08ddb387f57717c0048905b1e7e17ae1ac81f6a5677c1becd2a436b471401a",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 15266
+    },
+    {
+      "path": "prepare_residual_labels.py",
+      "original_path": "E:\\bisai\\prepare_residual_labels.py",
+      "sha256": "2fe56297d332d99c6c02841566fea75fcc9b7ed0cd775f65c9e4d10f0b151676",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 17142
+    },
+    {
+      "path": "prepare_training_750.py",
+      "original_path": "E:\\bisai\\prepare_training_750.py",
+      "sha256": "7a591a725e66e3204e415fa2e5fbf7dea9150846af5cfbb3bcbf0357719311e2",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 16857
+    },
+    {
+      "path": "requirements.txt",
+      "kind": "new_submission_support_file",
+      "original_path": null,
+      "sha256": "57e4c2249097e8c96853330dee7098be726aef27550146affc3e35166e0f9cb5",
+      "size_bytes": 244
+    },
+    {
+      "path": "requirements_onnx_qat.txt",
+      "kind": "new_submission_support_file",
+      "original_path": null,
+      "sha256": "6d2698dde67be45db07374944df6f415345a446cca471075e269f4caa9d3ba52",
+      "size_bytes": 398
+    },
+    {
+      "path": "tests/test_ndp_data.py",
+      "original_path": "E:\\bisai\\tests\\test_ndp_data.py",
+      "sha256": "b5b3421c8c9b13ab4c5e836bda3c2f98a5cb1eede80f11a64472df32b2d7ac1d",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 10632
+    },
+    {
+      "path": "tests/test_original_moderntcn.py",
+      "original_path": "E:\\bisai\\tests\\test_original_moderntcn.py",
+      "sha256": "b5163afaed484f8015476ea9ab15267c8915a493e1372583cb60b00aaa5ed947",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 5176
+    },
+    {
+      "path": "tests/test_prepare_residual_labels.py",
+      "original_path": "E:\\bisai\\tests\\test_prepare_residual_labels.py",
+      "sha256": "eed39594d748fa588791ae8ed331763b02b1f4691ef9ae10c149abe1d43dfe70",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 9189
+    },
+    {
+      "path": "tests/test_ti_npu_fullconv.py",
+      "original_path": "E:\\bisai\\tests\\test_ti_npu_fullconv.py",
+      "sha256": "b0cc1769a1048bd43c227e78090f34c0d3aacf77bff8ab2ecb8010fc48b4b537",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 11594
+    },
+    {
+      "path": "tests/test_ti_npu_model.py",
+      "original_path": "E:\\bisai\\tests\\test_ti_npu_model.py",
+      "sha256": "654192149413888daaf47facfc41be98d999180f6868a1ce0d9f0224bb307801",
+      "kind": "unchanged_source_copy",
+      "size_bytes": 6692
+    }
+  ]
+}

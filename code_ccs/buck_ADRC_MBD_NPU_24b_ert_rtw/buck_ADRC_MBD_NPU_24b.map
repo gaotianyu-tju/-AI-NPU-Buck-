@@ -1,0 +1,1848 @@
+******************************************************************************
+             TMS320C2000 Linker PC v22.6.0                     
+******************************************************************************
+>> Linked Tue Nov  3 02:05:25 2026
+
+OUTPUT FILE NAME:   <../buck_ADRC_MBD_NPU_24b.out>
+ENTRY POINT SYMBOL: "_c_int00"  address: 00085f77
+
+
+MEMORY CONFIGURATION
+
+         name            origin    length      used     unused   attr    fill
+----------------------  --------  ---------  --------  --------  ----  --------
+PAGE 0:
+  RAMLS_PROG            0000a800   00001800  00000023  000017dd  RWIX
+  RAMGS_PROG            00010000   00004000  00000000  00004000  RWIX
+  BEGIN                 00080000   00000002  00000002  00000000  RWIX
+  FLASH_BANK0_SEC0      00080002   0001fffe  00006030  00019fce  RWIX
+  FLASH_BANK1           000a0000   0001ffff  00000000  0001ffff  RWIX
+  FLASH_BANK2           000c0000   0001ffff  00000000  0001ffff  RWIX
+  FLASH_BANK3           000e0000   0001ffff  00000000  0001ffff  RWIX
+  FLASH_BANK4           00100000   00007fff  00000000  00007fff  RWIX
+  RESET                 003fffc0   00000002  00000000  00000002  RWIX
+
+PAGE 1:
+  BOOT_RSVD             00000002   00000126  00000000  00000126  RWIX
+  RAMM0M1               00000128   000006d8  00000400  000002d8  RWIX
+  CPUTIMER0             00000c00   00000008  00000008  00000000  RWIX
+  CPUTIMER1             00000c08   00000008  00000008  00000000  RWIX
+  CPUTIMER2             00000c10   00000008  00000008  00000000  RWIX
+  PIECTRL               00000ce0   0000001a  0000001a  00000000  RWIX
+  PIEVECTTABLE          00000d00   00000200  00000000  00000200  RWIX
+  DMA                   00001000   00000200  00000000  00000200  RWIX
+  CLA1                  00001400   00000080  00000000  00000080  RWIX
+  CLA1_MSGRAMLOW        00001480   00000080  00000000  00000080  RWIX
+  CLA1_MSGRAMHIGH       00001500   00000080  00000000  00000080  RWIX
+  CLATODMARAM           00001680   00000080  00000000  00000080  RWIX
+  DMATOCLARAM           00001700   00000080  00000000  00000080  RWIX
+  ADCARESULT            00001800   00000058  00000058  00000000  RWIX
+  ADCBRESULT            00001880   00000058  00000058  00000000  RWIX
+  ADCCRESULT            00001900   00000058  00000058  00000000  RWIX
+  ADCDRESULT            00001980   00000058  00000000  00000058  RWIX
+  ADCERESULT            00001a00   00000058  00000000  00000058  RWIX
+  CLB1LOGICCFG          00003000   00000052  00000000  00000052  RWIX
+  CLB1LOGICCTRL         00003100   00000040  00000000  00000040  RWIX
+  CLB1DATAEXCH          00003180   00000080  00000000  00000080  RWIX
+  CLB2LOGICCFG          00003400   00000052  00000000  00000052  RWIX
+  CLB2LOGICCTRL         00003500   00000040  00000000  00000040  RWIX
+  CLB2DATAEXCH          00003580   00000080  00000000  00000080  RWIX
+  EPWM1                 00004000   00000100  00000100  00000000  RWIX
+  EPWM2                 00004100   00000100  00000100  00000000  RWIX
+  EPWM3                 00004200   00000100  00000000  00000100  RWIX
+  EPWM4                 00004300   00000100  00000000  00000100  RWIX
+  EPWM5                 00004400   00000100  00000000  00000100  RWIX
+  EPWM6                 00004500   00000100  00000000  00000100  RWIX
+  EPWM7                 00004600   00000100  00000100  00000000  RWIX
+  EPWM8                 00004700   00000100  00000000  00000100  RWIX
+  EPWM9                 00004800   00000100  00000000  00000100  RWIX
+  EPWM10                00004900   00000100  00000100  00000000  RWIX
+  EPWM11                00004a00   00000100  00000000  00000100  RWIX
+  EPWM12                00004b00   00000100  00000000  00000100  RWIX
+  EQEP1                 00005100   00000040  00000000  00000040  RWIX
+  EQEP2                 00005140   00000040  00000000  00000040  RWIX
+  EQEP3                 00005180   00000040  00000000  00000040  RWIX
+  ECAP1                 00005200   00000020  00000000  00000020  RWIX
+  ECAP2                 00005240   00000020  00000000  00000020  RWIX
+  CMPSS1                00005500   00000040  00000000  00000040  RWIX
+  CMPSS2                00005540   00000040  00000000  00000040  RWIX
+  CMPSS3                00005580   00000040  00000000  00000040  RWIX
+  CMPSS4                000055c0   00000040  00000000  00000040  RWIX
+  PGA1                  00005b00   00000008  00000000  00000008  RWIX
+  PGA2                  00005b10   00000008  00000000  00000008  RWIX
+  PGA3                  00005b20   00000008  00000000  00000008  RWIX
+  DACA                  00005c00   00000008  00000000  00000008  RWIX
+  SPIA                  00006100   00000010  00000000  00000010  RWIX
+  SPIB                  00006110   00000010  00000000  00000010  RWIX
+  PMBUSA                00006400   00000020  00000000  00000020  RWIX
+  FSITXA                00006600   00000050  00000000  00000050  RWIX
+  FSIRXA                00006680   00000050  00000000  00000050  RWIX
+  LINA                  00006800   000000ec  00000000  000000ec  RWIX
+  ADCC                  00006a00   00000160  0000014a  00000016  RWIX
+  ADCD                  00006c00   00000160  0000014a  00000016  RWIX
+  ADCE                  00006e00   00000160  0000014a  00000016  RWIX
+  WD                    00007000   0000002c  0000002b  00000001  RWIX
+  NMIINTRUPT            00007060   00000010  00000000  00000010  RWIX
+  XINT                  00007070   0000000c  00000000  0000000c  RWIX
+  SCIA                  00007200   00000010  00000000  00000010  RWIX
+  SCIB                  00007210   00000010  00000000  00000010  RWIX
+  SCIC                  00007220   00000010  00000000  00000010  RWIX
+  I2CA                  00007300   00000022  00000000  00000022  RWIX
+  I2CB                  00007340   00000022  00000000  00000022  RWIX
+  ADCA                  00007400   00000160  0000014a  00000016  RWIX
+  ADCB                  00007600   00000160  0000014a  00000016  RWIX
+  INPUTXBAR             00007900   00000020  00000000  00000020  RWIX
+  XBAR                  00007920   00000020  00000000  00000020  RWIX
+  SYNCSOC               00007940   00000006  00000000  00000006  RWIX
+  CLBINPUTXBAR          00007960   00000020  00000000  00000020  RWIX
+  DMACLASRCSEL          00007980   0000001a  00000000  0000001a  RWIX
+  EPWMXBAR              00007a00   00000040  00000000  00000040  RWIX
+  CLBXBAR               00007a40   00000040  00000000  00000040  RWIX
+  OUTPUTXBAR            00007a80   00000040  00000000  00000040  RWIX
+  CLBOUTPUTXBAR         00007bc0   00000040  00000000  00000040  RWIX
+  GPIOCTRL              00007c00   00000200  00000200  00000000  RWIX
+  GPIODATA              00007f00   00000040  00000040  00000000  RWIX
+  GPIODATAREAD          00007f80   00000010  00000000  00000010  RWIX
+  LFU                   00007fe0   00000020  00000000  00000020  RWIX
+  RAMLS_DATA            00008000   00002800  00000000  00002800  RWIX
+  RAMGS_DATA            0000c000   00004000  0000253d  00001ac3  RWIX
+  AESA                  00042000   0000004c  00000000  0000004c  RWIX
+  AESASS                00042c00   00000080  00000000  00000080  RWIX
+  MCANASS               00059400   0000002c  00000000  0000002c  RWIX
+  MCANA                 00059600   00000100  00000000  00000100  RWIX
+  MCANAERROR            00059800   00000210  00000000  00000210  RWIX
+  MCANBSS               0005b400   0000002c  00000000  0000002c  RWIX
+  MCANB                 0005b600   00000100  00000000  00000100  RWIX
+  MCANBERROR            0005b800   00000210  00000000  00000210  RWIX
+  DEVCFG                0005d000   000001fa  00000000  000001fa  RWIX
+  CLKCFG                0005d200   000000fe  0000003e  000000c0  RWIX
+  CPUSYS                0005d300   00000100  000000b0  00000050  RWIX
+  SYSSTATUS             0005d400   00000040  00000000  00000040  RWIX
+  PERIPHAC              0005d500   00000200  00000000  00000200  RWIX
+  ANALOGSUBSYS          0005d700   0000013c  0000013a  00000002  RWIX
+  DCC0                  0005e700   00000038  0000002c  0000000c  RWIX
+  DCC1                  0005e740   00000038  0000002c  0000000c  RWIX
+  ERADGLOBAL            0005e800   00000014  00000000  00000014  RWIX
+  ERADHWBP1             0005e900   00000008  00000000  00000008  RWIX
+  ERADHWBP2             0005e908   00000008  00000000  00000008  RWIX
+  ERADHWBP3             0005e910   00000008  00000000  00000008  RWIX
+  ERADHWBP4             0005e918   00000008  00000000  00000008  RWIX
+  ERADHWBP5             0005e920   00000008  00000000  00000008  RWIX
+  ERADHWBP6             0005e928   00000008  00000000  00000008  RWIX
+  ERADHWBP7             0005e930   00000008  00000000  00000008  RWIX
+  ERADHWBP8             0005e938   00000008  00000000  00000008  RWIX
+  ERADCOUNTER1          0005e980   00000010  00000000  00000010  RWIX
+  ERADCOUNTER2          0005e990   00000010  00000000  00000010  RWIX
+  ERADCOUNTER3          0005e9a0   00000010  00000000  00000010  RWIX
+  ERADCOUNTER4          0005e9b0   00000010  00000000  00000010  RWIX
+  ERADCRCGLOBAL         0005ea00   00000010  00000000  00000010  RWIX
+  ERADCRC1              0005ea10   00000010  00000000  00000010  RWIX
+  ERADCRC2              0005ea20   00000010  00000000  00000010  RWIX
+  ERADCRC3              0005ea30   00000010  00000000  00000010  RWIX
+  ERADCRC4              0005ea40   00000010  00000000  00000010  RWIX
+  ERADCRC5              0005ea50   00000010  00000000  00000010  RWIX
+  ERADCRC6              0005ea60   00000010  00000000  00000010  RWIX
+  ERADCRC7              0005ea70   00000010  00000000  00000010  RWIX
+  ERADCRC8              0005ea80   00000010  00000000  00000010  RWIX
+  ERADPCTRACE           0005ead0   0000000a  00000000  0000000a  RWIX
+  EPG1                  0005ec00   00000052  00000000  00000052  RWIX
+  EPG1MUX               0005ecd0   00000010  00000000  00000010  RWIX
+  DCSMZ1                0005f000   00000040  00000000  00000040  RWIX
+  DCSMZ2                0005f080   0000003e  00000000  0000003e  RWIX
+  DCSMCOMMON            0005f0c0   00000040  00000000  00000040  RWIX
+  MEMCFG                0005f400   000000c0  00000000  000000c0  RWIX
+  ACCESSPROTECTION      0005f500   0000003e  00000000  0000003e  RWIX
+  MEMORYERROR           0005f540   00000040  00000000  00000040  RWIX
+  TESTERROR             0005f590   00000010  00000000  00000010  RWIX
+  FLASH0CTRL            0005f800   00000182  00000182  00000000  RWIX
+  FLASH0ECC             0005fb00   00000028  00000022  00000006  RWIX
+  ERADPCTRACEBUFFER     0005fe00   00000800  00000000  00000800  RWIX
+  DCSMZ1OTP             00078000   00000020  00000000  00000020  RWIX
+  DCSMZ2OTP             00078200   00000020  00000000  00000020  RWIX
+
+
+SECTION ALLOCATION MAP
+
+ output                                  attributes/
+section   page    origin      length       input sections
+--------  ----  ----------  ----------   ----------------
+.rodata.tvm 
+*          0    000820d0    00000020     
+                  000820d0    00000020     mod.a : lib0.obj (.rodata.tvm)
+
+.bss.noinit.tvm 
+*          1    0000e380    000000e0     UNINITIALIZED
+                  0000e380    000000e0     mod.a : lib0.obj (.bss.noinit.tvm)
+
+.bss.noinit.buck_npu 
+*          1    0000e460    000000c8     UNINITIALIZED
+                  0000e460    000000c8     buck_npu_v15_o2.obj (.bss.noinit.buck_npu)
+
+PieVectTableFile 
+*          0    00000d00    000001c0     DSECT
+                  00000d00    000001c0     f28p55x_globalvariabledefs.obj (PieVectTableFile)
+
+EmuKeyVar 
+*          0    00000d00    00000000     DSECT
+
+EmuBModeVar 
+*          0    00000d00    00000000     DSECT
+
+EmuBootPinsVar 
+*          0    00000d00    00000000     DSECT
+
+FlashCallbackVar 
+*          0    00000d00    00000000     DSECT
+
+FlashScalingVar 
+*          0    00000d00    00000000     DSECT
+
+AdcaResultRegsFile 
+*          1    00001800    00000058     UNINITIALIZED
+                  00001800    00000058     f28p55x_globalvariabledefs.obj (AdcaResultRegsFile)
+
+AdcbResultRegsFile 
+*          1    00001880    00000058     UNINITIALIZED
+                  00001880    00000058     f28p55x_globalvariabledefs.obj (AdcbResultRegsFile)
+
+AdccResultRegsFile 
+*          1    00001900    00000058     UNINITIALIZED
+                  00001900    00000058     f28p55x_globalvariabledefs.obj (AdccResultRegsFile)
+
+AdccRegsFile 
+*          1    00006a00    0000014a     UNINITIALIZED
+                  00006a00    0000014a     f28p55x_globalvariabledefs.obj (AdccRegsFile)
+
+AdcdRegsFile 
+*          1    00006c00    0000014a     UNINITIALIZED
+                  00006c00    0000014a     f28p55x_globalvariabledefs.obj (AdcdRegsFile)
+
+AdceRegsFile 
+*          1    00006e00    0000014a     UNINITIALIZED
+                  00006e00    0000014a     f28p55x_globalvariabledefs.obj (AdceRegsFile)
+
+AdcaRegsFile 
+*          1    00007400    0000014a     UNINITIALIZED
+                  00007400    0000014a     f28p55x_globalvariabledefs.obj (AdcaRegsFile)
+
+AdcbRegsFile 
+*          1    00007600    0000014a     UNINITIALIZED
+                  00007600    0000014a     f28p55x_globalvariabledefs.obj (AdcbRegsFile)
+
+AnalogSubsysRegsFile 
+*          1    0005d700    0000013a     UNINITIALIZED
+                  0005d700    0000013a     f28p55x_globalvariabledefs.obj (AnalogSubsysRegsFile)
+
+ClkCfgRegsFile 
+*          1    0005d200    0000003e     UNINITIALIZED
+                  0005d200    0000003e     f28p55x_globalvariabledefs.obj (ClkCfgRegsFile)
+
+CpuTimer0RegsFile 
+*          1    00000c00    00000008     UNINITIALIZED
+                  00000c00    00000008     f28p55x_globalvariabledefs.obj (CpuTimer0RegsFile)
+
+CpuTimer1RegsFile 
+*          1    00000c08    00000008     UNINITIALIZED
+                  00000c08    00000008     f28p55x_globalvariabledefs.obj (CpuTimer1RegsFile)
+
+CpuTimer2RegsFile 
+*          1    00000c10    00000008     UNINITIALIZED
+                  00000c10    00000008     f28p55x_globalvariabledefs.obj (CpuTimer2RegsFile)
+
+CpuSysRegsFile 
+*          1    0005d300    000000b0     UNINITIALIZED
+                  0005d300    000000b0     f28p55x_globalvariabledefs.obj (CpuSysRegsFile)
+
+Dcc0RegsFile 
+*          1    0005e700    0000002c     UNINITIALIZED
+                  0005e700    0000002c     f28p55x_globalvariabledefs.obj (Dcc0RegsFile)
+
+Dcc1RegsFile 
+*          1    0005e740    0000002c     UNINITIALIZED
+                  0005e740    0000002c     f28p55x_globalvariabledefs.obj (Dcc1RegsFile)
+
+ramfuncs   0    0000a800    00000000     UNINITIALIZED
+
+.TI.ramfunc 
+*          0    00080008    00000023     RUN ADDR = 0000a800
+                  00080008    0000001f     f28p55x_sysctrl.obj (.TI.ramfunc)
+                  00080027    00000004     f28p55x_usdelay.obj (.TI.ramfunc)
+
+EPwm1RegsFile 
+*          1    00004000    00000100     UNINITIALIZED
+                  00004000    00000100     f28p55x_globalvariabledefs.obj (EPwm1RegsFile)
+
+EPwm2RegsFile 
+*          1    00004100    00000100     UNINITIALIZED
+                  00004100    00000100     f28p55x_globalvariabledefs.obj (EPwm2RegsFile)
+
+EPwm7RegsFile 
+*          1    00004600    00000100     UNINITIALIZED
+                  00004600    00000100     f28p55x_globalvariabledefs.obj (EPwm7RegsFile)
+
+EPwm10RegsFile 
+*          1    00004900    00000100     UNINITIALIZED
+                  00004900    00000100     f28p55x_globalvariabledefs.obj (EPwm10RegsFile)
+
+Flash0CtrlRegsFile 
+*          1    0005f800    00000182     UNINITIALIZED
+                  0005f800    00000182     f28p55x_globalvariabledefs.obj (Flash0CtrlRegsFile)
+
+Flash0EccRegsFile 
+*          1    0005fb00    00000022     UNINITIALIZED
+                  0005fb00    00000022     f28p55x_globalvariabledefs.obj (Flash0EccRegsFile)
+
+GpioCtrlRegsFile 
+*          1    00007c00    00000200     UNINITIALIZED
+                  00007c00    00000200     f28p55x_globalvariabledefs.obj (GpioCtrlRegsFile)
+
+GpioDataRegsFile 
+*          1    00007f00    00000040     UNINITIALIZED
+                  00007f00    00000040     f28p55x_globalvariabledefs.obj (GpioDataRegsFile)
+
+PieCtrlRegsFile 
+*          1    00000ce0    0000001a     UNINITIALIZED
+                  00000ce0    0000001a     f28p55x_globalvariabledefs.obj (PieCtrlRegsFile)
+
+WdRegsFile 
+*          1    00007000    0000002b     UNINITIALIZED
+                  00007000    0000002b     f28p55x_globalvariabledefs.obj (WdRegsFile)
+
+codestart 
+*          0    00080000    00000002     
+                  00080000    00000002     f28p55x_codestartbranch.obj (codestart)
+
+.text      0    000820f0    00003f15     
+                  000820f0    00000ca3     buck_npu_v15_o2.obj (.text)
+                  00082d93    00000001     rts2800_fpu32_eabi.lib : startup.c.obj (.text)
+                  00082d94    0000097d     buck_load_observer_v15_o2.obj (.text)
+                  00083711    00000911     buck_ADRC_MBD_NPU_24b.obj (.text)
+                  00084022    00000549     f28p55x_defaultisr.obj (.text:retain)
+                  0008456b    00000456     buck_npu_compensation_v15_o2.obj (.text)
+                  000849c1    0000035c     f28p55x_sysctrl.obj (.text)
+                  00084d1d    0000019c     adc.obj (.text)
+                  00084eb9    00000173     interrupt.obj (.text)
+                  0008502c    00000148     buck_npu_platform.obj (.text)
+                  00085174    00000144     MW_c28xx_adc.obj (.text)
+                  000852b8    00000130     buck_npu_sdk_port.obj (.text)
+                  000853e8    000000f3     mod.a : tinie_c28.obj (.text:write_configMMR)
+                  000854db    00000001     --HOLE-- [fill = 0]
+                  000854dc    000000b3           : tinie_soft.obj (.text:TINIE_layoutTransform)
+                  0008558f    000000a9     MW_c28xx_board.obj (.text)
+                  00085638    0000009c     ndp_model_io_strict.obj (.text)
+                  000856d4    0000009c     rts2800_fpu32_eabi.lib : fd_add28.asm.obj (.text)
+                  00085770    00000092     rt_nonfinite.obj (.text)
+                  00085802    00000088     mod.a : lib1.obj (.text:tvmgen_default_IRQHandlerHelper)
+                  0008588a    00000083     rts2800_fpu32_eabi.lib : fd_mpy28.asm.obj (.text)
+                  0008590d    0000007c     f28p55x_cputimers.obj (.text)
+                  00085989    00000063     MW_c28xx_pwm.obj (.text)
+                  000859ec    00000059     rts2800_fpu32_eabi.lib : s_floorf.c.obj (.text)
+                  00085a45    00000050     ert_main.obj (.text)
+                  00085a95    0000004d     c28P55xSchedulerTimer0.obj (.text)
+                  00085ae2    00000044     c28P55xSchedulerTimer0.obj (.text:retain)
+                  00085b26    00000044     rtGetInf.obj (.text)
+                  00085b6a    00000037     MW_c28xx_csl.obj (.text:retain)
+                  00085ba1    00000036     mod.a : lib2.obj (.text:tvmgen_default_ti_npu_convolve1x1NHWC_4)
+                  00085bd7    00000036           : lib2.obj (.text:tvmgen_default_ti_npu_convolveNHWC_1)
+                  00085c0d    00000036           : lib2.obj (.text:tvmgen_default_ti_npu_convolveNHWC_2)
+                  00085c43    00000036           : lib2.obj (.text:tvmgen_default_ti_npu_convolveNHWC_3)
+                  00085c79    0000002f     MW_c28xx_csl.obj (.text:MW_SetVREF)
+                  00085ca8    0000002e     rts2800_fpu32_eabi.lib : copy_decompress_lzss.c.obj (.text:decompress:lzss)
+                  00085cd6    0000002d     mod.a : lib1.obj (.text:tvmgen_default_IRQHandler)
+                  00085d03    0000002b     rts2800_fpu32_eabi.lib : autoinit.c.obj (.text:__TI_auto_init_nobinit_nopinit)
+                  00085d2e    0000002b     mod.a : lib1.obj (.text:tvmgen_default___tvm_main__)
+                  00085d59    0000002a     interrupt.obj (.text:retain)
+                  00085d83    0000002a     rtGetNaN.obj (.text)
+                  00085dad    0000002a     mod.a : lib1.obj (.text:tvmgen_default_fused_multiply_add_floor_clip_cast)
+                  00085dd7    00000029     rts2800_fpu32_eabi.lib : exit.c.obj (.text)
+                  00085e00    00000028     f28p55x_piectrl.obj (.text)
+                  00085e28    00000025     f28p55x_pievect.obj (.text)
+                  00085e4d    00000025     buck_npu_sdk_port.obj (.text:retain)
+                  00085e72    00000023     c28P55xBoard_Realtime_Support.obj (.text)
+                  00085e95    00000023     rts2800_fpu32_eabi.lib : fd_tofsfpu32.asm.obj (.text)
+                  00085eb8    0000001d                            : memcpy.c.obj (.text)
+                  00085ed5    0000001c     MW_c28xx_csl.obj (.text)
+                  00085ef1    0000001c     rts2800_fpu32_eabi.lib : fs_tofdfpu32.asm.obj (.text)
+                  00085f0d    0000001c     mod.a : lib1.obj (.text:tinie_sublayer_IRQHandler)
+                  00085f29    0000001b           : lib1.obj (.text:tvmgen_default_fused_tinie_c28_unpack)
+                  00085f44    0000001a           : lib1.obj (.text:tvmgen_default_fused_cast_multiply_reshape)
+                  00085f5e    00000019           : tinie_c28.obj (.text:TINIE_setup)
+                  00085f77    00000017     rts2800_fpu32_eabi.lib : boot28.asm.obj (.text)
+                  00085f8e    00000012     MW_c28xGlobalInterrupts.obj (.text)
+                  00085fa0    00000011     mod.a : lib2.obj (.text:tvmgen_default_ti_npu_layoutTransform_0)
+                  00085fb1    0000000d           : lib0.obj (.text:tvmgen_default_run)
+                  00085fbe    0000000c     rts2800_fpu32_eabi.lib : args_main.c.obj (.text)
+                  00085fca    00000009                            : _lock.c.obj (.text)
+                  00085fd3    00000009     mod.a : lib1.obj (.text:tvmgen_default_fused_tinie_c28_pack)
+                  00085fdc    00000008     rts2800_fpu32_eabi.lib : copy_decompress_none.c.obj (.text:decompress:none)
+                  00085fe4    00000008     f28p55x_codestartbranch.obj (.text)
+                  00085fec    00000007     rts2800_fpu32_eabi.lib : memset.c.obj (.text)
+                  00085ff3    00000006     mod.a : tinie_c28.obj (.text:TINIE_start)
+                  00085ff9    00000006     rts2800_fpu32_eabi.lib : copy_zero_init.c.obj (.text:decompress:ZI)
+                  00085fff    00000004     buck_npu_sdk_port.obj (.text:NPU_getCtlReg)
+                  00086003    00000002     rts2800_fpu32_eabi.lib : pre_init.c.obj (.text)
+
+.cinit     0    00086008    00000040     
+                  00086008    0000001c     (.cinit..data.load) [load image, compression = lzss]
+                  00086024    00000006     (__TI_handler_table)
+                  0008602a    00000004     (.cinit..bss.load) [load image, compression = zero_init]
+                  0008602e    00000004     (.cinit..bss.noinit.buck_npu.load) [load image, compression = zero_init]
+                  00086032    00000004     (.cinit..bss.noinit.tvm.load) [load image, compression = zero_init]
+                  00086036    00000002     --HOLE-- [fill = 0]
+                  00086038    00000010     (__TI_cinit_table)
+
+.reset     0    003fffc0    00000002     DSECT
+                  003fffc0    00000002     rts2800_fpu32_eabi.lib : boot28.asm.obj (.reset)
+
+.stack     1    00000128    00000400     UNINITIALIZED
+                  00000128    00000400     --HOLE--
+
+.init_array 
+*          0    00080008    00000000     UNINITIALIZED
+
+.bss       1    0000c000    00002374     UNINITIALIZED
+                  0000c000    00001000     buck_npu_v15_o2.obj (.bss:buck_npu_cycle_cache)
+                  0000d000    00000900     buck_npu_v15_o2.obj (.bss:raw_ring)
+                  0000d900    00000540     buck_npu_v15_o2.obj (.bss:buck_npu_ff_trace)
+                  0000de40    000000be     buck_load_observer_v15_o2.obj (.bss)
+                  0000defe    00000002     buck_npu_v15_o2.obj (.bss:buck_npu_delivery_pending)
+                  0000df00    000000a2     buck_npu_v15_o2.obj (.bss)
+                  0000dfa2    00000090     buck_npu_v15_o2.obj (.bss:snapshot)
+                  0000e032    00000080     buck_load_observer_v15_o2.obj (.bss:npu_phase_kcl)
+                  0000e0b2    00000080     buck_load_observer_v15_o2.obj (.bss:npu_phase_normalized)
+                  0000e132    0000000e     buck_npu_sdk_port.obj (.bss)
+                  0000e140    0000006e     buck_npu_compensation_v15_o2.obj (.bss)
+                  0000e1ae    00000010     buck_npu_platform.obj (.bss)
+                  0000e1be    00000002     ert_main.obj (.bss)
+                  0000e1c0    0000003e     buck_ADRC_MBD_NPU_24b.obj (.bss)
+                  0000e1fe    00000038     buck_npu_v15_o2.obj (.bss:buck_npu_phase_status)
+                  0000e236    00000030     buck_npu_v15_o2.obj (.bss:phase_work)
+                  0000e266    00000028     buck_npu_v15_o2.obj (.bss:plans)
+                  0000e28e    00000024     mod.a : lib1.obj (.bss)
+                  0000e2b2    0000001c     buck_npu_v15_o2.obj (.bss:phase_track)
+                  0000e2ce    00000018     buck_npu_v15_o2.obj (.bss:confirmations)
+                  0000e2e6    00000018     buck_npu_v15_o2.obj (.bss:deferred)
+                  0000e2fe    00000018     buck_npu_v15_o2.obj (.bss:edge_requests)
+                  0000e316    00000018     f28p55x_cputimers.obj (.bss)
+                  0000e32e    00000002     --HOLE--
+                  0000e330    00000012     mod.a : lib2.obj (.bss:tinie_sublayers_data)
+                  0000e342    0000000e     buck_npu_v15_o2.obj (.bss:staged)
+                  0000e350    0000000c     rt_nonfinite.obj (.bss)
+                  0000e35c    00000008     buck_load_observer_v15_o2.obj (.bss:i_history)
+                  0000e364    00000008     buck_load_observer_v15_o2.obj (.bss:vo_history)
+                  0000e36c    00000004     buck_npu_v15_o2.obj (.bss:buck_npu_delivery_count)
+                  0000e370    00000004     buck_npu_v15_o2.obj (.bss:delivery_deadline)
+
+.const     0    00080030    00002098     
+                  00080030    00000c00     buck_npu_v15_o2.obj (.const:ndp_golden_normalized)
+                  00080c30    00000900     buck_npu_v15_o2.obj (.const:ndp_golden_raw)
+                  00081530    00000250     mod.a : lib2.obj (.const:GCONV_PARAMS)
+                  00081780    000001d0           : lib2.obj (.const:GCONV_PARAMS_2)
+                  00081950    00000012     ndp_model_io_strict.obj (.const:x_inverse_scale)
+                  00081962    00000012     ndp_model_io_strict.obj (.const:x_mean_hi)
+                  00081974    00000008     ndp_model_io_strict.obj (.const)
+                  0008197c    00000002     buck_ADRC_MBD_NPU_24b.obj (.const)
+                  0008197e    00000002     rtGetNaN.obj (.const)
+                  00081980    000001c0     f28p55x_pievect.obj (.const)
+                  00081b40    00000170     mod.a : lib2.obj (.const:GCONV_PARAMS_1)
+                  00081cb0    000000e0           : lib2.obj (.const:GCONV_iB8_oB8_kB8_iW1_iCm4_oCm8_kHiCd4evenb4_INS)
+                  00081d90    000000c0           : lib2.obj (.const:GCONV_iB8_oB8_kB8_iW1_iCm4_oCm8_kHiCd4oddb3_INS)
+                  00081e50    00000080     buck_npu_v15_o2.obj (.const:ndp_golden_output_all_channels)
+                  00081ed0    00000056     mod.a : lib2.obj (.const:PWCONV_iB8_oB8_kB8_iHiW1_iCm4_oCm4_INS)
+                  00081f26    00000012     ndp_model_io_strict.obj (.const:x_mean_lo)
+                  00081f38    00000008     --HOLE-- [fill = 0]
+                  00081f40    0000004c     mod.a : lib2.obj (.const)
+                  00081f8c    00000042           : lib2.obj (.const:GCONV_MMR)
+                  00081fce    00000042           : lib2.obj (.const:GCONV_MMR_1)
+                  00082010    00000042           : lib2.obj (.const:GCONV_MMR_2)
+                  00082052    00000042           : lib2.obj (.const:PWCONV_MMR)
+                  00082094    00000034           : lib2.obj (.const:PWCONV_PARAMS)
+
+.data      1    0000e528    00000021     UNINITIALIZED
+                  0000e528    0000000c     buck_npu_v15_o2.obj (.data)
+                  0000e534    00000006     rts2800_fpu32_eabi.lib : exit.c.obj (.data)
+                  0000e53a    00000004     buck_npu_compensation_v15_o2.obj (.data)
+                  0000e53e    00000002     rts2800_fpu32_eabi.lib : _lock.c.obj (.data:_lock)
+                  0000e540    00000003     buck_ADRC_MBD_NPU_24b.obj (.data)
+                  0000e543    00000001     MW_c28xGlobalInterrupts.obj (.data)
+                  0000e544    00000002     rts2800_fpu32_eabi.lib : _lock.c.obj (.data:_unlock)
+                  0000e546    00000002     buck_load_observer_v15_o2.obj (.data)
+                  0000e548    00000001     buck_npu_platform.obj (.data)
+
+IQmath     0    0000a800    00000000     UNINITIALIZED
+
+MODULE SUMMARY
+
+       Module                              code    ro data   rw data
+       ------                              ----    -------   -------
+    <current directory>
+       f28p55x_globalvariabledefs.obj      0       0         4667   
+       buck_ADRC_MBD_NPU_24b.obj           2321    2         65     
+       f28p55x_defaultisr.obj              1353    0         0      
+       f28p55x_sysctrl.obj                 922     0         0      
+       f28p55x_pievect.obj                 37      448       0      
+       interrupt.obj                       413     0         0      
+       adc.obj                             412     0         0      
+       buck_npu_sdk_port.obj               345     0         14     
+       buck_npu_platform.obj               328     0         17     
+       MW_c28xx_adc.obj                    324     0         0      
+       MW_c28xx_board.obj                  169     0         0      
+       rt_nonfinite.obj                    146     0         12     
+       f28p55x_cputimers.obj               124     0         24     
+       c28P55xSchedulerTimer0.obj          145     0         0      
+       MW_c28xx_csl.obj                    130     0         0      
+       MW_c28xx_pwm.obj                    99      0         0      
+       ert_main.obj                        80      0         2      
+       rtGetInf.obj                        68      0         0      
+       rtGetNaN.obj                        42      2         0      
+       f28p55x_piectrl.obj                 40      0         0      
+       c28P55xBoard_Realtime_Support.obj   35      0         0      
+       MW_c28xGlobalInterrupts.obj         18      0         1      
+       f28p55x_codestartbranch.obj         10      0         0      
+       f28p55x_usdelay.obj                 8       0         0      
+    +--+-----------------------------------+-------+---------+---------+
+       Total:                              7569    452       4802   
+                                                                    
+    C:\Users\34109\Desktop\delivery_file\F28P55_v16\buck_ADRC_MBD_NPU_24b_ert_rtw\
+       buck_npu_v15_o2.obj                 3235    5504      8530   
+       buck_load_observer_v15_o2.obj       2429    0         464    
+       buck_npu_compensation_v15_o2.obj    1110    0         114    
+       ndp_model_io_strict.obj             156     62        0      
+    +--+-----------------------------------+-------+---------+---------+
+       Total:                              6930    5566      9108   
+                                                                    
+    C:/Users/34109/Desktop/delivery_file/F28P55_v16/mod.a
+       lib2.obj                            233     2318      18     
+       lib1.obj                            356     0         36     
+       tinie_c28.obj                       274     0         0      
+       lib0.obj                            13      32        224    
+       tinie_soft.obj                      179     0         0      
+    +--+-----------------------------------+-------+---------+---------+
+       Total:                              1055    2350      278    
+                                                                    
+    D:/ti/ti-cgt-c2000_22.6.0.LTS/lib/rts2800_fpu32_eabi.lib
+       fd_add28.asm.obj                    156     0         0      
+       fd_mpy28.asm.obj                    131     0         0      
+       s_floorf.c.obj                      89      0         0      
+       exit.c.obj                          41      0         6      
+       copy_decompress_lzss.c.obj          46      0         0      
+       autoinit.c.obj                      43      0         0      
+       fd_tofsfpu32.asm.obj                35      0         0      
+       memcpy.c.obj                        29      0         0      
+       fs_tofdfpu32.asm.obj                28      0         0      
+       boot28.asm.obj                      23      0         0      
+       _lock.c.obj                         9       0         4      
+       args_main.c.obj                     12      0         0      
+       copy_decompress_none.c.obj          8       0         0      
+       memset.c.obj                        7       0         0      
+       copy_zero_init.c.obj                6       0         0      
+       pre_init.c.obj                      2       0         0      
+       startup.c.obj                       1       0         0      
+    +--+-----------------------------------+-------+---------+---------+
+       Total:                              666     0         10     
+                                                                    
+       Stack:                              0       0         1024   
+       Linker Generated:                   0       62        0      
+    +--+-----------------------------------+-------+---------+---------+
+       Grand Total:                        16220   8430      15222  
+
+
+LINKER GENERATED COPY TABLES
+
+__TI_cinit_table @ 00086038 records: 4, size/record: 4, table size: 16
+	.data: load addr=00086008, load size=0000001c bytes, run addr=0000e528, run size=00000021 bytes, compression=lzss
+	.bss: load addr=0008602a, load size=00000004 bytes, run addr=0000c000, run size=00002374 bytes, compression=zero_init
+	.bss.noinit.buck_npu: load addr=0008602e, load size=00000004 bytes, run addr=0000e460, run size=000000c8 bytes, compression=zero_init
+	.bss.noinit.tvm: load addr=00086032, load size=00000004 bytes, run addr=0000e380, run size=000000e0 bytes, compression=zero_init
+
+
+LINKER GENERATED HANDLER TABLE
+
+__TI_handler_table @ 00086024 records: 3, size/record: 2, table size: 6
+	index: 0, handler: __TI_zero_init
+	index: 1, handler: __TI_decompress_lzss
+	index: 2, handler: __TI_decompress_none
+
+
+GLOBAL DATA SYMBOLS: SORTED BY DATA PAGE
+
+address     data page           name
+--------    ----------------    ----
+00000128       4 (00000100)     __stack
+
+00000c00      30 (00000c00)     CpuTimer0Regs
+00000c08      30 (00000c00)     CpuTimer1Regs
+00000c10      30 (00000c00)     CpuTimer2Regs
+
+00000ce0      33 (00000cc0)     PieCtrlRegs
+
+00001800      60 (00001800)     AdcaResultRegs
+
+00001880      62 (00001880)     AdcbResultRegs
+
+00001900      64 (00001900)     AdccResultRegs
+
+00004000     100 (00004000)     EPwm1Regs
+
+00004100     104 (00004100)     EPwm2Regs
+
+00004600     118 (00004600)     EPwm7Regs
+
+00004900     124 (00004900)     EPwm10Regs
+
+00006a00     1a8 (00006a00)     AdccRegs
+
+00006c00     1b0 (00006c00)     AdcdRegs
+
+00006e00     1b8 (00006e00)     AdceRegs
+
+00007000     1c0 (00007000)     WdRegs
+
+00007400     1d0 (00007400)     AdcaRegs
+
+00007600     1d8 (00007600)     AdcbRegs
+
+00007c00     1f0 (00007c00)     GpioCtrlRegs
+
+00007f00     1fc (00007f00)     GpioDataRegs
+
+0000c000     300 (0000c000)     buck_npu_cycle_cache
+
+0000d900     364 (0000d900)     buck_npu_ff_trace
+
+0000de56     379 (0000de40)     buck_npu_phase_last_status
+
+0000de8e     37a (0000de80)     buck_npu_phase_uncertainty_ticks
+
+0000dec0     37b (0000dec0)     buck_load_observer
+0000defe     37b (0000dec0)     buck_npu_delivery_pending
+
+0000df0d     37c (0000df00)     buck_npu_busy
+0000df0e     37c (0000df00)     buck_npu_fault
+0000df0f     37c (0000df00)     buck_npu_replay_edge_kind
+0000df10     37c (0000df00)     buck_npu_hold_valid
+0000df11     37c (0000df00)     buck_npu_prediction_valid
+0000df12     37c (0000df00)     buck_npu_selftest_request
+0000df13     37c (0000df00)     buck_npu_selftest_state
+0000df14     37c (0000df00)     buck_npu_selftest_passed
+0000df15     37c (0000df00)     buck_npu_selftest_failed
+0000df16     37c (0000df00)     buck_npu_phase_permit
+0000df17     37c (0000df00)     buck_npu_ff_trace_request
+0000df18     37c (0000df00)     buck_npu_ff_trace_ready
+0000df19     37c (0000df00)     buck_npu_ff_trace_count
+0000df32     37c (0000df00)     buck_npu_submitted
+0000df34     37c (0000df00)     buck_npu_accepted
+0000df36     37c (0000df00)     buck_npu_dropped
+0000df38     37c (0000df00)     buck_npu_errors
+0000df3a     37c (0000df00)     buck_npu_completed
+0000df3c     37c (0000df00)     buck_npu_late
+0000df3e     37c (0000df00)     buck_npu_mailbox_overrun
+
+0000df40     37d (0000df40)     buck_npu_last_latency_ticks
+0000df42     37d (0000df40)     buck_npu_max_latency_ticks
+0000df44     37d (0000df40)     buck_npu_last_compute_ticks
+0000df46     37d (0000df40)     buck_npu_max_compute_ticks
+0000df48     37d (0000df40)     buck_npu_last_prepare_elapsed_ticks
+0000df4a     37d (0000df40)     buck_npu_max_prepare_elapsed_ticks
+0000df4c     37d (0000df40)     buck_npu_last_preprocess_ticks
+0000df4e     37d (0000df40)     buck_npu_max_preprocess_ticks
+0000df50     37d (0000df40)     buck_npu_comp_cycles_last
+0000df52     37d (0000df40)     buck_npu_comp_cycles_max
+0000df54     37d (0000df40)     buck_npu_comp_edge_cycles_max
+0000df56     37d (0000df40)     buck_npu_comp_regular_cycles_max
+0000df58     37d (0000df40)     buck_npu_edge_requests
+0000df5a     37d (0000df40)     buck_npu_edge_submitted
+0000df5c     37d (0000df40)     buck_npu_edge_published
+0000df5e     37d (0000df40)     buck_npu_edge_request_overrun
+0000df60     37d (0000df40)     buck_npu_edge_window_miss
+0000df62     37d (0000df40)     buck_npu_edge_cache_miss
+0000df64     37d (0000df40)     buck_npu_rise_updates
+0000df66     37d (0000df40)     buck_npu_fall_updates
+0000df68     37d (0000df40)     buck_npu_replay_from_tick
+0000df6a     37d (0000df40)     buck_npu_replay_at_tick
+0000df6c     37d (0000df40)     buck_npu_held_prediction
+0000df6e     37d (0000df40)     buck_npu_last_source_tick
+0000df70     37d (0000df40)     buck_npu_last_target_tick
+0000df72     37d (0000df40)     buck_npu_raw_samples
+0000df74     37d (0000df40)     buck_npu_snapshot_retries
+0000df76     37d (0000df40)     buck_npu_preprocess_late
+0000df78     37d (0000df40)     buck_npu_published
+0000df7a     37d (0000df40)     buck_npu_no_result
+0000df7c     37d (0000df40)     buck_npu_stale_results
+0000df7e     37d (0000df40)     buck_npu_last_prediction
+
+0000df80     37e (0000df80)     buck_npu_selftest_max_input_error
+0000df82     37e (0000df80)     buck_npu_selftest_max_output_error
+0000df84     37e (0000df80)     buck_npu_phase_estimated
+0000df86     37e (0000df80)     buck_npu_phase_rejected
+0000df88     37e (0000df80)     buck_npu_phase_bypassed
+0000df8a     37e (0000df80)     buck_npu_phase_snapshot_miss
+0000df8c     37e (0000df80)     buck_npu_phase_confirm_overrun
+0000df8e     37e (0000df80)     buck_npu_schedule_armed
+0000df90     37e (0000df80)     buck_npu_schedule_missed
+0000df92     37e (0000df80)     buck_npu_schedule_fired
+0000df94     37e (0000df80)     buck_npu_schedule_cancelled
+0000df96     37e (0000df80)     buck_npu_schedule_bad_pair
+0000df98     37e (0000df80)     buck_npu_delivery_suppressed
+0000df9a     37e (0000df80)     buck_npu_delivery_timeout
+0000df9c     37e (0000df80)     buck_npu_phase_observed_while_pending
+0000df9e     37e (0000df80)     buck_npu_phase_deferred_stale
+
+0000e132     384 (0000e100)     buck_npu_irq_pending
+0000e134     384 (0000e100)     buck_npu_irq_count
+0000e136     384 (0000e100)     buck_npu_irq_serviced
+0000e138     384 (0000e100)     buck_npu_irq_overrun
+0000e13a     384 (0000e100)     buck_npu_irq_context_errors
+0000e13c     384 (0000e100)     buck_npu_irq_binding_errors
+0000e13e     384 (0000e100)     buck_npu_irq_unexpected
+
+0000e140     385 (0000e140)     buck_npu_comp_active
+0000e141     385 (0000e140)     buck_npu_comp_state
+0000e142     385 (0000e140)     buck_npu_comp_edge_kind
+0000e143     385 (0000e140)     buck_npu_comp_config_fault
+0000e144     385 (0000e140)     buck_npu_comp_effective_window
+0000e145     385 (0000e140)     buck_npu_comp_total_ticks
+0000e146     385 (0000e140)     buck_npu_comp_latched_period_ticks
+0000e147     385 (0000e140)     buck_npu_comp_latched_lead_ticks
+0000e148     385 (0000e140)     buck_npu_comp_exit_reason
+0000e14c     385 (0000e140)     buck_npu_comp_delta_a
+0000e14e     385 (0000e140)     buck_npu_comp_innovation_vps
+0000e150     385 (0000e140)     buck_npu_comp_weight
+0000e152     385 (0000e140)     buck_npu_comp_latched_delta_a
+0000e154     385 (0000e140)     buck_npu_comp_source_prediction_vps
+0000e156     385 (0000e140)     buck_npu_comp_ref_z2_vps
+0000e158     385 (0000e140)     buck_npu_comp_latched_innovation_vps
+0000e15a     385 (0000e140)     buck_npu_comp_takeover_raw
+0000e15c     385 (0000e140)     buck_npu_comp_takeover_filtered
+0000e15e     385 (0000e140)     buck_npu_comp_takeover
+0000e160     385 (0000e140)     buck_npu_comp_z2_pre_vps
+0000e162     385 (0000e140)     buck_npu_comp_baseline_iref_a
+0000e164     385 (0000e140)     buck_npu_comp_final_iref_a
+0000e166     385 (0000e140)     buck_npu_comp_applied_delta_i_a
+0000e168     385 (0000e140)     buck_npu_comp_age_ticks
+0000e16a     385 (0000e140)     buck_npu_comp_event_tick
+0000e16c     385 (0000e140)     buck_npu_comp_estimated_edge_tick
+0000e16e     385 (0000e140)     buck_npu_comp_command_start_tick
+0000e170     385 (0000e140)     buck_npu_comp_updates
+0000e172     385 (0000e140)     buck_npu_comp_config_reject
+0000e174     385 (0000e140)     buck_npu_comp_event_reject
+0000e176     385 (0000e140)     buck_npu_comp_config_changes
+0000e178     385 (0000e140)     buck_npu_comp_finished_window
+0000e17a     385 (0000e140)     buck_npu_comp_finished_handoff
+0000e17c     385 (0000e140)     buck_npu_comp_forced_window
+0000e17e     385 (0000e140)     buck_npu_comp_window_overlaps
+
+0000e180     386 (0000e180)     buck_npu_comp_arm_reject
+0000e182     386 (0000e180)     buck_npu_comp_direction_reject
+0000e184     386 (0000e180)     buck_npu_comp_small_signal_reject
+0000e1b0     386 (0000e180)     buck_ctrl_interval_last_cycles
+0000e1b2     386 (0000e180)     buck_ctrl_interval_min_cycles
+0000e1b4     386 (0000e180)     buck_ctrl_interval_max_cycles
+0000e1b6     386 (0000e180)     buck_ctrl_late_intervals
+0000e1b8     386 (0000e180)     buck_ctrl_adc_overflows
+0000e1ba     386 (0000e180)     buck_ctrl_timing_samples
+0000e1be     386 (0000e180)     stopRequested
+0000e1bf     386 (0000e180)     runModel
+
+0000e1c0     387 (0000e1c0)     IL1
+0000e1c2     387 (0000e1c0)     IL2
+0000e1c4     387 (0000e1c0)     IL3
+0000e1c6     387 (0000e1c0)     IL4
+0000e1c8     387 (0000e1c0)     Vout
+0000e1ca     387 (0000e1c0)     Vin
+0000e1cc     387 (0000e1c0)     enable
+0000e1ce     387 (0000e1c0)     wc
+0000e1d0     387 (0000e1c0)     wo
+0000e1d2     387 (0000e1c0)     b0
+0000e1d4     387 (0000e1c0)     alpha
+0000e1d8     387 (0000e1c0)     buck_ADRC_MBD_NPU_24b_B
+0000e1e4     387 (0000e1c0)     buck_ADRC_MBD_NPU_24b_DW
+0000e1fe     387 (0000e1c0)     buck_npu_phase_status
+
+0000e296     38a (0000e280)     tvmgen_default_finished
+
+0000e316     38c (0000e300)     CpuTimer0
+0000e31e     38c (0000e300)     CpuTimer1
+0000e326     38c (0000e300)     CpuTimer2
+
+0000e350     38d (0000e340)     rtInf
+0000e352     38d (0000e340)     rtMinusInf
+0000e354     38d (0000e340)     rtNaN
+0000e356     38d (0000e340)     rtInfF
+0000e358     38d (0000e340)     rtMinusInfF
+0000e35a     38d (0000e340)     rtNaNF
+0000e36c     38d (0000e340)     buck_npu_delivery_count
+
+0000e529     394 (0000e500)     buck_npu_run_enable
+0000e52a     394 (0000e500)     buck_npu_io_revision
+0000e52b     394 (0000e500)     buck_npu_lead_rise_ticks
+0000e52c     394 (0000e500)     buck_npu_lead_fall_ticks
+0000e52d     394 (0000e500)     buck_npu_pre_edge_ticks
+0000e52e     394 (0000e500)     buck_npu_post_edge_ticks
+0000e534     394 (0000e500)     __TI_enable_exit_profile_output
+0000e536     394 (0000e500)     __TI_cleanup_ptr
+0000e538     394 (0000e500)     __TI_dtors_ptr
+0000e53a     394 (0000e500)     buck_npu_comp_attack_ticks
+0000e53b     394 (0000e500)     buck_npu_comp_fade_ticks
+0000e53c     394 (0000e500)     buck_npu_comp_limit_a
+0000e53e     394 (0000e500)     _lock
+
+0000e540     395 (0000e540)     MW_adcAInitFlag
+0000e541     395 (0000e540)     MW_adcCInitFlag
+0000e542     395 (0000e540)     MW_adcBInitFlag
+0000e543     395 (0000e540)     MW_InterruptDisableLock
+0000e544     395 (0000e540)     _unlock
+0000e546     395 (0000e540)     buck_load_edge_threshold_a
+0000e548     395 (0000e540)     buck_ctrl_timing_reset
+
+0005d200    1748 (0005d200)     ClkCfgRegs
+
+0005d300    174c (0005d300)     CpuSysRegs
+
+0005d700    175c (0005d700)     AnalogSubsysRegs
+
+0005e700    179c (0005e700)     Dcc0Regs
+
+0005e740    179d (0005e740)     Dcc1Regs
+
+0005f800    17e0 (0005f800)     Flash0CtrlRegs
+
+0005fb00    17ec (0005fb00)     Flash0EccRegs
+
+0008197c    2065 (00081940)     buck_ADRC_MBD_NPU_24b_M
+
+00081980    2066 (00081980)     PieVectTableInit
+
+
+GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
+
+page  address   name                                             
+----  -------   ----                                             
+0     000840e0  ADCA1_ISR                                        
+0     0008431a  ADCA2_ISR                                        
+0     00084324  ADCA3_ISR                                        
+0     00085b6a  ADCA4_INT_isr                                    
+0     0008432e  ADCA4_ISR                                        
+0     00084310  ADCA_EVT_ISR                                     
+0     000840ea  ADCB1_ISR                                        
+0     00084342  ADCB2_ISR                                        
+0     0008434c  ADCB3_ISR                                        
+0     00084356  ADCB4_ISR                                        
+0     00084338  ADCB_EVT_ISR                                     
+0     000840f4  ADCC1_ISR                                        
+0     000844d2  ADCC2_ISR                                        
+0     000844dc  ADCC3_ISR                                        
+0     000844e6  ADCC4_ISR                                        
+0     000844c8  ADCC_EVT_ISR                                     
+0     000843f6  ADCD1_ISR                                        
+0     000844fa  ADCD2_ISR                                        
+0     00084504  ADCD3_ISR                                        
+0     0008450e  ADCD4_ISR                                        
+0     000844f0  ADCD_EVT_ISR                                     
+0     00084400  ADCE1_ISR                                        
+0     00084522  ADCE2_ISR                                        
+0     0008452c  ADCE3_ISR                                        
+0     00084536  ADCE4_ISR                                        
+0     00084518  ADCE_EVT_ISR                                     
+0     00084e8d  ADC_configPPBFilter                              
+0     00084e3d  ADC_configureRepeater                            
+0     00084d2e  ADC_setINLTrim                                   
+0     00084d8a  ADC_setOffsetTrim                                
+0     00084e07  ADC_setPPBTripLimits                             
+0     00084dd2  ADC_setVREF                                      
+0     00084540  AES_SINTREQUEST_ISR                              
+1     00007400  AdcaRegs                                         
+1     00001800  AdcaResultRegs                                   
+1     00007600  AdcbRegs                                         
+1     00001880  AdcbResultRegs                                   
+1     00006a00  AdccRegs                                         
+1     00001900  AdccResultRegs                                   
+1     00006c00  AdcdRegs                                         
+1     00006e00  AdceRegs                                         
+1     0005d700  AnalogSubsysRegs                                 
+0     00085dd7  C$$EXIT                                          
+0     00084360  CLA1_1_ISR                                       
+0     0008436a  CLA1_2_ISR                                       
+0     00084374  CLA1_3_ISR                                       
+0     0008437e  CLA1_4_ISR                                       
+0     00084388  CLA1_5_ISR                                       
+0     00084392  CLA1_6_ISR                                       
+0     0008439c  CLA1_7_ISR                                       
+0     000843a6  CLA1_8_ISR                                       
+0     00084202  CLB1_ISR                                         
+0     0008420c  CLB2_ISR                                         
+1     0005d200  ClkCfgRegs                                       
+0     00084ca4  ComputeCntrSeedValue                             
+0     0008594e  ConfigCpuTimer                                   
+1     0005d300  CpuSysRegs                                       
+1     0000e316  CpuTimer0                                        
+1     00000c00  CpuTimer0Regs                                    
+1     0000e31e  CpuTimer1                                        
+1     00000c08  CpuTimer1Regs                                    
+1     0000e326  CpuTimer2                                        
+1     00000c10  CpuTimer2Regs                                    
+0     00084036  DATALOG_ISR                                      
+0     0008423e  DCC0_ISR                                         
+0     00084248  DCC1_ISR                                         
+0     00084252  DMA_CH1_ISR                                      
+0     0008425c  DMA_CH2_ISR                                      
+0     00084266  DMA_CH3_ISR                                      
+0     00084270  DMA_CH4_ISR                                      
+0     0008427a  DMA_CH5_ISR                                      
+0     00084284  DMA_CH6_ISR                                      
+1     0005e700  Dcc0Regs                                         
+1     0005e740  Dcc1Regs                                         
+0     00084a78  DisableDog                                       
+0     00084a51  DisablePeripheralClocks                          
+0     000841d0  ECAP1_ISR                                        
+0     000841da  ECAP2_ISR                                        
+0     00084554  EMPTY_ISR                                        
+0     0008404a  EMU_ISR                                          
+0     0008443c  EPWM10_ISR                                       
+0     00084414  EPWM10_TZ_ISR                                    
+0     00084446  EPWM11_ISR                                       
+0     0008441e  EPWM11_TZ_ISR                                    
+0     00084450  EPWM12_ISR                                       
+0     00084428  EPWM12_TZ_ISR                                    
+0     00084180  EPWM1_ISR                                        
+0     00084130  EPWM1_TZ_ISR                                     
+0     0008418a  EPWM2_ISR                                        
+0     0008413a  EPWM2_TZ_ISR                                     
+0     00084194  EPWM3_ISR                                        
+0     00084144  EPWM3_TZ_ISR                                     
+0     0008419e  EPWM4_ISR                                        
+0     0008414e  EPWM4_TZ_ISR                                     
+0     000841a8  EPWM5_ISR                                        
+0     00084158  EPWM5_TZ_ISR                                     
+0     000841b2  EPWM6_ISR                                        
+0     00084162  EPWM6_TZ_ISR                                     
+0     000841bc  EPWM7_ISR                                        
+0     0008416c  EPWM7_TZ_ISR                                     
+0     000841c6  EPWM8_ISR                                        
+0     00084176  EPWM8_TZ_ISR                                     
+0     00084432  EPWM9_ISR                                        
+0     0008440a  EPWM9_TZ_ISR                                     
+1     00004900  EPwm10Regs                                       
+1     00004000  EPwm1Regs                                        
+1     00004100  EPwm2Regs                                        
+1     00004600  EPwm7Regs                                        
+0     000841e4  EQEP1_ISR                                        
+0     000841ee  EQEP2_ISR                                        
+0     000841f8  EQEP3_ISR                                        
+0     00085e1f  EnableInterrupts                                 
+0     0000a81f  F28x_usDelay                                     
+0     000843ce  FLSS_ISR                                         
+0     0008446e  FSIRXA1_ISR                                      
+0     00084478  FSIRXA2_ISR                                      
+0     0008445a  FSITXA1_ISR                                      
+0     00084464  FSITXA2_ISR                                      
+1     0005f800  Flash0CtrlRegs                                   
+1     0005fb00  Flash0EccRegs                                    
+0     00081cb0  GCONV_iB8_oB8_kB8_iW1_iCm4_oCm8_kHiCd4evenb4_INS 
+0     00081d90  GCONV_iB8_oB8_kB8_iW1_iCm4_oCm8_kHiCd4oddb3_INS  
+1     00007c00  GpioCtrlRegs                                     
+1     00007f00  GpioDataRegs                                     
+0     00084bec  HALT                                             
+0     000842a2  I2CA_FIFO_ISR                                    
+0     00084298  I2CA_ISR                                         
+0     000842b6  I2CB_FIFO_ISR                                    
+0     000842ac  I2CB_ISR                                         
+0     00084be3  IDLE                                             
+1     0000e1c0  IL1                                              
+1     0000e1c2  IL2                                              
+1     0000e1c4  IL3                                              
+1     0000e1c6  IL4                                              
+0     0008405e  ILLEGAL_ISR                                      
+abs   00000000  IQMathfuncsLoadSize                              
+0     0000a800  IQMathfuncsLoadStart                             
+0     0000a800  IQMathfuncsRunStart                              
+0     0008527f  InitAdcA                                         
+0     00085292  InitAdcB                                         
+0     000852a5  InitAdcC                                         
+0     0008590d  InitCpuTimers                                    
+0     0000a800  InitFlash                                        
+0     000849d6  InitPeripheralClocks                             
+0     00085e00  InitPieCtrl                                      
+0     00085e28  InitPieVectTable                                 
+0     000849c1  InitSysCtrl                                      
+0     00084a85  InitSysPll                                       
+0     00085d59  Interrupt_defaultHandler                         
+0     00084fde  Interrupt_disable                                
+0     00084fa7  Interrupt_enable                                 
+0     00085d6f  Interrupt_illegalOperationHandler                
+0     00084f4c  Interrupt_initModule                             
+0     00084f89  Interrupt_initVectorTable                        
+0     00085d79  Interrupt_nmiHandler                             
+0     00084bfd  IsPLLValid                                       
+0     00084482  LINA_0_ISR                                       
+0     0008448c  LINA_1_ISR                                       
+0     000842fc  MCANA_0_ISR                                      
+0     00084306  MCANA_1_ISR                                      
+0     000843ec  MCANA_ECC_ISR                                    
+0     000843e2  MCANA_WAKE_ISR                                   
+0     00084496  MCANB_0_ISR                                      
+0     000844a0  MCANB_1_ISR                                      
+0     000844b4  MCANB_ECC_ISR                                    
+0     000844aa  MCANB_WAKE_ISR                                   
+1     0000e543  MW_InterruptDisableLock                          
+0     0000a800  MW_RamfuncsLoadEnd                               
+abs   00000000  MW_RamfuncsLoadSize                              
+0     0000a800  MW_RamfuncsLoadStart                             
+0     0000a800  MW_RamfuncsRunEnd                                
+abs   00000000  MW_RamfuncsRunSize                               
+0     0000a800  MW_RamfuncsRunStart                              
+0     00085c79  MW_SetVREF                                       
+1     0000e540  MW_adcAInitFlag                                  
+1     0000e542  MW_adcBInitFlag                                  
+1     0000e541  MW_adcCInitFlag                                  
+0     00084054  NMI_ISR                                          
+0     00084561  NOTUSED_ISR                                      
+0     000853e3  NPU_clearInterruptACK                            
+0     000853dd  NPU_enableInterrupt                              
+0     00085fff  NPU_getCtlReg                                    
+0     000852e7  NPU_setInstrMem                                  
+0     000853b1  NPU_setInterruptHandler                          
+0     00085334  NPU_setParamMem                                  
+0     0008454a  PIE_RESERVED_ISR                                 
+0     0008428e  PMBUSA_ISR                                       
+0     00081ed0  PWCONV_iB8_oB8_kB8_iHiW1_iCm4_oCm4_INS           
+1     00000ce0  PieCtrlRegs                                      
+0     00000d00  PieVectTable                                     
+0     00081980  PieVectTableInit                                 
+0     00084040  RTOS_ISR                                         
+0     0008002b  RamfuncsLoadEnd                                  
+abs   00000023  RamfuncsLoadSize                                 
+0     00080008  RamfuncsLoadStart                                
+0     0000a823  RamfuncsRunEnd                                   
+abs   00000023  RamfuncsRunSize                                  
+0     0000a800  RamfuncsRunStart                                 
+0     000842d4  SCIA_RX_ISR                                      
+0     000842de  SCIA_TX_ISR                                      
+0     000842e8  SCIB_RX_ISR                                      
+0     000842f2  SCIB_TX_ISR                                      
+0     000842c0  SCIC_RX_ISR                                      
+0     000842ca  SCIC_TX_ISR                                      
+0     00084216  SPIA_RX_ISR                                      
+0     00084220  SPIA_TX_ISR                                      
+0     0008422a  SPIB_RX_ISR                                      
+0     00084234  SPIB_TX_ISR                                      
+0     00084112  SYS_ERR_ISR                                      
+0     00084a6b  ServiceDog                                       
+0     00084b83  SysIntOsc1Sel                                    
+0     00084b8c  SysIntOsc2Sel                                    
+0     00084bce  SysXtalOscSESel                                  
+0     00084bae  SysXtalOscSel                                    
+0     0008411c  TIMER0_ISR                                       
+0     00084022  TIMER1_ISR                                       
+0     0008402c  TIMER2_ISR                                       
+0     000853e3  TINIE_clearInterruptACK                          
+0     000854dc  TINIE_layoutTransform                            
+0     000853b1  TINIE_registerInterrupt                          
+0     00085f5e  TINIE_setup                                      
+0     00085ff3  TINIE_start                                      
+0     00085ae2  TINT0_isr                                        
+0     000844be  USBA_ISR                                         
+0     000840c2  USER10_ISR                                       
+0     000840cc  USER11_ISR                                       
+0     000840d6  USER12_ISR                                       
+0     00084068  USER1_ISR                                        
+0     00084072  USER2_ISR                                        
+0     0008407c  USER3_ISR                                        
+0     00084086  USER4_ISR                                        
+0     00084090  USER5_ISR                                        
+0     0008409a  USER6_ISR                                        
+0     000840a4  USER7_ISR                                        
+0     000840ae  USER8_ISR                                        
+0     000840b8  USER9_ISR                                        
+0     000843d8  VCU_ISR                                          
+1     0000e1ca  Vin                                              
+1     0000e1c8  Vout                                             
+0     00084126  WAKE_ISR                                         
+1     00007000  WdRegs                                           
+0     000840fe  XINT1_ISR                                        
+0     00084108  XINT2_ISR                                        
+0     000843b0  XINT3_ISR                                        
+0     000843ba  XINT4_ISR                                        
+0     000843c4  XINT5_ISR                                        
+0     00086038  __TI_CINIT_Base                                  
+0     00086048  __TI_CINIT_Limit                                 
+0     00086048  __TI_CINIT_Warm                                  
+0     00086024  __TI_Handler_Table_Base                          
+0     0008602a  __TI_Handler_Table_Limit                         
+1     00000528  __TI_STACK_END                                   
+abs   00000400  __TI_STACK_SIZE                                  
+0     00085d03  __TI_auto_init_nobinit_nopinit                   
+1     0000e536  __TI_cleanup_ptr                                 
+0     00085ca8  __TI_decompress_lzss                             
+0     00085fdc  __TI_decompress_none                             
+1     0000e538  __TI_dtors_ptr                                   
+1     0000e534  __TI_enable_exit_profile_output                  
+abs   ffffffff  __TI_pprof_out_hndl                              
+abs   ffffffff  __TI_prof_data_size                              
+abs   ffffffff  __TI_prof_data_start                             
+0     00085ff9  __TI_zero_init                                   
+0     000856d4  __c28xabi_addd                                   
+0     00085e95  __c28xabi_dtof                                   
+0     00085ef1  __c28xabi_ftod                                   
+0     0008588a  __c28xabi_mpyd                                   
+n/a   UNDEFED   __c_args__                                       
+1     00000128  __stack                                          
+0     00085fbe  _args_main                                       
+0     00085f77  _c_int00                                         
+1     0000e53e  _lock                                            
+0     00085fd2  _nop                                             
+0     00085fce  _register_lock                                   
+0     00085fca  _register_unlock                                 
+0     00082d93  _system_post_cinit                               
+0     00086003  _system_pre_init                                 
+1     0000e544  _unlock                                          
+0     00085dd7  abort                                            
+1     0000e1d4  alpha                                            
+1     0000e1d2  b0                                               
+1     0000e1d8  buck_ADRC_MBD_NPU_24b_B                          
+1     0000e1e4  buck_ADRC_MBD_NPU_24b_DW                         
+0     0008197c  buck_ADRC_MBD_NPU_24b_M                          
+0     00083d23  buck_ADRC_MBD_NPU_24b_initialize                 
+0     00084021  buck_ADRC_MBD_NPU_24b_terminate                  
+1     0000e1b8  buck_ctrl_adc_overflows                          
+1     0000e1b0  buck_ctrl_interval_last_cycles                   
+1     0000e1b4  buck_ctrl_interval_max_cycles                    
+1     0000e1b2  buck_ctrl_interval_min_cycles                    
+1     0000e1b6  buck_ctrl_late_intervals                         
+1     0000e548  buck_ctrl_timing_reset                           
+1     0000e1ba  buck_ctrl_timing_samples                         
+1     0000e546  buck_load_edge_threshold_a                       
+1     0000dec0  buck_load_observer                               
+0     000835ad  buck_load_observer_step                          
+1     0000df34  buck_npu_accepted                                
+0     00082cfd  buck_npu_apply_prediction                        
+0     00082c43  buck_npu_begin                                   
+1     0000df0d  buck_npu_busy                                    
+0     00082a67  buck_npu_commit                                  
+1     0000e140  buck_npu_comp_active                             
+1     0000e168  buck_npu_comp_age_ticks                          
+1     0000e166  buck_npu_comp_applied_delta_i_a                  
+1     0000e180  buck_npu_comp_arm_reject                         
+1     0000e53a  buck_npu_comp_attack_ticks                       
+1     0000e162  buck_npu_comp_baseline_iref_a                    
+1     0000e16e  buck_npu_comp_command_start_tick                 
+1     0000e176  buck_npu_comp_config_changes                     
+1     0000e143  buck_npu_comp_config_fault                       
+1     0000e172  buck_npu_comp_config_reject                      
+1     0000df50  buck_npu_comp_cycles_last                        
+1     0000df52  buck_npu_comp_cycles_max                         
+1     0000e14c  buck_npu_comp_delta_a                            
+1     0000e182  buck_npu_comp_direction_reject                   
+1     0000df54  buck_npu_comp_edge_cycles_max                    
+1     0000e142  buck_npu_comp_edge_kind                          
+1     0000e144  buck_npu_comp_effective_window                   
+1     0000e16c  buck_npu_comp_estimated_edge_tick                
+1     0000e174  buck_npu_comp_event_reject                       
+1     0000e16a  buck_npu_comp_event_tick                         
+1     0000e148  buck_npu_comp_exit_reason                        
+1     0000e53b  buck_npu_comp_fade_ticks                         
+1     0000e164  buck_npu_comp_final_iref_a                       
+1     0000e17a  buck_npu_comp_finished_handoff                   
+1     0000e178  buck_npu_comp_finished_window                    
+1     0000e17c  buck_npu_comp_forced_window                      
+1     0000e14e  buck_npu_comp_innovation_vps                     
+1     0000e152  buck_npu_comp_latched_delta_a                    
+1     0000e158  buck_npu_comp_latched_innovation_vps             
+1     0000e147  buck_npu_comp_latched_lead_ticks                 
+1     0000e146  buck_npu_comp_latched_period_ticks               
+1     0000e53c  buck_npu_comp_limit_a                            
+1     0000e156  buck_npu_comp_ref_z2_vps                         
+1     0000df56  buck_npu_comp_regular_cycles_max                 
+1     0000e184  buck_npu_comp_small_signal_reject                
+1     0000e154  buck_npu_comp_source_prediction_vps              
+1     0000e141  buck_npu_comp_state                              
+1     0000e15e  buck_npu_comp_takeover                           
+1     0000e15c  buck_npu_comp_takeover_filtered                  
+1     0000e15a  buck_npu_comp_takeover_raw                       
+1     0000e145  buck_npu_comp_total_ticks                        
+1     0000e170  buck_npu_comp_updates                            
+1     0000e150  buck_npu_comp_weight                             
+1     0000e17e  buck_npu_comp_window_overlaps                    
+1     0000e160  buck_npu_comp_z2_pre_vps                         
+0     000849b8  buck_npu_compensation_arm                        
+0     00084979  buck_npu_compensation_reset                      
+0     00084740  buck_npu_compensation_step                       
+1     0000df3a  buck_npu_completed                               
+0     000850d7  buck_npu_control_timing_sample                   
+1     0000c000  buck_npu_cycle_cache                             
+0     00085381  buck_npu_deferred_service                        
+1     0000e36c  buck_npu_delivery_count                          
+1     0000defe  buck_npu_delivery_pending                        
+1     0000df98  buck_npu_delivery_suppressed                     
+1     0000df9a  buck_npu_delivery_timeout                        
+1     0000df36  buck_npu_dropped                                 
+1     0000df62  buck_npu_edge_cache_miss                         
+1     0000df5c  buck_npu_edge_published                          
+1     0000df5e  buck_npu_edge_request_overrun                    
+1     0000df58  buck_npu_edge_requests                           
+1     0000df5a  buck_npu_edge_submitted                          
+1     0000df60  buck_npu_edge_window_miss                        
+1     0000df38  buck_npu_errors                                  
+1     0000df66  buck_npu_fall_updates                            
+1     0000df0e  buck_npu_fault                                   
+1     0000d900  buck_npu_ff_trace                                
+1     0000df19  buck_npu_ff_trace_count                          
+1     0000df18  buck_npu_ff_trace_ready                          
+1     0000df17  buck_npu_ff_trace_request                        
+1     0000df6c  buck_npu_held_prediction                         
+1     0000df10  buck_npu_hold_valid                              
+1     0000e52a  buck_npu_io_revision                             
+1     0000e13c  buck_npu_irq_binding_errors                      
+1     0000e13a  buck_npu_irq_context_errors                      
+1     0000e134  buck_npu_irq_count                               
+1     0000e138  buck_npu_irq_overrun                             
+1     0000e132  buck_npu_irq_pending                             
+1     0000e136  buck_npu_irq_serviced                            
+1     0000e13e  buck_npu_irq_unexpected                          
+1     0000df44  buck_npu_last_compute_ticks                      
+1     0000df40  buck_npu_last_latency_ticks                      
+1     0000df7e  buck_npu_last_prediction                         
+1     0000df48  buck_npu_last_prepare_elapsed_ticks              
+1     0000df4c  buck_npu_last_preprocess_ticks                   
+1     0000df6e  buck_npu_last_source_tick                        
+1     0000df70  buck_npu_last_target_tick                        
+1     0000df3c  buck_npu_late                                    
+1     0000e52c  buck_npu_lead_fall_ticks                         
+1     0000e52b  buck_npu_lead_rise_ticks                         
+1     0000df3e  buck_npu_mailbox_overrun                         
+0     000829e0  buck_npu_mark_ready                              
+1     0000df46  buck_npu_max_compute_ticks                       
+1     0000df42  buck_npu_max_latency_ticks                       
+1     0000df4a  buck_npu_max_prepare_elapsed_ticks               
+1     0000df4e  buck_npu_max_preprocess_ticks                    
+1     0000df7a  buck_npu_no_result                               
+1     0000df88  buck_npu_phase_bypassed                          
+1     0000df8c  buck_npu_phase_confirm_overrun                   
+1     0000df9e  buck_npu_phase_deferred_stale                    
+0     00082e4b  buck_npu_phase_estimate                          
+1     0000df84  buck_npu_phase_estimated                         
+1     0000de56  buck_npu_phase_last_status                       
+1     0000df9c  buck_npu_phase_observed_while_pending            
+1     0000df16  buck_npu_phase_permit                            
+1     0000df86  buck_npu_phase_rejected                          
+1     0000df8a  buck_npu_phase_snapshot_miss                     
+1     0000e1fe  buck_npu_phase_status                            
+1     0000de8e  buck_npu_phase_uncertainty_ticks                 
+0     00085125  buck_npu_platform_init                           
+1     0000e52e  buck_npu_post_edge_ticks                         
+1     0000e52d  buck_npu_pre_edge_ticks                          
+1     0000df11  buck_npu_prediction_valid                        
+1     0000df76  buck_npu_preprocess_late                         
+1     0000df78  buck_npu_published                               
+1     0000df72  buck_npu_raw_samples                             
+1     0000df6a  buck_npu_replay_at_tick                          
+1     0000df0f  buck_npu_replay_edge_kind                        
+1     0000df68  buck_npu_replay_from_tick                        
+1     0000df64  buck_npu_rise_updates                            
+1     0000e529  buck_npu_run_enable                              
+1     0000df8e  buck_npu_schedule_armed                          
+1     0000df96  buck_npu_schedule_bad_pair                       
+1     0000df94  buck_npu_schedule_cancelled                      
+1     0000df92  buck_npu_schedule_fired                          
+1     0000df90  buck_npu_schedule_missed                         
+1     0000df15  buck_npu_selftest_failed                         
+1     0000df80  buck_npu_selftest_max_input_error                
+1     0000df82  buck_npu_selftest_max_output_error               
+1     0000df14  buck_npu_selftest_passed                         
+1     0000df12  buck_npu_selftest_request                        
+1     0000df13  buck_npu_selftest_state                          
+0     0008281f  buck_npu_service                                 
+0     00085e4d  buck_npu_short_isr                               
+1     0000df74  buck_npu_snapshot_retries                        
+1     0000df7c  buck_npu_stale_results                           
+1     0000df32  buck_npu_submitted                               
+0     00085e72  c2000_flash_init                                 
+0     00080000  code_start                                       
+0     00085174  config_ADCA_SOC0                                 
+0     0008524f  config_ADCA_SOC1                                 
+0     000851cb  config_ADCB_SOC0                                 
+0     000851f9  config_ADCB_SOC1                                 
+0     0008521f  config_ADCC_SOC0                                 
+0     0008519d  config_ADCC_SOC1                                 
+0     000859d5  config_ePWMSyncSource                            
+0     00085989  config_ePWM_GPIO                                 
+0     000859c6  config_ePWM_TBSync                               
+0     00085a95  configureTimer0                                  
+0     00085ac1  disableTimer0Interrupt                           
+0     00085ed5  disableWatchdog                                  
+1     0000e1cc  enable                                           
+0     00085ab9  enableTimer0Interrupt                            
+0     00085ee0  enable_interrupts                                
+0     00085dd9  exit                                             
+0     000859ec  floorf                                           
+0     00085f98  globalInterruptDisable                           
+0     00085f8e  globalInterruptEnable                            
+0     00085635  initBoardEnd                                     
+0     0008558f  init_board                                       
+0     00083711  isr_int10pie4_task_fcn                           
+0     00085a46  main                                             
+0     00085eb8  memcpy                                           
+0     00085fec  memset                                           
+0     0008567d  ndp_prepare_window                               
+0     00085649  ndp_restore_residual                             
+0     00085ad7  restoreTimer0Interrupt                           
+0     00085b26  rtGetInf                                         
+0     00085b3f  rtGetInfF                                        
+0     00085b48  rtGetMinusInf                                    
+0     00085b61  rtGetMinusInfF                                   
+0     00085d83  rtGetNaN                                         
+0     00085d9c  rtGetNaNF                                        
+1     0000e350  rtInf                                            
+1     0000e356  rtInfF                                           
+0     00085798  rtIsInf                                          
+0     000857b0  rtIsInfF                                         
+0     000857c8  rtIsNaN                                          
+0     000857eb  rtIsNaNF                                         
+1     0000e352  rtMinusInf                                       
+1     0000e358  rtMinusInfF                                      
+1     0000e354  rtNaN                                            
+1     0000e35a  rtNaNF                                           
+0     00085770  rt_InitInfAndNaN                                 
+0     00085a45  rt_OneStep                                       
+1     0000e1bf  runModel                                         
+1     0000e1be  stopRequested                                    
+1     0000e28e  tinie_curr_layer                                 
+1     0000e290  tinie_curr_sublayer                              
+1     0000e292  tinie_num_sublayers                              
+0     00085f0d  tinie_sublayer_IRQHandler                        
+1     0000e294  tinie_sublayer_postproc                          
+1     0000e298  tinie_sublayers                                  
+0     00085cd6  tvmgen_default_IRQHandler                        
+0     00085802  tvmgen_default_IRQHandlerHelper                  
+0     00085d2e  tvmgen_default___tvm_main__                      
+1     0000e296  tvmgen_default_finished                          
+0     00085f44  tvmgen_default_fused_cast_multiply_reshape       
+0     00085dad  tvmgen_default_fused_multiply_add_floor_clip_cast
+0     00085fd3  tvmgen_default_fused_tinie_c28_pack              
+0     00085f29  tvmgen_default_fused_tinie_c28_unpack            
+0     00085fb1  tvmgen_default_run                               
+0     00085ba1  tvmgen_default_ti_npu_convolve1x1NHWC_4          
+0     00085bd7  tvmgen_default_ti_npu_convolveNHWC_1             
+0     00085c0d  tvmgen_default_ti_npu_convolveNHWC_2             
+0     00085c43  tvmgen_default_ti_npu_convolveNHWC_3             
+0     00085fa0  tvmgen_default_ti_npu_layoutTransform_0          
+1     0000e1ce  wc                                               
+1     0000e1d0  wo                                               
+
+
+GLOBAL SYMBOLS: SORTED BY Symbol Address 
+
+page  address   name                                             
+----  -------   ----                                             
+0     00000d00  PieVectTable                                     
+0     0000a800  IQMathfuncsLoadStart                             
+0     0000a800  IQMathfuncsRunStart                              
+0     0000a800  InitFlash                                        
+0     0000a800  MW_RamfuncsLoadEnd                               
+0     0000a800  MW_RamfuncsLoadStart                             
+0     0000a800  MW_RamfuncsRunEnd                                
+0     0000a800  MW_RamfuncsRunStart                              
+0     0000a800  RamfuncsRunStart                                 
+0     0000a81f  F28x_usDelay                                     
+0     0000a823  RamfuncsRunEnd                                   
+0     00080000  code_start                                       
+0     00080008  RamfuncsLoadStart                                
+0     0008002b  RamfuncsLoadEnd                                  
+0     0008197c  buck_ADRC_MBD_NPU_24b_M                          
+0     00081980  PieVectTableInit                                 
+0     00081cb0  GCONV_iB8_oB8_kB8_iW1_iCm4_oCm8_kHiCd4evenb4_INS 
+0     00081d90  GCONV_iB8_oB8_kB8_iW1_iCm4_oCm8_kHiCd4oddb3_INS  
+0     00081ed0  PWCONV_iB8_oB8_kB8_iHiW1_iCm4_oCm4_INS           
+0     0008281f  buck_npu_service                                 
+0     000829e0  buck_npu_mark_ready                              
+0     00082a67  buck_npu_commit                                  
+0     00082c43  buck_npu_begin                                   
+0     00082cfd  buck_npu_apply_prediction                        
+0     00082d93  _system_post_cinit                               
+0     00082e4b  buck_npu_phase_estimate                          
+0     000835ad  buck_load_observer_step                          
+0     00083711  isr_int10pie4_task_fcn                           
+0     00083d23  buck_ADRC_MBD_NPU_24b_initialize                 
+0     00084021  buck_ADRC_MBD_NPU_24b_terminate                  
+0     00084022  TIMER1_ISR                                       
+0     0008402c  TIMER2_ISR                                       
+0     00084036  DATALOG_ISR                                      
+0     00084040  RTOS_ISR                                         
+0     0008404a  EMU_ISR                                          
+0     00084054  NMI_ISR                                          
+0     0008405e  ILLEGAL_ISR                                      
+0     00084068  USER1_ISR                                        
+0     00084072  USER2_ISR                                        
+0     0008407c  USER3_ISR                                        
+0     00084086  USER4_ISR                                        
+0     00084090  USER5_ISR                                        
+0     0008409a  USER6_ISR                                        
+0     000840a4  USER7_ISR                                        
+0     000840ae  USER8_ISR                                        
+0     000840b8  USER9_ISR                                        
+0     000840c2  USER10_ISR                                       
+0     000840cc  USER11_ISR                                       
+0     000840d6  USER12_ISR                                       
+0     000840e0  ADCA1_ISR                                        
+0     000840ea  ADCB1_ISR                                        
+0     000840f4  ADCC1_ISR                                        
+0     000840fe  XINT1_ISR                                        
+0     00084108  XINT2_ISR                                        
+0     00084112  SYS_ERR_ISR                                      
+0     0008411c  TIMER0_ISR                                       
+0     00084126  WAKE_ISR                                         
+0     00084130  EPWM1_TZ_ISR                                     
+0     0008413a  EPWM2_TZ_ISR                                     
+0     00084144  EPWM3_TZ_ISR                                     
+0     0008414e  EPWM4_TZ_ISR                                     
+0     00084158  EPWM5_TZ_ISR                                     
+0     00084162  EPWM6_TZ_ISR                                     
+0     0008416c  EPWM7_TZ_ISR                                     
+0     00084176  EPWM8_TZ_ISR                                     
+0     00084180  EPWM1_ISR                                        
+0     0008418a  EPWM2_ISR                                        
+0     00084194  EPWM3_ISR                                        
+0     0008419e  EPWM4_ISR                                        
+0     000841a8  EPWM5_ISR                                        
+0     000841b2  EPWM6_ISR                                        
+0     000841bc  EPWM7_ISR                                        
+0     000841c6  EPWM8_ISR                                        
+0     000841d0  ECAP1_ISR                                        
+0     000841da  ECAP2_ISR                                        
+0     000841e4  EQEP1_ISR                                        
+0     000841ee  EQEP2_ISR                                        
+0     000841f8  EQEP3_ISR                                        
+0     00084202  CLB1_ISR                                         
+0     0008420c  CLB2_ISR                                         
+0     00084216  SPIA_RX_ISR                                      
+0     00084220  SPIA_TX_ISR                                      
+0     0008422a  SPIB_RX_ISR                                      
+0     00084234  SPIB_TX_ISR                                      
+0     0008423e  DCC0_ISR                                         
+0     00084248  DCC1_ISR                                         
+0     00084252  DMA_CH1_ISR                                      
+0     0008425c  DMA_CH2_ISR                                      
+0     00084266  DMA_CH3_ISR                                      
+0     00084270  DMA_CH4_ISR                                      
+0     0008427a  DMA_CH5_ISR                                      
+0     00084284  DMA_CH6_ISR                                      
+0     0008428e  PMBUSA_ISR                                       
+0     00084298  I2CA_ISR                                         
+0     000842a2  I2CA_FIFO_ISR                                    
+0     000842ac  I2CB_ISR                                         
+0     000842b6  I2CB_FIFO_ISR                                    
+0     000842c0  SCIC_RX_ISR                                      
+0     000842ca  SCIC_TX_ISR                                      
+0     000842d4  SCIA_RX_ISR                                      
+0     000842de  SCIA_TX_ISR                                      
+0     000842e8  SCIB_RX_ISR                                      
+0     000842f2  SCIB_TX_ISR                                      
+0     000842fc  MCANA_0_ISR                                      
+0     00084306  MCANA_1_ISR                                      
+0     00084310  ADCA_EVT_ISR                                     
+0     0008431a  ADCA2_ISR                                        
+0     00084324  ADCA3_ISR                                        
+0     0008432e  ADCA4_ISR                                        
+0     00084338  ADCB_EVT_ISR                                     
+0     00084342  ADCB2_ISR                                        
+0     0008434c  ADCB3_ISR                                        
+0     00084356  ADCB4_ISR                                        
+0     00084360  CLA1_1_ISR                                       
+0     0008436a  CLA1_2_ISR                                       
+0     00084374  CLA1_3_ISR                                       
+0     0008437e  CLA1_4_ISR                                       
+0     00084388  CLA1_5_ISR                                       
+0     00084392  CLA1_6_ISR                                       
+0     0008439c  CLA1_7_ISR                                       
+0     000843a6  CLA1_8_ISR                                       
+0     000843b0  XINT3_ISR                                        
+0     000843ba  XINT4_ISR                                        
+0     000843c4  XINT5_ISR                                        
+0     000843ce  FLSS_ISR                                         
+0     000843d8  VCU_ISR                                          
+0     000843e2  MCANA_WAKE_ISR                                   
+0     000843ec  MCANA_ECC_ISR                                    
+0     000843f6  ADCD1_ISR                                        
+0     00084400  ADCE1_ISR                                        
+0     0008440a  EPWM9_TZ_ISR                                     
+0     00084414  EPWM10_TZ_ISR                                    
+0     0008441e  EPWM11_TZ_ISR                                    
+0     00084428  EPWM12_TZ_ISR                                    
+0     00084432  EPWM9_ISR                                        
+0     0008443c  EPWM10_ISR                                       
+0     00084446  EPWM11_ISR                                       
+0     00084450  EPWM12_ISR                                       
+0     0008445a  FSITXA1_ISR                                      
+0     00084464  FSITXA2_ISR                                      
+0     0008446e  FSIRXA1_ISR                                      
+0     00084478  FSIRXA2_ISR                                      
+0     00084482  LINA_0_ISR                                       
+0     0008448c  LINA_1_ISR                                       
+0     00084496  MCANB_0_ISR                                      
+0     000844a0  MCANB_1_ISR                                      
+0     000844aa  MCANB_WAKE_ISR                                   
+0     000844b4  MCANB_ECC_ISR                                    
+0     000844be  USBA_ISR                                         
+0     000844c8  ADCC_EVT_ISR                                     
+0     000844d2  ADCC2_ISR                                        
+0     000844dc  ADCC3_ISR                                        
+0     000844e6  ADCC4_ISR                                        
+0     000844f0  ADCD_EVT_ISR                                     
+0     000844fa  ADCD2_ISR                                        
+0     00084504  ADCD3_ISR                                        
+0     0008450e  ADCD4_ISR                                        
+0     00084518  ADCE_EVT_ISR                                     
+0     00084522  ADCE2_ISR                                        
+0     0008452c  ADCE3_ISR                                        
+0     00084536  ADCE4_ISR                                        
+0     00084540  AES_SINTREQUEST_ISR                              
+0     0008454a  PIE_RESERVED_ISR                                 
+0     00084554  EMPTY_ISR                                        
+0     00084561  NOTUSED_ISR                                      
+0     00084740  buck_npu_compensation_step                       
+0     00084979  buck_npu_compensation_reset                      
+0     000849b8  buck_npu_compensation_arm                        
+0     000849c1  InitSysCtrl                                      
+0     000849d6  InitPeripheralClocks                             
+0     00084a51  DisablePeripheralClocks                          
+0     00084a6b  ServiceDog                                       
+0     00084a78  DisableDog                                       
+0     00084a85  InitSysPll                                       
+0     00084b83  SysIntOsc1Sel                                    
+0     00084b8c  SysIntOsc2Sel                                    
+0     00084bae  SysXtalOscSel                                    
+0     00084bce  SysXtalOscSESel                                  
+0     00084be3  IDLE                                             
+0     00084bec  HALT                                             
+0     00084bfd  IsPLLValid                                       
+0     00084ca4  ComputeCntrSeedValue                             
+0     00084d2e  ADC_setINLTrim                                   
+0     00084d8a  ADC_setOffsetTrim                                
+0     00084dd2  ADC_setVREF                                      
+0     00084e07  ADC_setPPBTripLimits                             
+0     00084e3d  ADC_configureRepeater                            
+0     00084e8d  ADC_configPPBFilter                              
+0     00084f4c  Interrupt_initModule                             
+0     00084f89  Interrupt_initVectorTable                        
+0     00084fa7  Interrupt_enable                                 
+0     00084fde  Interrupt_disable                                
+0     000850d7  buck_npu_control_timing_sample                   
+0     00085125  buck_npu_platform_init                           
+0     00085174  config_ADCA_SOC0                                 
+0     0008519d  config_ADCC_SOC1                                 
+0     000851cb  config_ADCB_SOC0                                 
+0     000851f9  config_ADCB_SOC1                                 
+0     0008521f  config_ADCC_SOC0                                 
+0     0008524f  config_ADCA_SOC1                                 
+0     0008527f  InitAdcA                                         
+0     00085292  InitAdcB                                         
+0     000852a5  InitAdcC                                         
+0     000852e7  NPU_setInstrMem                                  
+0     00085334  NPU_setParamMem                                  
+0     00085381  buck_npu_deferred_service                        
+0     000853b1  NPU_setInterruptHandler                          
+0     000853b1  TINIE_registerInterrupt                          
+0     000853dd  NPU_enableInterrupt                              
+0     000853e3  NPU_clearInterruptACK                            
+0     000853e3  TINIE_clearInterruptACK                          
+0     000854dc  TINIE_layoutTransform                            
+0     0008558f  init_board                                       
+0     00085635  initBoardEnd                                     
+0     00085649  ndp_restore_residual                             
+0     0008567d  ndp_prepare_window                               
+0     000856d4  __c28xabi_addd                                   
+0     00085770  rt_InitInfAndNaN                                 
+0     00085798  rtIsInf                                          
+0     000857b0  rtIsInfF                                         
+0     000857c8  rtIsNaN                                          
+0     000857eb  rtIsNaNF                                         
+0     00085802  tvmgen_default_IRQHandlerHelper                  
+0     0008588a  __c28xabi_mpyd                                   
+0     0008590d  InitCpuTimers                                    
+0     0008594e  ConfigCpuTimer                                   
+0     00085989  config_ePWM_GPIO                                 
+0     000859c6  config_ePWM_TBSync                               
+0     000859d5  config_ePWMSyncSource                            
+0     000859ec  floorf                                           
+0     00085a45  rt_OneStep                                       
+0     00085a46  main                                             
+0     00085a95  configureTimer0                                  
+0     00085ab9  enableTimer0Interrupt                            
+0     00085ac1  disableTimer0Interrupt                           
+0     00085ad7  restoreTimer0Interrupt                           
+0     00085ae2  TINT0_isr                                        
+0     00085b26  rtGetInf                                         
+0     00085b3f  rtGetInfF                                        
+0     00085b48  rtGetMinusInf                                    
+0     00085b61  rtGetMinusInfF                                   
+0     00085b6a  ADCA4_INT_isr                                    
+0     00085ba1  tvmgen_default_ti_npu_convolve1x1NHWC_4          
+0     00085bd7  tvmgen_default_ti_npu_convolveNHWC_1             
+0     00085c0d  tvmgen_default_ti_npu_convolveNHWC_2             
+0     00085c43  tvmgen_default_ti_npu_convolveNHWC_3             
+0     00085c79  MW_SetVREF                                       
+0     00085ca8  __TI_decompress_lzss                             
+0     00085cd6  tvmgen_default_IRQHandler                        
+0     00085d03  __TI_auto_init_nobinit_nopinit                   
+0     00085d2e  tvmgen_default___tvm_main__                      
+0     00085d59  Interrupt_defaultHandler                         
+0     00085d6f  Interrupt_illegalOperationHandler                
+0     00085d79  Interrupt_nmiHandler                             
+0     00085d83  rtGetNaN                                         
+0     00085d9c  rtGetNaNF                                        
+0     00085dad  tvmgen_default_fused_multiply_add_floor_clip_cast
+0     00085dd7  C$$EXIT                                          
+0     00085dd7  abort                                            
+0     00085dd9  exit                                             
+0     00085e00  InitPieCtrl                                      
+0     00085e1f  EnableInterrupts                                 
+0     00085e28  InitPieVectTable                                 
+0     00085e4d  buck_npu_short_isr                               
+0     00085e72  c2000_flash_init                                 
+0     00085e95  __c28xabi_dtof                                   
+0     00085eb8  memcpy                                           
+0     00085ed5  disableWatchdog                                  
+0     00085ee0  enable_interrupts                                
+0     00085ef1  __c28xabi_ftod                                   
+0     00085f0d  tinie_sublayer_IRQHandler                        
+0     00085f29  tvmgen_default_fused_tinie_c28_unpack            
+0     00085f44  tvmgen_default_fused_cast_multiply_reshape       
+0     00085f5e  TINIE_setup                                      
+0     00085f77  _c_int00                                         
+0     00085f8e  globalInterruptEnable                            
+0     00085f98  globalInterruptDisable                           
+0     00085fa0  tvmgen_default_ti_npu_layoutTransform_0          
+0     00085fb1  tvmgen_default_run                               
+0     00085fbe  _args_main                                       
+0     00085fca  _register_unlock                                 
+0     00085fce  _register_lock                                   
+0     00085fd2  _nop                                             
+0     00085fd3  tvmgen_default_fused_tinie_c28_pack              
+0     00085fdc  __TI_decompress_none                             
+0     00085fec  memset                                           
+0     00085ff3  TINIE_start                                      
+0     00085ff9  __TI_zero_init                                   
+0     00085fff  NPU_getCtlReg                                    
+0     00086003  _system_pre_init                                 
+0     00086024  __TI_Handler_Table_Base                          
+0     0008602a  __TI_Handler_Table_Limit                         
+0     00086038  __TI_CINIT_Base                                  
+0     00086048  __TI_CINIT_Limit                                 
+0     00086048  __TI_CINIT_Warm                                  
+1     00000128  __stack                                          
+1     00000528  __TI_STACK_END                                   
+1     00000c00  CpuTimer0Regs                                    
+1     00000c08  CpuTimer1Regs                                    
+1     00000c10  CpuTimer2Regs                                    
+1     00000ce0  PieCtrlRegs                                      
+1     00001800  AdcaResultRegs                                   
+1     00001880  AdcbResultRegs                                   
+1     00001900  AdccResultRegs                                   
+1     00004000  EPwm1Regs                                        
+1     00004100  EPwm2Regs                                        
+1     00004600  EPwm7Regs                                        
+1     00004900  EPwm10Regs                                       
+1     00006a00  AdccRegs                                         
+1     00006c00  AdcdRegs                                         
+1     00006e00  AdceRegs                                         
+1     00007000  WdRegs                                           
+1     00007400  AdcaRegs                                         
+1     00007600  AdcbRegs                                         
+1     00007c00  GpioCtrlRegs                                     
+1     00007f00  GpioDataRegs                                     
+1     0000c000  buck_npu_cycle_cache                             
+1     0000d900  buck_npu_ff_trace                                
+1     0000de56  buck_npu_phase_last_status                       
+1     0000de8e  buck_npu_phase_uncertainty_ticks                 
+1     0000dec0  buck_load_observer                               
+1     0000defe  buck_npu_delivery_pending                        
+1     0000df0d  buck_npu_busy                                    
+1     0000df0e  buck_npu_fault                                   
+1     0000df0f  buck_npu_replay_edge_kind                        
+1     0000df10  buck_npu_hold_valid                              
+1     0000df11  buck_npu_prediction_valid                        
+1     0000df12  buck_npu_selftest_request                        
+1     0000df13  buck_npu_selftest_state                          
+1     0000df14  buck_npu_selftest_passed                         
+1     0000df15  buck_npu_selftest_failed                         
+1     0000df16  buck_npu_phase_permit                            
+1     0000df17  buck_npu_ff_trace_request                        
+1     0000df18  buck_npu_ff_trace_ready                          
+1     0000df19  buck_npu_ff_trace_count                          
+1     0000df32  buck_npu_submitted                               
+1     0000df34  buck_npu_accepted                                
+1     0000df36  buck_npu_dropped                                 
+1     0000df38  buck_npu_errors                                  
+1     0000df3a  buck_npu_completed                               
+1     0000df3c  buck_npu_late                                    
+1     0000df3e  buck_npu_mailbox_overrun                         
+1     0000df40  buck_npu_last_latency_ticks                      
+1     0000df42  buck_npu_max_latency_ticks                       
+1     0000df44  buck_npu_last_compute_ticks                      
+1     0000df46  buck_npu_max_compute_ticks                       
+1     0000df48  buck_npu_last_prepare_elapsed_ticks              
+1     0000df4a  buck_npu_max_prepare_elapsed_ticks               
+1     0000df4c  buck_npu_last_preprocess_ticks                   
+1     0000df4e  buck_npu_max_preprocess_ticks                    
+1     0000df50  buck_npu_comp_cycles_last                        
+1     0000df52  buck_npu_comp_cycles_max                         
+1     0000df54  buck_npu_comp_edge_cycles_max                    
+1     0000df56  buck_npu_comp_regular_cycles_max                 
+1     0000df58  buck_npu_edge_requests                           
+1     0000df5a  buck_npu_edge_submitted                          
+1     0000df5c  buck_npu_edge_published                          
+1     0000df5e  buck_npu_edge_request_overrun                    
+1     0000df60  buck_npu_edge_window_miss                        
+1     0000df62  buck_npu_edge_cache_miss                         
+1     0000df64  buck_npu_rise_updates                            
+1     0000df66  buck_npu_fall_updates                            
+1     0000df68  buck_npu_replay_from_tick                        
+1     0000df6a  buck_npu_replay_at_tick                          
+1     0000df6c  buck_npu_held_prediction                         
+1     0000df6e  buck_npu_last_source_tick                        
+1     0000df70  buck_npu_last_target_tick                        
+1     0000df72  buck_npu_raw_samples                             
+1     0000df74  buck_npu_snapshot_retries                        
+1     0000df76  buck_npu_preprocess_late                         
+1     0000df78  buck_npu_published                               
+1     0000df7a  buck_npu_no_result                               
+1     0000df7c  buck_npu_stale_results                           
+1     0000df7e  buck_npu_last_prediction                         
+1     0000df80  buck_npu_selftest_max_input_error                
+1     0000df82  buck_npu_selftest_max_output_error               
+1     0000df84  buck_npu_phase_estimated                         
+1     0000df86  buck_npu_phase_rejected                          
+1     0000df88  buck_npu_phase_bypassed                          
+1     0000df8a  buck_npu_phase_snapshot_miss                     
+1     0000df8c  buck_npu_phase_confirm_overrun                   
+1     0000df8e  buck_npu_schedule_armed                          
+1     0000df90  buck_npu_schedule_missed                         
+1     0000df92  buck_npu_schedule_fired                          
+1     0000df94  buck_npu_schedule_cancelled                      
+1     0000df96  buck_npu_schedule_bad_pair                       
+1     0000df98  buck_npu_delivery_suppressed                     
+1     0000df9a  buck_npu_delivery_timeout                        
+1     0000df9c  buck_npu_phase_observed_while_pending            
+1     0000df9e  buck_npu_phase_deferred_stale                    
+1     0000e132  buck_npu_irq_pending                             
+1     0000e134  buck_npu_irq_count                               
+1     0000e136  buck_npu_irq_serviced                            
+1     0000e138  buck_npu_irq_overrun                             
+1     0000e13a  buck_npu_irq_context_errors                      
+1     0000e13c  buck_npu_irq_binding_errors                      
+1     0000e13e  buck_npu_irq_unexpected                          
+1     0000e140  buck_npu_comp_active                             
+1     0000e141  buck_npu_comp_state                              
+1     0000e142  buck_npu_comp_edge_kind                          
+1     0000e143  buck_npu_comp_config_fault                       
+1     0000e144  buck_npu_comp_effective_window                   
+1     0000e145  buck_npu_comp_total_ticks                        
+1     0000e146  buck_npu_comp_latched_period_ticks               
+1     0000e147  buck_npu_comp_latched_lead_ticks                 
+1     0000e148  buck_npu_comp_exit_reason                        
+1     0000e14c  buck_npu_comp_delta_a                            
+1     0000e14e  buck_npu_comp_innovation_vps                     
+1     0000e150  buck_npu_comp_weight                             
+1     0000e152  buck_npu_comp_latched_delta_a                    
+1     0000e154  buck_npu_comp_source_prediction_vps              
+1     0000e156  buck_npu_comp_ref_z2_vps                         
+1     0000e158  buck_npu_comp_latched_innovation_vps             
+1     0000e15a  buck_npu_comp_takeover_raw                       
+1     0000e15c  buck_npu_comp_takeover_filtered                  
+1     0000e15e  buck_npu_comp_takeover                           
+1     0000e160  buck_npu_comp_z2_pre_vps                         
+1     0000e162  buck_npu_comp_baseline_iref_a                    
+1     0000e164  buck_npu_comp_final_iref_a                       
+1     0000e166  buck_npu_comp_applied_delta_i_a                  
+1     0000e168  buck_npu_comp_age_ticks                          
+1     0000e16a  buck_npu_comp_event_tick                         
+1     0000e16c  buck_npu_comp_estimated_edge_tick                
+1     0000e16e  buck_npu_comp_command_start_tick                 
+1     0000e170  buck_npu_comp_updates                            
+1     0000e172  buck_npu_comp_config_reject                      
+1     0000e174  buck_npu_comp_event_reject                       
+1     0000e176  buck_npu_comp_config_changes                     
+1     0000e178  buck_npu_comp_finished_window                    
+1     0000e17a  buck_npu_comp_finished_handoff                   
+1     0000e17c  buck_npu_comp_forced_window                      
+1     0000e17e  buck_npu_comp_window_overlaps                    
+1     0000e180  buck_npu_comp_arm_reject                         
+1     0000e182  buck_npu_comp_direction_reject                   
+1     0000e184  buck_npu_comp_small_signal_reject                
+1     0000e1b0  buck_ctrl_interval_last_cycles                   
+1     0000e1b2  buck_ctrl_interval_min_cycles                    
+1     0000e1b4  buck_ctrl_interval_max_cycles                    
+1     0000e1b6  buck_ctrl_late_intervals                         
+1     0000e1b8  buck_ctrl_adc_overflows                          
+1     0000e1ba  buck_ctrl_timing_samples                         
+1     0000e1be  stopRequested                                    
+1     0000e1bf  runModel                                         
+1     0000e1c0  IL1                                              
+1     0000e1c2  IL2                                              
+1     0000e1c4  IL3                                              
+1     0000e1c6  IL4                                              
+1     0000e1c8  Vout                                             
+1     0000e1ca  Vin                                              
+1     0000e1cc  enable                                           
+1     0000e1ce  wc                                               
+1     0000e1d0  wo                                               
+1     0000e1d2  b0                                               
+1     0000e1d4  alpha                                            
+1     0000e1d8  buck_ADRC_MBD_NPU_24b_B                          
+1     0000e1e4  buck_ADRC_MBD_NPU_24b_DW                         
+1     0000e1fe  buck_npu_phase_status                            
+1     0000e28e  tinie_curr_layer                                 
+1     0000e290  tinie_curr_sublayer                              
+1     0000e292  tinie_num_sublayers                              
+1     0000e294  tinie_sublayer_postproc                          
+1     0000e296  tvmgen_default_finished                          
+1     0000e298  tinie_sublayers                                  
+1     0000e316  CpuTimer0                                        
+1     0000e31e  CpuTimer1                                        
+1     0000e326  CpuTimer2                                        
+1     0000e350  rtInf                                            
+1     0000e352  rtMinusInf                                       
+1     0000e354  rtNaN                                            
+1     0000e356  rtInfF                                           
+1     0000e358  rtMinusInfF                                      
+1     0000e35a  rtNaNF                                           
+1     0000e36c  buck_npu_delivery_count                          
+1     0000e529  buck_npu_run_enable                              
+1     0000e52a  buck_npu_io_revision                             
+1     0000e52b  buck_npu_lead_rise_ticks                         
+1     0000e52c  buck_npu_lead_fall_ticks                         
+1     0000e52d  buck_npu_pre_edge_ticks                          
+1     0000e52e  buck_npu_post_edge_ticks                         
+1     0000e534  __TI_enable_exit_profile_output                  
+1     0000e536  __TI_cleanup_ptr                                 
+1     0000e538  __TI_dtors_ptr                                   
+1     0000e53a  buck_npu_comp_attack_ticks                       
+1     0000e53b  buck_npu_comp_fade_ticks                         
+1     0000e53c  buck_npu_comp_limit_a                            
+1     0000e53e  _lock                                            
+1     0000e540  MW_adcAInitFlag                                  
+1     0000e541  MW_adcCInitFlag                                  
+1     0000e542  MW_adcBInitFlag                                  
+1     0000e543  MW_InterruptDisableLock                          
+1     0000e544  _unlock                                          
+1     0000e546  buck_load_edge_threshold_a                       
+1     0000e548  buck_ctrl_timing_reset                           
+1     0005d200  ClkCfgRegs                                       
+1     0005d300  CpuSysRegs                                       
+1     0005d700  AnalogSubsysRegs                                 
+1     0005e700  Dcc0Regs                                         
+1     0005e740  Dcc1Regs                                         
+1     0005f800  Flash0CtrlRegs                                   
+1     0005fb00  Flash0EccRegs                                    
+abs   00000000  IQMathfuncsLoadSize                              
+abs   00000000  MW_RamfuncsLoadSize                              
+abs   00000000  MW_RamfuncsRunSize                               
+abs   00000023  RamfuncsLoadSize                                 
+abs   00000023  RamfuncsRunSize                                  
+abs   00000400  __TI_STACK_SIZE                                  
+abs   ffffffff  __TI_pprof_out_hndl                              
+abs   ffffffff  __TI_prof_data_size                              
+abs   ffffffff  __TI_prof_data_start                             
+n/a   UNDEFED   __c_args__                                       
+
+[510 symbols]

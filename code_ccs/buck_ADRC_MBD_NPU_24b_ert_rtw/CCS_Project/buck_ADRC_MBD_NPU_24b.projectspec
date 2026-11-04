@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectSpec>
+        <project
+        name="buck_ADRC_MBD_NPU_24b"
+        outputFormat="ELF"
+        device="TMS320F28P550SJ9"
+        cgtVersion="22.6.0.LTS"
+        launchWizard="False"
+        linkerCommandFile=""
+        >
+<pathVariable name="C2000WAREINSTALLDIR" path="D:\ti\c2000\C2000Ware_5_02_00_00" scope="project" />
+<pathVariable name="CCSProjectFolder" path="C:\Users\34109\Desktop\delivery_file\F28P55_v16\buck_ADRC_MBD_NPU_24b_ert_rtw\CCS_Project" scope="project" />
+    <configuration name="CPU1_FLASH" compilerBuildOptions=" --abi=eabi -s -v28 -ml --abi=eabi --preproc_dependency=$(@:%.obj=%.dep) --preproc_with_compile -ID:\ti\ti-cgt-c2000_22.6.0.LTS\include -v28 --float_support=fpu32 -ml -DF28P550SJ9 -DCPU1 -DBOOT_FROM_FLASH=1 --tmu_support=tmu1 --fp_mode=relaxed -DSHIFT_IQMATH_RAMFUNCS -DCPU_RAMLS_PROG_START=0x8000 -DCPU_RAMLS_PROG_LENGTH=0x1800 -DCLA_RAMLS_PROG_START=0xA800 -DCLA_RAMLS_PROG_LENGTH=0x1800 -DCLA_RAMLS_DATA_START=0x9800 -DCLA_RAMLS_DATA_LENGTH=0x1000 -I${CCSProjectFolder}\..\.. -I${CCSProjectFolder}\.. -ID:\ti\c2000\C2000Ware_26_02_00_00\device_support\f28p55x\common\include -ID:\ti\c2000\C2000Ware_26_02_00_00\driverlib\f28p55x\driverlib -ID:\Program Files\MATLAB\R2025b\extern\include -ID:\Program Files\MATLAB\R2025b\simulink\include -ID:\Program Files\MATLAB\R2025b\rtw\c\src -ID:\Program Files\MATLAB\R2025b\rtw\c\src\ext_mode\common -ID:\Program Files\MATLAB\R2025b\rtw\c\ert -ID:\Program Files\MATLAB\R2025b\toolbox\c2b\tic2000\inc -ID:\Program Files\MATLAB\R2025b\toolbox\c2b\tic2000_shared\src -ID:\Program Files\MATLAB\R2025b\toolbox\c2b\tic2000_shared\inc -ID:/ti/c2000/C2000Ware_26_02_00_00\device_support\f28p55x\common\include -ID:/ti/c2000/C2000Ware_26_02_00_00\libraries\calibration\hrpwm\f28p55x\include -ID:/ti/c2000/C2000Ware_26_02_00_00\driverlib\f28p55x\driverlib -ID:/ti/c2000/C2000Ware_26_02_00_00\driverlib\f28p55x\driverlib\inc -ID:/ti/c2000/C2000Ware_26_02_00_00\device_support\f28p55x\headers\include -ID:/ti/c2000/C2000Ware_26_02_00_00\device_support\f28p55x\common -ID:\Program Files\MATLAB\R2025b\toolbox\shared\can\src\scanutil -ID:/ti/c2000/C2000Ware_26_02_00_00\libraries\math\IQmath\c28\include -ID:/ti/c2000/C2000Ware_26_02_00_00\libraries\math\CLAmath\c28\include -ID:\Program Files\MATLAB\R2025b\toolbox\c2b\tic2000\src -ID:\Program Files\MATLAB\R2025b\toolbox\c2b\tic2000_soc\src\ipclite -ID:\Program Files\MATLAB\R2025b\toolbox\c2b\tic2000_soc\inc\ipclite -ID:/ti/c2000/C2000Ware_26_02_00_00\device_support\f28p55x\common\include -ID:/ti/c2000/C2000Ware_26_02_00_00\libraries\calibration\hrpwm\f28p55x\include -ID:/ti/c2000/C2000Ware_26_02_00_00\driverlib\f28p55x\driverlib -ID:/ti/c2000/C2000Ware_26_02_00_00\driverlib\f28p55x\driverlib\inc -ID:/ti/c2000/C2000Ware_26_02_00_00\device_support\f28p55x\headers\include -ID:/ti/c2000/C2000Ware_26_02_00_00\device_support\f28p55x\common -ID:/ti/c2000/C2000Ware_26_02_00_00\libraries\math\IQmath\c28\include -ID:/ti/c2000/C2000Ware_26_02_00_00\libraries\math\CLAmath\c28\include -DMODEL=buck_ADRC_MBD_NPU_24b -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0 -DXCP_CUSTOM_PLATFORM -DEXTMODE_DISABLE_ARGS_PROCESSING=1 -DMW_PIL_SCIFIFOLEN=16 -DF2837X_REG_FORMAT -DMW_F28P55X -DSTACK_SIZE=1024 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT -DEABI_32BITDOUBLE -DF28P550SJ9 -DCPU1 -DBOOT_FROM_FLASH=1 -DSHIFT_IQMATH_RAMFUNCS -DCPU_RAMLS_PROG_START=0x8000 -DCPU_RAMLS_PROG_LENGTH=0x1800 -DCLA_RAMLS_PROG_START=0xA800 -DCLA_RAMLS_PROG_LENGTH=0x1800 -DCLA_RAMLS_DATA_START=0x9800 -DCLA_RAMLS_DATA_LENGTH=0x1000" linkerBuildOptions="  --stack_size=1024 --warn_sections --heap_size=1024 --reread_libs --rom_model --priority -mbuck_ADRC_MBD_NPU_24b.map --retain=rts2800_fpu32_eabi.lib(.reset) --retain=f28p55x_codestartbranch.obj(codestart) --define F28P550SJ9 --define CPU1 --define BOOT_FROM_FLASH=1 --define BOOT_USING_BL=0 --define SHIFT_IQMATH_RAMFUNCS --define CPU_RAMLS_PROG_START=0x8000 --define CPU_RAMLS_PROG_LENGTH=0x1800 --define CLA_RAMLS_PROG_START=0xA800 --define CLA_RAMLS_PROG_LENGTH=0x1800 --define CLA_RAMLS_DATA_START=0x9800 --define CLA_RAMLS_DATA_LENGTH=0x1000" />
+    <file action="link" path="..\MW_c28xx_csl.c" targetDirectory=""/>
+    <file action="link" path="..\MW_c28xx_board.c" targetDirectory=""/>
+    <file action="link" path="..\MW_c28xx_adc.c" targetDirectory=""/>
+    <file action="link" path="..\MW_c28xx_pwm.c" targetDirectory=""/>
+    <file action="link" path="..\buck_ADRC_MBD_NPU_24b.c" targetDirectory=""/>
+    <file action="link" path="..\ert_main.c" targetDirectory=""/>
+    <file action="link" path="..\rtGetInf.c" targetDirectory=""/>
+    <file action="link" path="..\rtGetNaN.c" targetDirectory=""/>
+    <file action="link" path="..\rt_nonfinite.c" targetDirectory=""/>
+    <file action="link" path="C:\Users\34109\Desktop\delivery_file\F28P55_v16\buck_npu_sdk_port.c" targetDirectory=""/>
+    <file action="link" path="C:\Users\34109\Desktop\delivery_file\F28P55_v16\buck_npu_platform.c" targetDirectory=""/>
+    <file action="link" path="D:/ti/c2000/C2000Ware_26_02_00_00\driverlib\f28p55x\driverlib\interrupt.c" targetDirectory=""/>
+    <file action="link" path="D:/ti/c2000/C2000Ware_26_02_00_00\driverlib\f28p55x\driverlib\sysctl.c" targetDirectory=""/>
+    <file action="link" path="D:\Program Files\MATLAB\R2025b\toolbox\c2b\tic2000\src\c28P55xBoard_Realtime_Support.c" targetDirectory=""/>
+    <file action="link" path="D:\Program Files\MATLAB\R2025b\toolbox\c2b\tic2000_shared\src\MW_c28xGlobalInterrupts.c" targetDirectory=""/>
+    <file action="link" path="D:/ti/c2000/C2000Ware_26_02_00_00\driverlib\f28p55x\driverlib\dma.c" targetDirectory=""/>
+    <file action="link" path="D:/ti/c2000/C2000Ware_26_02_00_00\driverlib\f28p55x\driverlib\adc.c" targetDirectory=""/>
+    <file action="link" path="D:/ti/c2000/C2000Ware_26_02_00_00\device_support\f28p55x\common\source\f28p55x_cputimers.c" targetDirectory=""/>
+    <file action="link" path="D:/ti/c2000/C2000Ware_26_02_00_00\device_support\f28p55x\common\source\f28p55x_defaultisr.c" targetDirectory=""/>
+    <file action="link" path="D:/ti/c2000/C2000Ware_26_02_00_00\device_support\f28p55x\headers\source\f28p55x_globalvariabledefs.c" targetDirectory=""/>
+    <file action="link" path="D:/ti/c2000/C2000Ware_26_02_00_00\device_support\f28p55x\common\source\f28p55x_piectrl.c" targetDirectory=""/>
+    <file action="link" path="D:/ti/c2000/C2000Ware_26_02_00_00\device_support\f28p55x\common\source\f28p55x_pievect.c" targetDirectory=""/>
+    <file action="link" path="D:/ti/c2000/C2000Ware_26_02_00_00\device_support\f28p55x\common\source\f28p55x_sysctrl.c" targetDirectory=""/>
+    <file action="link" path="D:/ti/c2000/C2000Ware_26_02_00_00\device_support\f28p55x\common\source\f28p55x_usdelay.asm" targetDirectory=""/>
+    <file action="link" path="D:/ti/c2000/C2000Ware_26_02_00_00\device_support\f28p55x\common\source\f28p55x_codestartbranch.asm" targetDirectory=""/>
+    <file action="link" path="D:/ti/c2000/C2000Ware_26_02_00_00\device_support\f28p55x\common\source\f28p55x_dma.c" targetDirectory=""/>
+    <file action="link" path="D:/ti/c2000/C2000Ware_26_02_00_00\device_support\f28p55x\common\source\f28p55x_gpio.c" targetDirectory=""/>
+    <file action="link" path="D:/ti/c2000/C2000Ware_26_02_00_00\device_support\f28p55x\common\source\f28p55x_adc.c" targetDirectory=""/>
+    <file action="link" path="D:\Program Files\MATLAB\R2025b\toolbox\c2b\tic2000\src\c2000HardwareTimerConfig.c" targetDirectory=""/>
+    <file action="link" path="D:\Program Files\MATLAB\R2025b\toolbox\c2b\tic2000_shared\src\MW_c28xGPIO.c" targetDirectory=""/>
+    <file action="link" path="D:/ti/c2000/C2000Ware_26_02_00_00\driverlib\f28p55x\driverlib\clb.c" targetDirectory=""/>
+    <file action="link" path="D:/ti/c2000/C2000Ware_26_02_00_00\libraries\dsp\FPU\c28\source\fpu32\utility\memcpy_fast.asm" targetDirectory=""/>
+    <file action="link" path="D:\Program Files\MATLAB\R2025b\toolbox\c2b\tic2000\src\c28P55xSchedulerTimer0.c" targetDirectory=""/>
+    <file action="link" path="D:\Program Files\MATLAB\R2025b\toolbox\c2b\tic2000_soc\src\ipclite\mw_soc_c2000_ipc.c" targetDirectory=""/>
+    <file action="link" path="C:\Users\34109\Desktop\delivery_file\F28P55_v16\mod.a" targetDirectory="" applicableConfigurations="CPU1_FLASH"/>
+    <file action="link" path="C:\Users\34109\Desktop\delivery_file\F28P55_v16\buck_npu_sections.cmd" targetDirectory="" applicableConfigurations="CPU1_FLASH"/>
+    <file action="link" path="D:\ti\c2000\C2000Ware_26_02_00_00\libraries\math\IQmath\c28\lib\IQmath_fpu32.lib" targetDirectory="" applicableConfigurations="CPU1_FLASH"/>
+    <file action="link" path="D:\Program Files\MATLAB\R2025b\toolbox\c2b\tic2000\src\c28P55xPeripherals.cmd" targetDirectory="" applicableConfigurations="CPU1_FLASH"/>
+    <file action="link" path="D:\Program Files\MATLAB\R2025b\toolbox\c2b\tic2000\src\c28p55x.cmd" targetDirectory="" applicableConfigurations="CPU1_FLASH"/>
+    <file action="link" path="C:\Users\34109\Desktop\delivery_file\F28P55_v16\buck_ADRC_MBD_NPU_24b_ert_rtw\ndp_model_io_strict.obj" targetDirectory="" applicableConfigurations="CPU1_FLASH"/>
+    <file action="link" path="C:\Users\34109\Desktop\delivery_file\F28P55_v16\buck_ADRC_MBD_NPU_24b_ert_rtw\buck_npu_v15_o2.obj" targetDirectory="" applicableConfigurations="CPU1_FLASH"/>
+    <file action="link" path="C:\Users\34109\Desktop\delivery_file\F28P55_v16\buck_ADRC_MBD_NPU_24b_ert_rtw\buck_load_observer_v15_o2.obj" targetDirectory="" applicableConfigurations="CPU1_FLASH"/>
+    <file action="link" path="C:\Users\34109\Desktop\delivery_file\F28P55_v16\buck_ADRC_MBD_NPU_24b_ert_rtw\buck_npu_compensation_v15_o2.obj" targetDirectory="" applicableConfigurations="CPU1_FLASH"/>
+    <file action="link" path="D:\ti\ti-cgt-c2000_22.6.0.LTS\lib\rts2800_fpu32_eabi.lib" targetDirectory="" applicableConfigurations="CPU1_FLASH"/>
+<file action="link" path="D:\Program Files\MATLAB\R2025b\toolbox\c2b\tic2000/CCS_Config/f28P550SJ9.ccxml" targetDirectory="" />
+  </project>
+</projectSpec>

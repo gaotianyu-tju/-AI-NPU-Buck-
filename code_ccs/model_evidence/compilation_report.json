@@ -1,0 +1,353 @@
+{
+  "created_at": "2026-11-01T22:38:09+08:00",
+  "status": "compiled_hardware_layers_verified",
+  "compilation_succeeded": true,
+  "hardware_layers_verified": true,
+  "mixed_execution_verified": false,
+  "execution_mapping_verified": true,
+  "fully_hardware": true,
+  "hardware_convolutions": 4,
+  "cpu_fully_connected": 0,
+  "board_verified": false,
+  "ti_npu_ready": false,
+  "ptq_directory": "E:\\bisai\\ndp_tcn\\results\\multihorizon_npu_20261101_221549\\h15\\qat",
+  "cgt_directory": "C:\\ti\\ccs1270\\ccs\\tools\\compiler\\ti-cgt-c2000_22.6.1.LTS",
+  "python_executable": "C:\\Users\\User\\.conda\\envs\\TCN\\python.exe",
+  "python_version": "3.10.22",
+  "compile_script_sha256": "4c3762a35dab4e1754cee11b5b6bd16b28f69f7ffaa76f1661cf0678e588a81a",
+  "target_board": "LAUNCHXL-F28P55X",
+  "target": "c, ti-npu type=hard skip_normalize=false output_int=false",
+  "required_c2000ware_sdk": ">=26.0",
+  "compilation_documentation": "https://software-dl.ti.com/mctools/nnc/mcu/users_guide/compiling.html",
+  "input_identity": {
+    "ptq_directory": "E:\\bisai\\ndp_tcn\\results\\multihorizon_npu_20261101_221549\\h15\\qat",
+    "quantization": "TI_TINPU_QAT_8bit",
+    "quantization_report_sha256": "b0d9a7d37bb7c99cbe1fc1779738ab487b8227f9df7a344cbd5e44af14cb0d86",
+    "onnx_sha256": "2778e025e2953d14f6e1bfdd925191fdb576b362261066138462d6f1b02353c6",
+    "checkpoint": "E:\\bisai\\ndp_tcn\\results\\multihorizon_npu_20261101_221549\\h15\\train\\best.pt",
+    "checkpoint_sha256": "88018ff64632404b622d351596638839e31f618d7957973398b9cda744ebf23e",
+    "model_source_sha256": "dad273cb335f58b0a0abd726e1e374bd9bb0bcc7fa3f3a080f5e25aa65c3b033",
+    "operators": [
+      "Add",
+      "Clip",
+      "Conv",
+      "Floor",
+      "Mul",
+      "Relu"
+    ],
+    "model_backend": "ti_npu_fullconv",
+    "expected_layer_topology": [
+      "GCONV",
+      "GCONV",
+      "GCONV",
+      "PWCONV"
+    ],
+    "network_execution_requirement": "all_layers_on_npu",
+    "qat_checkpoint": "E:\\bisai\\ndp_tcn\\results\\multihorizon_npu_20261101_221549\\h15\\qat\\best_qat_state.pt",
+    "qat_checkpoint_sha256": "547d6a607cdc5f2047d43361ac6460a804d49d7f6ee019a77cad59496c4a073a"
+  },
+  "model_backend": "ti_npu_fullconv",
+  "network_execution_requirement": "all_layers_on_npu",
+  "output_shape": [
+    1,
+    4,
+    1,
+    1
+  ],
+  "host_runtime_required": true,
+  "cpu_zero_usage_verified": false,
+  "nnc_version": "2.1.2",
+  "tool_source_hashes": {
+    "tvm/driver/tvmc/compiler.py": "40ca6fbda73a4af001c984856a745e5cf916569869df7582c1d1e5de31ead47e",
+    "tvm/relay/backend/contrib/tinie/diagnostics.py": "159f3800e4f4c40c8163b17d1cf3d5582fdc4f78f8f2ea5a71169bc41b3fa145",
+    "tvm/relay/op/contrib/tinie.py": "713b16b180e5629e0c067daf43b8b5f8fc1d7aac04008d93d0761067916fe37c",
+    "tvm/3rdparty/tinie-api/soft/src/tinie_soft.cc": "d8a6cc6a1020bec44334b55947e11ed24960c9861e9ee6b62f61cbebf63e56f0"
+  },
+  "cgt_executable_sha256": "efcd8e20037ae26d6ddb6766902a132964bb43703bf85fccea350e204d81ff12",
+  "command": [
+    "C:\\Users\\User\\.conda\\envs\\TCN\\python.exe",
+    "-m",
+    "tvm.driver.tvmc",
+    "compile",
+    "--target=c, ti-npu type=hard skip_normalize=false output_int=false",
+    "--target-c-mcpu=c28",
+    "E:\\bisai\\ndp_tcn\\results\\multihorizon_npu_20261101_221549\\h15\\qat\\model_int8.onnx",
+    "-o",
+    "E:\\bisai\\ndp_tcn\\results\\multihorizon_npu_20261101_221549\\h15\\compile\\artifacts\\mod.a",
+    "--cross-compiler=C:/ti/ccs1270/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000.exe",
+    "--cross-compiler-options=--float_support=fpu32 --abi=eabi -O3 --opt_for_speed=5 --c99 -v28 -ml -mt --gen_func_subsections -IC:/ti/ccs1270/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include -I.",
+    "--dump-code=relay,tir",
+    "--dump-offloads=E:\\bisai\\ndp_tcn\\results\\multihorizon_npu_20261101_221549\\h15\\compile\\artifacts\\offloads.txt"
+  ],
+  "subprocess_environment": {
+    "C2000_CGT_PATH": "C:\\ti\\ccs1270\\ccs\\tools\\compiler\\ti-cgt-c2000_22.6.1.LTS",
+    "C2000_CG_ROOT": "C:\\ti\\ccs1270\\ccs\\tools\\compiler\\ti-cgt-c2000_22.6.1.LTS",
+    "C2000_DEVICE_FPU": "fpu32",
+    "TI_TVMC_OPTIONS": "--output-format=a --runtime=crt --executor=aot --executor-aot-interface-api=c --executor-aot-unpacked-api=1 --pass-config tir.disable_vectorize=1 --pass-config tir.usmp.algorithm=hill_climb",
+    "PYTHONIOENCODING": "utf-8",
+    "PYTHONUTF8": "1",
+    "TEST_DATA_ROOT_PATH": "E:\\bisai\\ndp_tcn\\results\\multihorizon_npu_20261101_221549\\h15\\compile\\cache\\tvm_test_data",
+    "FORCE_NO_TI_C28_SOFT_OFFLOAD": "False"
+  },
+  "compiler_returncode": 0,
+  "offloading": {
+    "native_partition_counts_match": true,
+    "report_headers": [
+      "TI NPU Offloading Report"
+    ],
+    "offloaded_layer_counts": {
+      "LAYOUT_TRANSFORM": 1,
+      "GCONV": 3,
+      "PWCONV": 1
+    },
+    "cpu_operator_counts": {
+      "add": 1,
+      "multiply": 3,
+      "floor": 1,
+      "clip": 1,
+      "cast": 1,
+      "qnn.dequantize": 1,
+      "reshape": 1
+    },
+    "topology": [
+      {
+        "operator": "add",
+        "offloaded": false
+      },
+      {
+        "operator": "multiply",
+        "offloaded": false
+      },
+      {
+        "operator": "multiply",
+        "offloaded": false
+      },
+      {
+        "operator": "floor",
+        "offloaded": false
+      },
+      {
+        "operator": "clip",
+        "offloaded": false
+      },
+      {
+        "operator": "cast",
+        "offloaded": false
+      },
+      {
+        "operator": "LAYOUT_TRANSFORM",
+        "offloaded": true
+      },
+      {
+        "operator": "GCONV",
+        "offloaded": true
+      },
+      {
+        "operator": "GCONV",
+        "offloaded": true
+      },
+      {
+        "operator": "GCONV",
+        "offloaded": true
+      },
+      {
+        "operator": "PWCONV",
+        "offloaded": true
+      },
+      {
+        "operator": "qnn.dequantize",
+        "offloaded": false
+      },
+      {
+        "operator": "multiply",
+        "offloaded": false
+      },
+      {
+        "operator": "reshape",
+        "offloaded": false
+      }
+    ],
+    "unexpected_cpu_operators": [],
+    "reason": "Native NNC partition counts/topology match the expected learned layers; runtime implementation still requires inspection.",
+    "interlayer_cpu_operators": [],
+    "expected_layer_topology": [
+      "GCONV",
+      "GCONV",
+      "GCONV",
+      "PWCONV"
+    ],
+    "input_cpu_operators": [
+      "add",
+      "multiply",
+      "multiply",
+      "floor",
+      "clip",
+      "cast"
+    ],
+    "output_cpu_operators": [
+      "qnn.dequantize",
+      "multiply",
+      "reshape"
+    ],
+    "unexpected_output_cpu_operators": [],
+    "output_interface_sequence_verified": true,
+    "scope": "TINPU partition report only: C28 FC [X] can call a CPU library. Not proof of hardware placement or board execution."
+  },
+  "library_memory": {
+    "reported": {
+      "code_bytes": 1055,
+      "ro_data_bytes": 2350,
+      "rw_data_bytes": 278,
+      "total_bytes": 3683
+    },
+    "scope": "TI NNC model-library report; excludes complete application, buffers and board integration."
+  },
+  "generated_c_evidence": {
+    "hardware_codegen_confirmed": true,
+    "mixed_codegen_confirmed": false,
+    "gconv_hardware_count": 3,
+    "fc_software_call_count": 0,
+    "pwconv_hardware_count": 1,
+    "pwconv_instruction_headers": [
+      "hard/ins_asm/PWCONV_iB8_oB8_kB8_iHiW1_iCm4_oCm4_INS.h"
+    ],
+    "software_compute_calls": [],
+    "hardware_layer_setup_count": 4,
+    "fc_hardware_instruction_headers": [],
+    "hardware_macro": true,
+    "software_macro": false,
+    "gconv_instruction_headers": [
+      "hard/ins_asm/GCONV_iB8_oB8_kB8_iW1_iCm4_oCm8_kHiCd4evenb4_INS.h",
+      "hard/ins_asm/GCONV_iB8_oB8_kB8_iW1_iCm4_oCm8_kHiCd4oddb3_INS.h",
+      "hard/ins_asm/GCONV_iB8_oB8_kB8_iW1_iCm4_oCm8_kHiCd4evenb4_INS.h"
+    ],
+    "fully_connected_layer_parameters": [],
+    "signed_fc_present": false,
+    "source_files": [
+      {
+        "name": "lib0.c",
+        "sha256": "cdabc500c78e17967e3dd8db811dc77f05d3b1590b3656daaead56816bf5dd7c"
+      },
+      {
+        "name": "lib1.c",
+        "sha256": "11e8f5d1783e1c135fee0b10d415470667e5605b0d40dcfc5b0297dda440facf"
+      },
+      {
+        "name": "lib2.c",
+        "sha256": "69a1d4e3a6c2a668d2c059f865e3ddb6ab785721f306636a57a7a98da2e53ed1"
+      }
+    ],
+    "host_runtime_required": true,
+    "scope": "Network-layer hardware code generation only; host I/O conversion/packing, launch and interrupt scheduling remain outside this claim.",
+    "note": "NNC 2.1.2 C28 TINIE_fullyConnected uses CPU/DMAC in tinie_soft.cc even with softTinieCodegen=0; native partition [X] alone is insufficient. Board execution remains unverified."
+  },
+  "network_layers_on_npu": true,
+  "fully_hardware_scope": "network computational layers only; excludes host interface and interrupt scheduling",
+  "cpu_interface_operators": {
+    "add": 1,
+    "multiply": 3,
+    "floor": 1,
+    "clip": 1,
+    "cast": 1,
+    "qnn.dequantize": 1,
+    "reshape": 1
+  },
+  "artifacts": [
+    {
+      "relative_path": "artifacts\\54888_b.bin",
+      "bytes": 64,
+      "sha256": "d5757960e32a00e0bc624e569c433dea898e4268e610e5111fbb7d7fabaa5847"
+    },
+    {
+      "relative_path": "artifacts\\54888_b_packed.bin",
+      "bytes": 128,
+      "sha256": "cadcf2961dee1cf3bbec014088d0762f681bff510a7460cdd5ea41b9055089bb"
+    },
+    {
+      "relative_path": "artifacts\\54888_ins.txt",
+      "bytes": 50,
+      "sha256": "2d18ecff938d57cde72a4d227d045871d618d839d170f780e8e268a1184038ac"
+    },
+    {
+      "relative_path": "artifacts\\54888_mmr.bin",
+      "bytes": 132,
+      "sha256": "7507d4591cc35fee72fed69d4edbbdc4d21d5d1af10f6d061ebdc8a8238f39dd"
+    },
+    {
+      "relative_path": "artifacts\\54888_postproc.bin",
+      "bytes": 1,
+      "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d"
+    },
+    {
+      "relative_path": "artifacts\\54888_prep_size.bin",
+      "bytes": 4,
+      "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119"
+    },
+    {
+      "relative_path": "artifacts\\54888_sc.bin",
+      "bytes": 64,
+      "sha256": "98f790ee3951f22e0fd44b7c95e258ec05ef746c8852ba98a1516f25f1890980"
+    },
+    {
+      "relative_path": "artifacts\\54888_sh.bin",
+      "bytes": 64,
+      "sha256": "2357b1784297a861dcf276c71e919d2f2834580cc0a594d4cfdde5a44a9f3d15"
+    },
+    {
+      "relative_path": "artifacts\\54888_ss_packed.bin",
+      "bytes": 32,
+      "sha256": "71824948b9a8ec1f7f3e08d47d2a904aa7677b5e50d67b98221701388ac18e60"
+    },
+    {
+      "relative_path": "artifacts\\54888_w.bin",
+      "bytes": 768,
+      "sha256": "c49f32e5884cb2d544e3c6796cc55fbaaf1754162b491165c8a7f9202d9480f5"
+    },
+    {
+      "relative_path": "artifacts\\54888_w_packed.bin",
+      "bytes": 768,
+      "sha256": "d6de44c8badc8b7e647aaf963551a08cd4129eb8cf0f3ba45ea30a88d6be12c1"
+    },
+    {
+      "relative_path": "artifacts\\lib0.c",
+      "bytes": 3941,
+      "sha256": "cdabc500c78e17967e3dd8db811dc77f05d3b1590b3656daaead56816bf5dd7c"
+    },
+    {
+      "relative_path": "artifacts\\lib1.c",
+      "bytes": 11332,
+      "sha256": "11e8f5d1783e1c135fee0b10d415470667e5605b0d40dcfc5b0297dda440facf"
+    },
+    {
+      "relative_path": "artifacts\\lib2.c",
+      "bytes": 18760,
+      "sha256": "69a1d4e3a6c2a668d2c059f865e3ddb6ab785721f306636a57a7a98da2e53ed1"
+    },
+    {
+      "relative_path": "artifacts\\mod.a",
+      "bytes": 226070,
+      "sha256": "56d8660cec6873ac48e7a9529bd1d3523d74d0c35c7d466510aa187ad8ca0457"
+    },
+    {
+      "relative_path": "artifacts\\mod.a.relay",
+      "bytes": 8845,
+      "sha256": "ae589064c0ccbbd658f110483e49d7a8faad125bfeedaab474b57df042f679bb"
+    },
+    {
+      "relative_path": "artifacts\\mod.a.tir",
+      "bytes": 2525,
+      "sha256": "c2d8da8ea3aa3385689855dac33d256b4d9bd8e839699cceb2ed082a3d617c84"
+    },
+    {
+      "relative_path": "artifacts\\offloads.txt",
+      "bytes": 10290,
+      "sha256": "e8e5e894c81a6e46b48ab6cc33ebfa0977e3128747313745e01c567391614701"
+    },
+    {
+      "relative_path": "artifacts\\tvmgen_default.h",
+      "bytes": 4534,
+      "sha256": "712d5b23c2f4f5a7d00ea2937a643745605d3e71068fc39ed27454f2495f5660"
+    }
+  ],
+  "log_sha256": "867704e5255214510620dc10c05b6cd68873c93e5e34f0aeb0950999e1e8d9ec"
+}

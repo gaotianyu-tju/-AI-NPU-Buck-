@@ -1,0 +1,18 @@
+{
+  "description_zh": "按完整工况以4:1划分：工况1至8训练，工况9和10（210Hz）测试，不另设验证集。比例指文件数8:2，不是窗口样本数。训练固定轮数，测试不参与选优；禁止随机拆分同工况的重叠窗口。",
+  "train": [
+    "pulse_f010Hz_D10_P200to400W_L8_h1_residual.npz",
+    "pulse_f010Hz_D90_P200to400W_L8_h1_residual.npz",
+    "pulse_f020Hz_D50_P200to400W_L8_h1_residual.npz",
+    "pulse_f050Hz_D30_P200to300W_L8_h1_residual.npz",
+    "pulse_f100Hz_D10_P200to400W_L8_h1_residual.npz",
+    "pulse_f100Hz_D50_P200to400W_L8_h1_residual.npz",
+    "pulse_f150Hz_D70_P300to400W_L8_h1_residual.npz",
+    "pulse_f200Hz_D50_P200to400W_L8_h1_residual.npz"
+  ],
+  "val": [],
+  "test": [
+    "pulse_f210Hz_D10_P200to400W_L8_h1_residual.npz",
+    "pulse_f210Hz_D90_P200to400W_L8_h1_residual.npz"
+  ]
+}

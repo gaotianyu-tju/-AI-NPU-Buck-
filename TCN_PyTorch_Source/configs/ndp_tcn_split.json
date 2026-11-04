@@ -1,0 +1,19 @@
+{
+  "description_zh": "按完整工况以4:1划分：工况1至8更新权重，工况9和10（210Hz）保留test名称，按用户要求每轮评价并选择最佳checkpoint。这两组实际承担验证/选优作用，不是独立测试集。标准化仅使用train，禁止把同工况重叠窗口拆入不同集合。",
+  "selection_split": "test",
+  "train": [
+    "pulse_f010Hz_D10_P200to400W_L8_h1_residual.npz",
+    "pulse_f010Hz_D90_P200to400W_L8_h1_residual.npz",
+    "pulse_f020Hz_D50_P200to400W_L8_h1_residual.npz",
+    "pulse_f050Hz_D30_P200to300W_L8_h1_residual.npz",
+    "pulse_f100Hz_D10_P200to400W_L8_h1_residual.npz",
+    "pulse_f100Hz_D50_P200to400W_L8_h1_residual.npz",
+    "pulse_f150Hz_D70_P300to400W_L8_h1_residual.npz",
+    "pulse_f200Hz_D50_P200to400W_L8_h1_residual.npz"
+  ],
+  "val": [],
+  "test": [
+    "pulse_f210Hz_D10_P200to400W_L8_h1_residual.npz",
+    "pulse_f210Hz_D90_P200to400W_L8_h1_residual.npz"
+  ]
+}

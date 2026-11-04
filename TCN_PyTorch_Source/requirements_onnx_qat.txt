@@ -1,0 +1,8 @@
+# 可选：运行 ONNX / TI QAT 的 Python 源码时安装，适用 Windows x64 / Python 3.10。
+-r requirements.txt
+onnx==1.22.0
+onnxruntime==1.23.2
+onnxscript==0.7.2
+onnxsim==0.4.36
+tabulate==0.10.0
+tinyml_torchmodelopt @ https://software-dl.ti.com/C2000/esd/mcu_ai/wheel/tinyml_torchmodelopt-1.5.0-py3-none-any.whl#sha256=6aaac468147a633273d12f3347bd9624c1aa338300ae2d8b65590194ba356632

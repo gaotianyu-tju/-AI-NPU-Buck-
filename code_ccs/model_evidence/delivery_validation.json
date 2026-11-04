@@ -1,0 +1,109 @@
+{
+  "selection_windows_rechecked": 118849,
+  "raw_windows_match": true,
+  "normalized_padding_matches": true,
+  "selected_onnx_outputs_exact_match": true,
+  "all_output_channels_verified": true,
+  "horizon_steps": 15,
+  "source_target_ticks_verified": true,
+  "golden_tick_origin": "zero-based indices in each source MAT time/features array; not window ordinal",
+  "available_operating_coverage": [
+    "constant",
+    "step_up",
+    "step_down"
+  ],
+  "selected_reasons": [
+    "prediction_min",
+    "prediction_max",
+    "target_min",
+    "target_max",
+    "constant_load_steady",
+    "step_up_transient",
+    "step_down_transient",
+    "target_near_zero",
+    "residual_step_before",
+    "residual_step_after",
+    "spread_sample",
+    "spread_sample",
+    "spread_sample",
+    "spread_sample",
+    "spread_sample",
+    "spread_sample"
+  ],
+  "f_pred_source_z2": "float32 raw_window[-1,7], matching board input; original MAT value also saved",
+  "golden_source_sha256": "1b95a69df0bbbec132d9c99b175b76f2bf22fc33f375a98a2f47dca0dd64704c",
+  "cgt_compile_only_passed": true,
+  "cgt_compile_only_executed": true,
+  "host_c_execution_verified": false,
+  "board_execution_verified": false,
+  "sources": [
+    {
+      "source": "src\\ndp_model_io.c",
+      "returncode": 0,
+      "command": [
+        "C:\\ti\\ccs1270\\ccs\\tools\\compiler\\ti-cgt-c2000_22.6.1.LTS\\bin\\cl2000.exe",
+        "--compile_only",
+        "--float_support=fpu32",
+        "--abi=eabi",
+        "--c99",
+        "-v28",
+        "-ml",
+        "-mt",
+        "--fp_mode=strict",
+        "--include_path=C:\\ti\\ccs1270\\ccs\\tools\\compiler\\ti-cgt-c2000_22.6.1.LTS\\include",
+        "--include_path=E:\\bisai\\ndp_tcn\\results\\multihorizon_npu_20261101_221549\\h15\\ccs\\include",
+        "--include_path=E:\\bisai\\ndp_tcn\\results\\multihorizon_npu_20261101_221549\\h15\\ccs\\validation",
+        "--obj_directory=E:\\bisai\\ndp_tcn\\results\\multihorizon_npu_20261101_221549\\h15\\ccs\\checks",
+        "E:\\bisai\\ndp_tcn\\results\\multihorizon_npu_20261101_221549\\h15\\ccs\\src\\ndp_model_io.c"
+      ],
+      "log": "checks\\ndp_model_io.log"
+    },
+    {
+      "source": "examples\\ndp_async_example.c",
+      "returncode": 0,
+      "command": [
+        "C:\\ti\\ccs1270\\ccs\\tools\\compiler\\ti-cgt-c2000_22.6.1.LTS\\bin\\cl2000.exe",
+        "--compile_only",
+        "--float_support=fpu32",
+        "--abi=eabi",
+        "--c99",
+        "-v28",
+        "-ml",
+        "-mt",
+        "--fp_mode=strict",
+        "--include_path=C:\\ti\\ccs1270\\ccs\\tools\\compiler\\ti-cgt-c2000_22.6.1.LTS\\include",
+        "--include_path=E:\\bisai\\ndp_tcn\\results\\multihorizon_npu_20261101_221549\\h15\\ccs\\include",
+        "--include_path=E:\\bisai\\ndp_tcn\\results\\multihorizon_npu_20261101_221549\\h15\\ccs\\validation",
+        "--obj_directory=E:\\bisai\\ndp_tcn\\results\\multihorizon_npu_20261101_221549\\h15\\ccs\\checks",
+        "E:\\bisai\\ndp_tcn\\results\\multihorizon_npu_20261101_221549\\h15\\ccs\\examples\\ndp_async_example.c"
+      ],
+      "log": "checks\\ndp_async_example.log"
+    },
+    {
+      "source": "checks\\check_vectors.c",
+      "returncode": 0,
+      "command": [
+        "C:\\ti\\ccs1270\\ccs\\tools\\compiler\\ti-cgt-c2000_22.6.1.LTS\\bin\\cl2000.exe",
+        "--compile_only",
+        "--float_support=fpu32",
+        "--abi=eabi",
+        "--c99",
+        "-v28",
+        "-ml",
+        "-mt",
+        "--fp_mode=strict",
+        "--include_path=C:\\ti\\ccs1270\\ccs\\tools\\compiler\\ti-cgt-c2000_22.6.1.LTS\\include",
+        "--include_path=E:\\bisai\\ndp_tcn\\results\\multihorizon_npu_20261101_221549\\h15\\ccs\\include",
+        "--include_path=E:\\bisai\\ndp_tcn\\results\\multihorizon_npu_20261101_221549\\h15\\ccs\\validation",
+        "--obj_directory=E:\\bisai\\ndp_tcn\\results\\multihorizon_npu_20261101_221549\\h15\\ccs\\checks",
+        "E:\\bisai\\ndp_tcn\\results\\multihorizon_npu_20261101_221549\\h15\\ccs\\checks\\check_vectors.c"
+      ],
+      "log": "checks\\check_vectors.log"
+    }
+  ],
+  "golden_count": 16,
+  "compile_artifacts_hash_checked": 19,
+  "python_reference_formula_checked": true,
+  "ccs_application_linked": false,
+  "timing_verified": false
+}
