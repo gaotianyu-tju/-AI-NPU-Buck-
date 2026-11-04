@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><library hasTree="0" revision="R2024b"><block_node SID="2" hasTree="0"><block_name>PN Sequence\nGenerator</block_name><block_class>PN Sequence Generator</block_class><block_desc>Generate a pseudorandom noise (PN) sequence using a linear feedback shift register (LFSR). The LFSR is implemented using a simple shift register generator (SSRG, or Fibonacci) configuration.
+
+The 'Generator polynomial' parameter values specify the shift register connections. Enter these values as either a polynomial string, a binary vector, or a descending-ordered polynomial. For the binary vector representation, the first and last elements of the vector must be 1. For the descending-ordered polynomial representation, the last element of the vector must be 0.
+
+The 'Output mask source' may be from a dialog parameter or an input port. The 'Output mask vector' is a binary vector corresponding to the shift register states that are to be XORed to produce the output sequence values. Alternatively, you may enter an integer 'scalar shift value' to produce an equivalent advance or delay in the output sequence.
+
+For variable-size output signals, the current output size is either specified from the 'oSiz' input or inherited from the 'Ref' input.</block_desc><block_path>$bdroot/PN Sequence\nGenerator</block_path><block_open>$bdroot/PN Sequence
+Generator</block_open><block_isNotLeafBlk>0</block_isNotLeafBlk><block_position>40   38  120   82</block_position><block_icon>PN@20@Sequence@A@Generator.svg</block_icon><keywords></keywords><port_domains>signal.out_signal:1</port_domains><block_type>S-Function</block_type><block_reference>commseqgen3/PN Sequence
+Generator</block_reference></block_node></library>

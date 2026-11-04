@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><library hasTree="0" revision="R2024b"><block_node SID="8" hasTree="0"><block_name>Rectangular QAM\nModulator\nBaseband</block_name><block_class>Rectangular QAM Modulator Baseband</block_class><block_desc>Modulate the input signal using the rectangular quadrature amplitude modulation method.
+
+This block accepts a scalar or column vector input signal.
+
+The input signal can be either bits or integers. When you set the 'Input type' parameter to 'Bit', the input width must be an integer multiple of the number of bits per symbol.</block_desc><block_path>$bdroot/Rectangular QAM\nModulator\nBaseband</block_path><block_open>$bdroot/Rectangular QAM
+Modulator
+Baseband</block_open><block_isNotLeafBlk>0</block_isNotLeafBlk><block_position>45   69  120  121</block_position><block_icon>Rectangular@20@QAM@A@Modulator@A@Baseband.svg</block_icon><keywords></keywords><port_domains>signal.in_signal:1,signal.out_signal:1</port_domains><block_type>S-Function</block_type><block_reference>commdigbbndam3/Rectangular QAM
+Modulator
+Baseband</block_reference></block_node><block_node SID="9" hasTree="0"><block_name>Rectangular QAM\nDemodulator\nBaseband</block_name><block_class>Rectangular QAM Demodulator Baseband</block_class><block_desc>Demodulate the input signal using the rectangular quadrature amplitude modulation method.
+
+This block accepts a scalar or column vector input signal.
+
+When you set the 'Output type' parameter to 'Integer', the block always performs Hard decision demodulation.
+
+When you set the 'Output type' parameter to 'Bit', the output width is an integer multiple of the number of bits per symbol. In this case, the 'Decision type' parameter allows you to select 'Hard decision' demodulation, 'Log-likelihood ratio' or 'Approximate log-likelihood ratio'. The output values for Log-likelihood ratio and Approximate log-likelihood ratio decision types are of the same data type as the input values.</block_desc><block_path>$bdroot/Rectangular QAM\nDemodulator\nBaseband</block_path><block_open>$bdroot/Rectangular QAM
+Demodulator
+Baseband</block_open><block_isNotLeafBlk>0</block_isNotLeafBlk><block_position>175   69  250  121</block_position><block_icon>Rectangular@20@QAM@A@Demodulator@A@Baseband.svg</block_icon><keywords></keywords><port_domains>signal.in_signal:1,signal.out_signal:1</port_domains><block_type>S-Function</block_type><block_reference>commdigbbndam3/Rectangular QAM
+Demodulator
+Baseband</block_reference></block_node></library>

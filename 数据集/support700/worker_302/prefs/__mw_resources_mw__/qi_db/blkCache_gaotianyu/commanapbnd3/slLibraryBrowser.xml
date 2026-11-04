@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><library hasTree="0" revision="R2024b"><block_node SID="10" hasTree="0"><block_name>DSBSC AM\nModulator\nPassband</block_name><block_class>DSBSC AM Modulator Passband</block_class><block_desc>Modulate the input signal using the double-sideband suppressed carrier amplitude modulation method. 
+
+The input signal must be a scalar.</block_desc><block_path>$bdroot/DSBSC AM\nModulator\nPassband</block_path><block_open>$bdroot/DSBSC AM
+Modulator
+Passband</block_open><block_isNotLeafBlk>0</block_isNotLeafBlk><block_position>35   61  110  109</block_position><block_icon>DSBSC@20@AM@A@Modulator@A@Passband.svg</block_icon><keywords></keywords><port_domains>signal.in_signal:1,signal.out_signal:1</port_domains><block_type>SubSystem</block_type><block_reference></block_reference></block_node><block_node SID="9" hasTree="0"><block_name>DSBSC AM\nDemodulator\nPassband</block_name><block_class>DSBSC AM Demodulator Passband</block_class><block_desc>Demodulate a double-sideband suppressed carrier amplitude modulated signal. 
+
+The input signal must be a scalar. </block_desc><block_path>$bdroot/DSBSC AM\nDemodulator\nPassband</block_path><block_open>$bdroot/DSBSC AM
+Demodulator
+Passband</block_open><block_isNotLeafBlk>0</block_isNotLeafBlk><block_position>170   60  245  110</block_position><block_icon>DSBSC@20@AM@A@Demodulator@A@Passband.svg</block_icon><keywords></keywords><port_domains>signal.in_signal:1,signal.out_signal:1</port_domains><block_type>SubSystem</block_type><block_reference></block_reference></block_node><block_node SID="2" hasTree="0"><block_name>DSB AM\nModulator\nPassband</block_name><block_class>DSB AM Modulator Passband</block_class><block_desc>Modulate the input signal using the double-sideband amplitude modulation method. 
+
+The input signal must be a scalar.</block_desc><block_path>$bdroot/DSB AM\nModulator\nPassband</block_path><block_open>$bdroot/DSB AM
+Modulator
+Passband</block_open><block_isNotLeafBlk>0</block_isNotLeafBlk><block_position>35  155  110  205</block_position><block_icon>DSB@20@AM@A@Modulator@A@Passband.svg</block_icon><keywords></keywords><port_domains>signal.in_signal:1,signal.out_signal:1</port_domains><block_type>SubSystem</block_type><block_reference></block_reference></block_node><block_node SID="1" hasTree="0"><block_name>DSB AM\nDemodulator\nPassband</block_name><block_class>DSB AM Demodulator Passband</block_class><block_desc>Demodulate a double-sideband amplitude modulated signal. 
+
+The input signal must be a scalar. </block_desc><block_path>$bdroot/DSB AM\nDemodulator\nPassband</block_path><block_open>$bdroot/DSB AM
+Demodulator
+Passband</block_open><block_isNotLeafBlk>0</block_isNotLeafBlk><block_position>170  155  245  205</block_position><block_icon>DSB@20@AM@A@Demodulator@A@Passband.svg</block_icon><keywords></keywords><port_domains>signal.in_signal:1,signal.out_signal:1</port_domains><block_type>SubSystem</block_type><block_reference></block_reference></block_node><block_node SID="42" hasTree="0"><block_name>SSB AM\nModulator\nPassband</block_name><block_class>SSB AM Modulator Passband</block_class><block_desc>Modulate the input signal using the single-sideband amplitude modulation method with Hilbert transform filter. 
+
+The input signal must be a scalar.</block_desc><block_path>$bdroot/SSB AM\nModulator\nPassband</block_path><block_open>$bdroot/SSB AM
+Modulator
+Passband</block_open><block_isNotLeafBlk>0</block_isNotLeafBlk><block_position>35  250  110  300</block_position><block_icon>SSB@20@AM@A@Modulator@A@Passband.svg</block_icon><keywords></keywords><port_domains>signal.in_signal:1,signal.out_signal:1</port_domains><block_type>SubSystem</block_type><block_reference></block_reference></block_node><block_node SID="41" hasTree="0"><block_name>SSB AM\nDemodulator\nPassband</block_name><block_class>SSB AM Demodulator Passband</block_class><block_desc>Demodulate a single-sideband amplitude modulated signal. 
+
+The input signal must be a scalar. </block_desc><block_path>$bdroot/SSB AM\nDemodulator\nPassband</block_path><block_open>$bdroot/SSB AM
+Demodulator
+Passband</block_open><block_isNotLeafBlk>0</block_isNotLeafBlk><block_position>170  250  245  300</block_position><block_icon>SSB@20@AM@A@Demodulator@A@Passband.svg</block_icon><keywords></keywords><port_domains>signal.in_signal:1,signal.out_signal:1</port_domains><block_type>SubSystem</block_type><block_reference></block_reference></block_node><block_node SID="21" hasTree="0"><block_name>FM\nModulator\nPassband</block_name><block_class>FM Modulator Passband</block_class><block_desc>Modulate the input signal using the frequency modulation method. 
+
+The input signal must be a scalar.</block_desc><block_path>$bdroot/FM\nModulator\nPassband</block_path><block_open>$bdroot/FM
+Modulator
+Passband</block_open><block_isNotLeafBlk>0</block_isNotLeafBlk><block_position>35  345  110  395</block_position><block_icon>FM@A@Modulator@A@Passband.svg</block_icon><keywords></keywords><port_domains>signal.in_signal:1,signal.out_signal:1</port_domains><block_type>SubSystem</block_type><block_reference></block_reference></block_node><block_node SID="20" hasTree="0"><block_name>FM\nDemodulator\nPassband</block_name><block_class>FM Demodulator Passband</block_class><block_desc>Demodulate a frequency modulated signal with a discriminator. 
+
+The input signal must be a scalar. </block_desc><block_path>$bdroot/FM\nDemodulator\nPassband</block_path><block_open>$bdroot/FM
+Demodulator
+Passband</block_open><block_isNotLeafBlk>0</block_isNotLeafBlk><block_position>170  345  245  395</block_position><block_icon>FM@A@Demodulator@A@Passband.svg</block_icon><keywords></keywords><port_domains>signal.in_signal:1,signal.out_signal:1</port_domains><block_type>SubSystem</block_type><block_reference></block_reference></block_node><block_node SID="40" hasTree="0"><block_name>PM\nModulator\nPassband</block_name><block_class>PM Modulator Passband</block_class><block_desc>Modulate the input signal using the phase modulation method. 
+
+The input signal must be a scalar. </block_desc><block_path>$bdroot/PM\nModulator\nPassband</block_path><block_open>$bdroot/PM
+Modulator
+Passband</block_open><block_isNotLeafBlk>0</block_isNotLeafBlk><block_position>35  439  110  491</block_position><block_icon>PM@A@Modulator@A@Passband.svg</block_icon><keywords></keywords><port_domains>signal.in_signal:1,signal.out_signal:1</port_domains><block_type>SubSystem</block_type><block_reference></block_reference></block_node><block_node SID="22" hasTree="0"><block_name>PM\nDemodulator\nPassband</block_name><block_class>PM Demodulator Passband</block_class><block_desc>Demodulate a phase modulated signal. 
+
+The input signal must be a scalar. </block_desc><block_path>$bdroot/PM\nDemodulator\nPassband</block_path><block_open>$bdroot/PM
+Demodulator
+Passband</block_open><block_isNotLeafBlk>0</block_isNotLeafBlk><block_position>170  439  245  491</block_position><block_icon>PM@A@Demodulator@A@Passband.svg</block_icon><keywords></keywords><port_domains>signal.in_signal:1,signal.out_signal:1</port_domains><block_type>SubSystem</block_type><block_reference></block_reference></block_node></library>
